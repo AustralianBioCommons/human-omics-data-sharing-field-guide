@@ -1,9 +1,17 @@
+title: Main
+title_url: /index
 subitems:
-  - title: Home
-    url: /index
-  - title: Example page
-    url: /example_page
+  - title: Data standards
+    url: /data_standards/
+    subitems:
+      - title: GA4GH
+        url: /data_standards/ga4gh
+      - title: FHIR
+        url: /data_standards/fhir
+  - title: Legal and Ethical
+    url: /legal_ethical/
+    subitems:
+      - title: Australian Legal Landscape
+        url: /legal_ethical/australian_legal
   - title: Contributors
     url: /contributors
-
-  

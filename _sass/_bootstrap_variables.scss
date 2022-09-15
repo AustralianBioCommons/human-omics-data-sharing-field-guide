@@ -1,8 +1,22 @@
+
+//
+// BioCommons Colors: https://github.com/AustralianBioCommons/umccr-dictionary/blob/main/docs/_sass/custom/custom.scss
+//
+
+$bioc-pink:#ed087c;
+$bioc-purple: #b21e8d;
+$bioc-blue: #205a86;
+$bioc-yellow: #f49f1d;
+$bioc-teal: #5ac3b1;
+$bioc-olive: #8ea869;
+$bioc-green: #2cb77c;
+
 /*-----Theme colors-----*/
-$primary:       #0d6efd;
-$secondary:     #6c757d;
+$primary:       $bioc-pink;
+$secondary:     $bioc-purple;
 $light:         #f8f9fa;
 $dark:          #212529;
+$blue:          $bioc-blue;
 
 /*-----Custom values for Bootstrap variables-----*/
 $link-decoration: none;

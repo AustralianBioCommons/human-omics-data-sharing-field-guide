@@ -24,6 +24,11 @@ defaults:
       permalink: /:basename
       layout: "page"
       sidebar: main
+  -
+    scope: 
+      path: "pages/data_standards"
+    values:
+      type: data_standards
 
 plugins:
   - jemoji

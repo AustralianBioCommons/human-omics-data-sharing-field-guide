@@ -1,5 +1,5 @@
 ---
-title: Index page
+title: Human 'Omics Data Sharing Field Guide
 ---
 
 

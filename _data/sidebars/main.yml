@@ -3,6 +3,7 @@ title_url: /index
 subitems:
   - title: Data Standards
     url: /data_standards
+    image_url: /assets/img/section-icons/noun-standard-4965630.svg
     subitems:
       - title: GA4GH
         url: /data_standards/ga4gh
@@ -10,6 +11,7 @@ subitems:
         url: /data_standards/fhir
   - title: Legal and Ethical Considerations
     url: /legal_ethical
+    image_url: /assets/img/section-icons/noun-ethical-4351477.svg
     subitems:
       - title: Australian Legal Landscape
         url: /legal_ethical/australian_legal

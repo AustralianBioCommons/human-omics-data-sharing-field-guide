@@ -15,5 +15,10 @@ subitems:
     subitems:
       - title: Australian Legal Landscape
         url: /legal_ethical/australian_legal
-  - title: Contributors
-    url: /contributors
+  - title: About
+    url: /about
+    subitems:
+      - title: contributors
+        url: /contributors
+      - title:
+        url: /acknowledgements

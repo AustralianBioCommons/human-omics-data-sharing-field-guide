@@ -1,0 +1,25 @@
+# see https://github.com/ELIXIR-Belgium/elixir-toolkit-theme
+
+# List of contributors
+#
+# reference maintainers/contributors by their name used in contributors metadata section on the pages.
+
+Marion Shadbolt:
+    git: mshadbolt
+    email: marion@biocommons.org.au
+    orcid: 0000-0001-7505-5418
+    role: editor
+    affiliation: Australian BioCommons / University of Melbourne
+
+Bermie Pope:
+    git: bjpop
+    email: bernie@biocommons.org.au
+    orcid: 0000-0002-4840-1095
+    role: editor
+    affiliation: Australian BioCommons / University of Melbourne
+
+Jess Holliday:
+    email: jess@biocommons.org.au
+    orcid: 0000-0003-2855-0066
+    role: editor
+    affiliation: Australian BioCommons / University of Melbourne

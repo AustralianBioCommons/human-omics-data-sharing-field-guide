@@ -20,5 +20,5 @@ subitems:
     subitems:
       - title: contributors
         url: /contributors
-      - title:
+      - title: Acknowledgements
         url: /acknowledgements

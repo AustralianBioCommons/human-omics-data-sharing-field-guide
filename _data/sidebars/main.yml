@@ -1,14 +1,14 @@
 title: Main
 title_url: /index
 subitems:
-  - title: Data standards
+  - title: Data Standards
     url: /data_standards/
     subitems:
       - title: GA4GH
         url: /data_standards/ga4gh
       - title: FHIR
         url: /data_standards/fhir
-  - title: Legal and Ethical
+  - title: Legal and Ethical Considerations
     url: /legal_ethical/
     subitems:
       - title: Australian Legal Landscape

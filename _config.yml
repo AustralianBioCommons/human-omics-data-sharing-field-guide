@@ -26,9 +26,9 @@ defaults:
       sidebar: main
   -
     scope: 
-      path: "pages/data_standards"
+      path: "pages/about"
     values:
-      type: data_standards
+      sidebar: about
 
 plugins:
   - jemoji

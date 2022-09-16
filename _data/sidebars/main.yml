@@ -2,19 +2,19 @@ title: Main
 title_url: /index
 subitems:
   - title: Data Standards
-    url: /data_standards
+    url: /data_standards/
     image_url: /assets/img/section-icons/noun-standard-4965630.svg
     subitems:
       - title: GA4GH
-        url: /ga4gh
+        url: /data_standards/ga4gh
       - title: FHIR
-        url: /fhir
+        url: /data_standards/fhir
   - title: Legal and Ethical Considerations
-    url: /legal_ethical
+    url: /legal_ethical/
     image_url: /assets/img/section-icons/noun-ethical-4351477.svg
     subitems:
       - title: Australian Legal Landscape
-        url: /australian_legal
+        url: /legal_ethical/australian_legal
   - title: Major Genome Projects
     url: /major_genome_projects
     image_url: /assets/img/section-icons/noun-dna-5171631.svg

@@ -6,15 +6,15 @@ subitems:
     image_url: /assets/img/section-icons/noun-standard-4965630.svg
     subitems:
       - title: GA4GH
-        url: /data_standards/ga4gh
+        url: /ga4gh
       - title: FHIR
-        url: /data_standards/fhir
+        url: /fhir
   - title: Legal and Ethical Considerations
     url: /legal_ethical
     image_url: /assets/img/section-icons/noun-ethical-4351477.svg
     subitems:
       - title: Australian Legal Landscape
-        url: /legal_ethical/australian_legal
+        url: /australian_legal
   - title: Major Genome Projects
     url: /major_genome_projects
     image_url: /assets/img/section-icons/noun-dna-5171631.svg

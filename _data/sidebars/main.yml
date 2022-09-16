@@ -6,7 +6,7 @@ subitems:
     image_url: /assets/img/section-icons/noun-standard-4965630.svg
     subitems:
       - title: GA4GH
-        url: /data_standards/ga4gh
+        url: ga4gh
       - title: FHIR
         url: /data_standards/fhir
   - title: Legal and Ethical Considerations

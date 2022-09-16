@@ -16,4 +16,4 @@ Icons from [Noun Project](https://thenounproject.com/):
 - [ethical](https://thenounproject.com/icon/ethical-4351477/) by WEBTECHOPS LLP
 - [support](https://thenounproject.com/icon/support-4615984/) by Romaldon
 - [Data](https://thenounproject.com/icon/data-5139557/) by ToZIcon
-
+- [users](https://thenounproject.com/icon/users-943303/) by Oksana Latysheva

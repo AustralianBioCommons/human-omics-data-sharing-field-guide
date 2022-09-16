@@ -1,0 +1,9 @@
+title: About
+  url: /about
+  subitems:
+    - title: Contributors
+      url: /about/contributors
+    - title: Contribute
+      url: /about/contribute
+    - title: Acknowledgements
+      url: /about/acknowledgements

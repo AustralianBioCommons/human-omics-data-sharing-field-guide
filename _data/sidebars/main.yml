@@ -18,7 +18,7 @@ subitems:
   - title: About
     url: /about
     subitems:
-      - title: contributors
+      - title: Contributors
         url: /contributors
       - title: Acknowledgements
         url: /acknowledgements

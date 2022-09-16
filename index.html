@@ -51,7 +51,7 @@ layout: none
                     <div class="col">
                             <div class="card bg-white h-100">
                                 {%- if folder.image_url%}
-                                <img src="{{folder.image_url | relative_url}}" class="card-img-top h-icon-2 mx-auto" alt="{{folder.title}} icon" >
+                                <img src="{{folder.image_url | relative_url}}" class="card-img-top h-icon-4 mx-auto" alt="{{folder.title}} icon" >
                                 {%- endif %}
                                 <div class="card-body text-center">
                                     <a href="{{ folder.url | relative_url }}" class="stretched-link">
@@ -74,7 +74,7 @@ layout: none
                     </div>
                     <div class="col-lg-7">
                         <h2>We welcome contributors!</h2>
-                        <p>This project would not be possible without the many <a href="{{ '/about/contributors' | relative_url }}"><b>amazing
+                        <p>This project would not be possible without the many <a href="{{ '/contributors' | relative_url }}"><b>amazing
                             community contributors</b></a>. The infectious diseases toolkit is an open community project, and you are welcome to join us!
                         </p>
                     </div>

@@ -15,10 +15,12 @@ subitems:
     subitems:
       - title: Australian Legal Landscape
         url: /legal_ethical/australian_legal
-  - title: About
-    url: /about
-    subitems:
-      - title: Contributors
-        url: /contributors
-      - title: Acknowledgements
-        url: /acknowledgements
+  - title: Major Genome Projects
+    url: /major_genome_projects
+    image_url: /assets/img/section-icons/noun-dna-5171631.svg
+  - title: Support Agencies
+    url: /support_agencies
+    image_url: /assets/img/section-icons/noun-support-4615984.svg
+  - title: Repositories
+    url: /repositories
+    image_url: /assets/img/section-icons/noun-database-5180256.svg

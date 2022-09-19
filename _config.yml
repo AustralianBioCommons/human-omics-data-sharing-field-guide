@@ -45,7 +45,6 @@ defaults:
       type: "pages"
     values:
       type: data_repositories
-      sidebar: data_repositories
 
 plugins:
   - jemoji

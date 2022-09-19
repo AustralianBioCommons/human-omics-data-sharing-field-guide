@@ -1,5 +1,5 @@
 ---
-title: Data Standards
+title: Data repositories
 contributors: [Marion Shadbolt]
 ---
 
@@ -13,7 +13,7 @@ Several tools exist to help a researcher decide where to submit their data:
 * NCBI submission helper tool: [https://submit.ncbi.nlm.nih.gov/](https://submit.ncbi.nlm.nih.gov/) 
 * DDBJ submission guide [https://www.ddbj.nig.ac.jp/documents/data-categories-e.html](https://www.ddbj.nig.ac.jp/documents/data-categories-e.html) 
 * NIH list of Repositories for Sharing Scientific Data [https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data) 
-* FAIRsharing - [https://fairsharing.org/](https://fairsharing.org/) 4
+* FAIRsharing - [https://fairsharing.org/](https://fairsharing.org/)
 
 
 ## Open Access ‘Omics Archives
@@ -24,8 +24,6 @@ Ownership of data remains with the original data providers, but the INSDC requir
 
 It is composed of three nodes:
 
-
-
 * The European Nucleotide Archive (ENA)
 * The DNA Data Bank of Japan (DDBJ)
 * GenBank
@@ -34,7 +32,7 @@ Data submitted to each node must adhere to the INSDC data and metadata standard.
 
 While not part of the INSDC, the China National Center for Bioinformation (CNCB) and its National Genomics Data Center (NGDC) provide archives that follow the same themes and data standards as those part of the INSDC [(CNCB-NGDC Members and Partners 2022; Wang et al. 2017)](https://www.zotero.org/google-docs/?ODfGZr). They also mirror the metadata of data within INSDC archives, enabling global search across all four major genetic sequencing archives.
 
-Table x. Databases of the three INSDC nodes (adapted from [(Arita, Karsch-Mizrachi, and Cochrane 2020)](https://www.zotero.org/google-docs/?vtIySk) and the NGDC CNCB. INSDC resources coloured in blue
+Table 1. Databases of the three INSDC nodes (adapted from [(Arita, Karsch-Mizrachi, and Cochrane 2020)](https://www.zotero.org/google-docs/?vtIySk) and the NGDC CNCB. INSDC resources coloured in blue
 
  
 
@@ -65,13 +63,13 @@ Table x. Databases of the three INSDC nodes (adapted from [(Arita, Karsch-Mizrac
   <tr>
    <td>DDBJ
    </td>
-   <td>DDBJ
+   <td style="background-color:bioc-teal">DDBJ
    </td>
-   <td>SRA
+   <td style="background-color:bioc-teal">SRA
    </td>
-   <td>BioProject
+   <td style="background-color:bioc-teal">BioProject
    </td>
-   <td>BioSample
+   <td style="background-color:bioc-teal" >BioSample
    </td>
    <td>GEA
    </td>
@@ -87,11 +85,11 @@ Table x. Databases of the three INSDC nodes (adapted from [(Arita, Karsch-Mizrac
   <tr>
    <td>EMBL-EBI
    </td>
-   <td colspan="2" >ENA
+   <td colspan="2" style="background-color:bioc-teal" >ENA
    </td>
    <td>BioStudies
    </td>
-   <td>BioSamples
+   <td style="background-color:bioc-teal">BioSamples
    </td>
    <td>ArrayExpress
    </td>
@@ -107,13 +105,13 @@ Table x. Databases of the three INSDC nodes (adapted from [(Arita, Karsch-Mizrac
   <tr>
    <td>NCBI
    </td>
-   <td>GenBank
+   <td style="background-color:bioc-teal">GenBank
    </td>
-   <td>SRA
+   <td style="background-color:bioc-teal">SRA
    </td>
-   <td>BioProject
+   <td style="background-color:bioc-teal">BioProject
    </td>
-   <td>BioSample
+   <td style="background-color:bioc-teal">BioSample
    </td>
    <td>GEO
    </td>

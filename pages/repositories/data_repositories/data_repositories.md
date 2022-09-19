@@ -63,13 +63,13 @@ Table 1. Databases of the three INSDC nodes (adapted from [(Arita, Karsch-Mizrac
   <tr>
    <td>DDBJ
    </td>
-   <td style="background-color:bioc-teal">DDBJ
+   <td style="background-color:#5ac3b1">DDBJ
    </td>
-   <td style="background-color:bioc-teal">SRA
+   <td style="background-color:#5ac3b1">SRA
    </td>
-   <td style="background-color:bioc-teal">BioProject
+   <td style="background-color:#5ac3b1">BioProject
    </td>
-   <td style="background-color:bioc-teal" >BioSample
+   <td style="background-color:#5ac3b1" >BioSample
    </td>
    <td>GEA
    </td>
@@ -85,11 +85,11 @@ Table 1. Databases of the three INSDC nodes (adapted from [(Arita, Karsch-Mizrac
   <tr>
    <td>EMBL-EBI
    </td>
-   <td colspan="2" style="background-color:bioc-teal" >ENA
+   <td colspan="2" style="background-color:#5ac3b1" >ENA
    </td>
    <td>BioStudies
    </td>
-   <td style="background-color:bioc-teal">BioSamples
+   <td style="background-color:#5ac3b1">BioSamples
    </td>
    <td>ArrayExpress
    </td>
@@ -105,13 +105,13 @@ Table 1. Databases of the three INSDC nodes (adapted from [(Arita, Karsch-Mizrac
   <tr>
    <td>NCBI
    </td>
-   <td style="background-color:bioc-teal">GenBank
+   <td style="background-color:#5ac3b1">GenBank
    </td>
-   <td style="background-color:bioc-teal">SRA
+   <td style="background-color:#5ac3b1">SRA
    </td>
-   <td style="background-color:bioc-teal">BioProject
+   <td style="background-color:#5ac3b1">BioProject
    </td>
-   <td style="background-color:bioc-teal">BioSample
+   <td style="background-color:#5ac3b1">BioSample
    </td>
    <td>GEO
    </td>

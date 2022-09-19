@@ -456,12 +456,7 @@ POLICY_REF
 </table>
 
 
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![EGA Metadata Model schematic](images/infrastructures/EGA-Metadata-Model.png "EGA Metadata Model schematic")
+![EGA Metadata Model schematic](images/infrastructures/EGA-Metadata-Model.png)
 
 Figure 1. Graphical representation of EGA Metadata Model to represent a sequencing experiment with some recommended fields specified based on [EGA example xmls](https://ega-archive.org/submission/sequence/programmatic_submissions/prepare_xml). For comprehensive detail of available fields, see the [XML schemas](https://github.com/enasequence/schema/tree/master/src/main/resources/uk/ac/ebi/ena/sra/schema).
 

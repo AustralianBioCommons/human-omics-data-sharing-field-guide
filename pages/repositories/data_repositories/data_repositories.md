@@ -85,7 +85,7 @@ Table 1. Databases of the three INSDC nodes (adapted from [(Arita, Karsch-Mizrac
   <tr>
    <td>EMBL-EBI
    </td>
-   <td colspan="2" style="background-color:#5ac3b1" >ENA
+   <td colspan="2" style="background-color:#5ac3b1;text-align:center" >ENA
    </td>
    <td>BioStudies
    </td>

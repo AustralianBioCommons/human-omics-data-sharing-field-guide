@@ -34,8 +34,6 @@ While not part of the INSDC, the China National Center for Bioinformation (CNCB)
 
 Table 1. Databases of the three INSDC nodes (adapted from [(Arita, Karsch-Mizrachi, and Cochrane 2020)](https://www.zotero.org/google-docs/?vtIySk) and the NGDC CNCB. INSDC resources coloured in blue
 
- 
-
 
 <table>
   <tr>

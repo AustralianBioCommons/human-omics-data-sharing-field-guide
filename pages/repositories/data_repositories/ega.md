@@ -16,8 +16,6 @@ The EGA submission process can be challenging to those unfamiliar to it, so the 
 
 The metadata files that must be submitted to EGA follow the same INSDC schemas, with the addition of policy, dataset and dac objects. These allow for the administration aspects related to controlled access of data and allow for finer grained access to datasets within a study. All information submitted in these XML files is considered public access and can be queried via the EGA API once the study is available in the platform. The required attributes that must be included about each sample are:
 
-
-
 * Donor ID - anonymised individual identifier
 * Biological sex (referred to as gender)
 * Phenotype - preferably ontologised using [EFO](https://www.ebi.ac.uk/ols/ontologies/efo)
@@ -28,8 +26,6 @@ Due to limited required attributes, it is often necessary to make more comprehen
 
 Submitting to the EGA can be done via its submission interface or through submitting XMLs or JSONs via their REST API. The submission interface is useful for a user-friendly experience when submitting metadata for objects where there are relatively few objects of that type. We recommend using it for objects such as:
 
-
-
 * Study
 * DAC
 * Policy
@@ -39,421 +35,248 @@ For objects with a high cardinality, such as Samples, Runs and Analyses, using t
 
 However, it is possible to create a fully automated submission process that contains all metadata required by creating XML documents.
 
-NOTE: When preparing a submission, it is important to validate and check all the details because editing after submission is not possible without going through the helpdesk. Submission to the test instance of the EGA is recommended before making your final submission.
+Submission notes:
 
-NOTE: The alias field that is set for each object is not strictly required, if not specified one will be provided. BUT the alias is what you used to link between the different objects so it is useful to set to names that you can recognise to facilitate the linking that is required in your submission. Aliases must be unique across all items within a submission account.
+* When preparing a submission, it is important to validate and check all the details because editing after submission is not possible without going through the helpdesk. Submission to the test instance of the EGA is recommended before making your final submission.
 
-NOTE: All data files that are referred to by ‘run’ or ‘analysis’ objects must be placed in the submission box and indexed by the system before it will allow submission of those object XMLs.
+* The **alias** field that is set for each object is not strictly required, if not specified one will be provided. BUT the alias is what you used to link between the different objects so it is useful to set to names that you can recognise to facilitate the linking that is required in your submission. Aliases must be unique across all items within a submission account.
 
-NOTE: For objects that are linked by their accessions i.e. policy, dataset, the objects they refer to must be submitted and assigned accessions by the EGA before they can be linked.
+* All data files that are referred to by ‘run’ or ‘analysis’ objects must be placed in the submission box and indexed by the system before it will allow submission of those object XMLs.
+
+* For objects that are linked by their accessions i.e. policy, dataset, the objects they refer to must be submitted and assigned accessions by the EGA before they can be linked.
 
 Table: Detailed information about ega objects and tips on creating XMLs for each object. Adapted from [(Band 2019; EGA n.d.)](https://www.zotero.org/google-docs/?5otJgj)
 
 
-<table>
-  <tr>
-   <td><strong>Metadata object</strong>
-   </td>
-   <td><strong>definition</strong>
-   </td>
-   <td><strong>Important fields</strong>
-   </td>
-   <td><strong>schema</strong>
-   </td>
-   <td><strong>EGA Example</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>submission
-   </td>
-   <td>An XML that points to all the other xml files that will be included as part of a submission
-   </td>
-   <td>At least one ACTION in the ACTIONS list
-   </td>
-   <td><a href="https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/SRA.submission.xsd">sra.submission.xsd</a>
-   </td>
-   <td><a href="https://ega-archive.org/files/Submission.xml">Submission.xml</a>
-   </td>
-  </tr>
-  <tr>
-   <td>study
-   </td>
-   <td>Describes information about the study, such as the title and abstract, and is linked to 1 or more datasets
-   </td>
-   <td>STUDY_TITLE
-<p>
-STUDY_TYPE
-<p>
+| Metadata object      | definition                                                                                                                                                                                                                                                                                                                     | Important fields                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | schema                                                                                                                                 | EGA Example                                                                                      |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| submission           | An XML that points to all the other xml files that will be included as part of a submission                                                                                                                                                                                                                                    | At least one ACTION in the ACTIONS list                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | [sra.submission.xsd](https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/SRA.submission.xsd) | [Submission.xml](https://ega-archive.org/files/Submission.xml)                                   |
+| study                | Describes information about the study, such as the title and abstract, and is linked to 1 or more datasets                                                                                                                                                                                                                     | STUDY\_TITLE
+
+STUDY\_TYPE
+
+alias - useful to refer to in later objects                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | [sra.study.xsd](https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/SRA.study.xsd)           | [Study.xml](https://ega-archive.org/files/Study.xml)                                             |
+| sample               | Describes the set of samples to be submitted                                                                                                                                                                                                                                                                                   | TAXON\_ID
+
+SAMPLE\_ATTRIBUTES
+
+*   SAMPLE\_ATTRIBUTE
+    
+
+*   TAG: subject\_id
+    
+*   VALUE: a unique identifier
+    
+
+*   SAMPLE\_ATTRIBUTE
+    
+
+*   TAG: gender
+    
+*   VALUE: male/female/unknown
+    
+
+*   SAMPLE\_ATTRIBUTE
+    
+
+*   TAG: phenotype
+    
+*   VALUE: EFO Term
+    
+*   UNITS: Experimental Ontology Factor accession
+    
+
+*   SAMPLE\_ATTRIBUTE
+    
+
+*   TAG: Any other attribute that is useful to provide and can be released open access
+    
+*   VALUE: the value for the tag
+    
+
+alias - useful to refer to in later objects | [sra.sample.xsd](https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/SRA.sample.xsd)         | [Sample.xml](https://ega-archive.org/files/Sample.xml)                                           |
+| experiment           | Describes the sequencing experiment such as platform, model, library prep information. Typically it would collect all information that would need to be analysed together, e.g. all sequencing runs from a single library from a single sample                                                                                 | LIBRARY\_STRATEGY
+
+LIBRARY\_SOURCE
+
+LIBRARY\_SELECTION
+
+LIBRARY\_LAYOUT
+
+LIBRARY\_CONSTRUCTION\_PROTOCOL
+
 alias - useful to refer to in later objects
-   </td>
-   <td><a href="https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/SRA.study.xsd">sra.study.xsd</a>
-   </td>
-   <td><a href="https://ega-archive.org/files/Study.xml">Study.xml</a>
-   </td>
-  </tr>
-  <tr>
-   <td>sample
-   </td>
-   <td>Describes the set of samples to be submitted
-   </td>
-   <td>TAXON_ID
-<p>
-SAMPLE_ATTRIBUTES
-<ul>
 
-<li>SAMPLE_ATTRIBUTE 
-<ul>
- 
-<li>TAG: subject_id
- 
-<li>VALUE: a unique identifier
-</li> 
-</ul>
+Links To Other Objects:
 
-<li>SAMPLE_ATTRIBUTE 
-<ul>
- 
-<li>TAG: gender
- 
-<li>VALUE: male/female/unknown
-</li> 
-</ul>
+STUDY\_REF - study alias of the study it belongs to
 
-<li>SAMPLE_ATTRIBUTE
+SAMPLE\_DESCRIPTOR - sample alias of sample object the experiment was performed on                                                                                                                                                                                                                                         | [sra.experiment.xsd](https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/SRA.experiment.xsd) | [Experiment\_illumina\_paired.xml](https://ega-archive.org/files/Experiment_illumina_paired.xml) |
+| run                  | Each run contains a single data file, files that belong together get grouped under an experiment                                                                                                                                                                                                                               | FILES
 
-<li>TAG: phenotype
+*   FILE
+    
 
-<li>VALUE: EFO Term
+*   filename
+    
+*   filetype
+    
+*   checksum\_method
+    
+*   checksum
+    
+*   unencrypted\_checksum
+    
 
-<li>UNITS: Experimental Ontology Factor accession
+Links To Other Objects:
 
-<li>SAMPLE_ATTRIBUTE
+EXPERIMENT\_REF                                                                                                                                                                                                                                                                                                                                                                                  | [sra.run.xsd](https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/SRA.run.xsd)               | [Run.xml](https://ega-archive.org/files/Run.xml)                                                 |
+| analysis - BAM/CRAM  | Metadata that describes a bam or cram file. Ideally should capture information about the reference assembly used. Can also link related files such as a readme, index and/or phenotype file.                                                                                                                                   | ANALYSIS\_TYPE
 
-<li>TAG: Any other attribute that is useful to provide and can be released open access
+*   REFERENCE\_ALIGNMENT
+    
 
-<li>VALUE: the value for the tag
+*   ASSEMBLY
+    
 
-<p>
-alias - useful to refer to in later objects
-</li>
-</ul>
-   </td>
-   <td><a href="https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/SRA.sample.xsd">sra.sample.xsd</a>
-   </td>
-   <td><a href="https://ega-archive.org/files/Sample.xml">Sample.xml</a>
-   </td>
-  </tr>
-  <tr>
-   <td>experiment
-   </td>
-   <td>Describes the sequencing experiment such as platform, model, library prep information. Typically it would collect all information that would need to be analysed together, e.g. all sequencing runs from a single library from a single sample
-   </td>
-   <td>LIBRARY_STRATEGY
-<p>
-LIBRARY_SOURCE
-<p>
-LIBRARY_SELECTION
-<p>
-LIBRARY_LAYOUT
-<p>
-LIBRARY_CONSTRUCTION_PROTOCOL
-<p>
-alias - useful to refer to in later objects
-<p>
-<strong>Links To Other Objects</strong>:
-<p>
-STUDY_REF - study alias of the study it belongs to
-<p>
-SAMPLE_DESCRIPTOR - sample alias of sample object the experiment was performed on
-   </td>
-   <td><a href="https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/SRA.experiment.xsd">sra.experiment.xsd</a>
-   </td>
-   <td><a href="https://ega-archive.org/files/Experiment_illumina_paired.xml">Experiment_illumina_paired.xml</a>
-   </td>
-  </tr>
-  <tr>
-   <td>run
-   </td>
-   <td>Each run contains a single data file, files that belong together get grouped under an experiment
-   </td>
-   <td>FILES
-<ul>
+*   refname (INSDC assembly name)
+    
 
-<li>FILE
+*   SEQUENCE 
+    
 
-<li>filename
+*   accession
+    
 
-<li>filetype
-
-<li>checksum_method
-
-<li>checksum
-
-<li>unencrypted_checksum
-
-<p>
-<strong>Links To Other Objects</strong>:
-<p>
-EXPERIMENT_REF
-</li>
-</ul>
-   </td>
-   <td><a href="https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/SRA.run.xsd">sra.run.xsd</a>
-   </td>
-   <td><a href="https://ega-archive.org/files/Run.xml">Run.xml</a>
-   </td>
-  </tr>
-  <tr>
-   <td>analysis - BAM/CRAM
-   </td>
-   <td>Metadata that describes a bam or cram file. Ideally should capture information about the reference assembly used. Can also link related files such as a readme, index and/or phenotype file.
-   </td>
-   <td>ANALYSIS_TYPE
-<ul>
-
-<li>REFERENCE_ALIGNMENT 
-<ul>
- 
-<li>ASSEMBLY  
-<ul>
-  
-<li>refname (INSDC assembly name)
-</li>  
-</ul>
-</li>  
-</ul>
-
-<li>SEQUENCE  
-<ul>
- 
-<li>accession
-
-<p>
 FILES
-<ul>
 
-<li>FILE
+*   FILE
+    
 
-<li>filename
+*   filename
+    
+*   filetype
+    
+*   checksum\_method
+    
+*   checksum
+    
+*   unencrypted\_checksum
+    
 
-<li>filetype
+Links to Other Objects:
 
-<li>checksum_method
+STUDY\_REF: study alias
 
-<li>checksum
+SAMPLE\_REF: sample alias, Can specify multiple times if contains analysis of multiple samples
 
-<li>unencrypted_checksum
-
-<p>
-<strong>Links to Other Objects:</strong>
-<p>
-STUDY_REF: study alias
-<p>
-SAMPLE_REF: sample alias, Can specify multiple times if contains analysis of multiple samples
-<p>
 If raw files also being submitted:
-<p>
-EXPERIMENT_REF: experiment alias
-<p>
-RUN_REF: run alias
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-   </td>
-   <td><a href="https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/SRA.analysis.xsd">sra.analysis.xsd</a>
-   </td>
-   <td><a href="https://ega-archive.org/files/Analysis_BAM.xml">Analysis_BAM.xml</a>
-   </td>
-  </tr>
-  <tr>
-   <td>analysis - VCF
-   </td>
-   <td>One vcf file per analysis object and should be linked to submitted samples. 
-   </td>
-   <td>ANALYSIS_TYPE
-<ul>
 
-<li>SEQUENCE_VARIATION 
-<ul>
- 
-<li>ASSEMBLY  
-<ul>
-  
-<li>refname (INSDC assembly name)
-</li>  
-</ul>
-</li>  
-</ul>
+EXPERIMENT\_REF: experiment alias
 
-<li>EXPERIMENT_TYPE
+RUN\_REF: run alias                            | [sra.analysis.xsd](https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/SRA.analysis.xsd)     | [Analysis\_BAM.xml](https://ega-archive.org/files/Analysis_BAM.xml)                              |
+| analysis - VCF       | One vcf file per analysis object and should be linked to submitted samples.                                                                                                                                                                                                                                                    | ANALYSIS\_TYPE
 
-<p>
+*   SEQUENCE\_VARIATION
+    
+
+*   ASSEMBLY
+    
+
+*   refname (INSDC assembly name)
+    
+
+*   EXPERIMENT\_TYPE
+    
+
 FILES
-<ul>
 
-<li>FILE
+*   FILE
+    
 
-<li>filename
+*   filename
+    
+*   filetype
+    
+*   checksum\_method
+    
+*   checksum
+    
+*   unencrypted\_checksum
+    
 
-<li>filetype
+Links to Other Objects:
 
-<li>checksum_method
+STUDY\_REF: study alias
 
-<li>checksum
+SAMPLE\_REF: sample alias, Can specify multiple times if contains analysis of multiple samples                                                                                                                                      | [sra.analysis.xsd](https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/SRA.analysis.xsd)     | [Analysis\_VCF.xml](https://ega-archive.org/files/Analysis_VCF.xml)                              |
+| analysis - phenotype | One phenotype per analysis object and should be linked to submitted samples. E.g. phenopacket file                                                                                                                                                                                                                             | ANALYSIS\_TYPE
 
-<li>unencrypted_checksum
+*   SAMPLE\_PHENOTYPE
+    
 
-<p>
-<strong>Links to Other Objects:</strong>
-<p>
-STUDY_REF: study alias
-<p>
-SAMPLE_REF: sample alias, Can specify multiple times if contains analysis of multiple samples
-</li>
-</ul>
-</li>
-</ul>
-   </td>
-   <td><a href="https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/SRA.analysis.xsd">sra.analysis.xsd</a>
-   </td>
-   <td><a href="https://ega-archive.org/files/Analysis_VCF.xml">Analysis_VCF.xml</a>
-   </td>
-  </tr>
-  <tr>
-   <td>analysis - phenotype
-   </td>
-   <td>One phenotype per analysis object and should be linked to submitted samples. E.g. phenopacket file
-   </td>
-   <td>ANALYSIS_TYPE
-<ul>
-
-<li>SAMPLE_PHENOTYPE
-
-<p>
 FILES
-<ul>
 
-<li>FILE
+*   FILE
+    
 
-<li>filename
+*   filename
+    
+*   filetype
+    
+*   checksum\_method
+    
+*   checksum
+    
+*   unencrypted\_checksum
+    
 
-<li>filetype
+Links to Other Objects:
 
-<li>checksum_method
+STUDY\_REF: study alias
 
-<li>checksum
+SAMPLE\_REF: sample alias, Can specify multiple times if contains analysis of multiple samples                                                                                                                                                                                                                              | [sra.analysis.xsd](https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/SRA.analysis.xsd)     | [Analysis\_phenotypes\_0.xml](https://ega-archive.org/files/Analysis_phenotypes_0.xml)
 
-<li>unencrypted_checksum
+<br>     |
+| dac                  | Contains the contact information of all members of the data access committee that makes decisions on who can access the data. Can be used for many different policies and datasets                                                                                                                                             | TITLE
 
-<p>
-<strong>Links to Other Objects:</strong>
-<p>
-STUDY_REF: study alias
-<p>
-SAMPLE_REF: sample alias, Can specify multiple times if contains analysis of multiple samples
-</li>
-</ul>
-</li>
-</ul>
-   </td>
-   <td><a href="https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/SRA.analysis.xsd">sra.analysis.xsd</a>
-   </td>
-   <td><a href="https://ega-archive.org/files/Analysis_phenotypes_0.xml">Analysis_phenotypes_0.xml</a>
-   </td>
-  </tr>
-  <tr>
-   <td>dac
-   </td>
-   <td>Contains the contact information of all members of the data access committee that makes decisions on who can access the data. Can be used for many different policies and datasets
-   </td>
-   <td>TITLE
-<p>
-CONTACT : at least one
-   </td>
-   <td><a href="https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/EGA.dac.xsd">EGA.dac.xsd</a>
-   </td>
-   <td><a href="https://ega-archive.org/files/DAC.xml">DAC.xml</a>
-   </td>
-  </tr>
-  <tr>
-   <td>policy
-   </td>
-   <td>Describes the data access agreement and links to the data access committee (DAC) that administers it.
-   </td>
-   <td>TITLE
-<p>
-POLICY_TEXT
-<p>
-POLICY_LINKS
-<ul>
+CONTACT : at least one                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | [EGA.dac.xsd](https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/EGA.dac.xsd)               | [DAC.xml](https://ega-archive.org/files/DAC.xml)                                                 |
+| policy               | Describes the data access agreement and links to the data access committee (DAC) that administers it.                                                                                                                                                                                                                          | TITLE
 
-<li>POLICY_LINK 
-<ul>
- 
-<li>URL_LINK: to link to external web pages if applicable
+POLICY\_TEXT
 
-<p>
-<strong>Links to Other Objects:</strong>
-<p>
-DAC_REF
-<ul>
+POLICY\_LINKS
 
-<li>accession
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-   </td>
-   <td><a href="https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/EGA.policy.xsd">EGA.policy.xsd</a>
-   </td>
-   <td><a href="https://ega-archive.org/files/Policy_0.xml">Policy_0.xml</a>
-   </td>
-  </tr>
-  <tr>
-   <td>dataset
-   </td>
-   <td>Describes a set of files that are logically grouped together and represent a unit to which would be provided access. Must link to the policy that defines how it can be used and the runs and/or analyses that describe the data set files. Examples provided by the EGA include: cases and controls, or different phenotypes.
-   </td>
-   <td>DATASET_TYPE
-<p>
-<strong>Links to Other Objects:</strong>
-<p>
-RUN_REF 
-<ul>
+*   POLICY\_LINK
+    
 
-<li>accession : repeated for all runs in the dataset
+*   URL\_LINK: to link to external web pages if applicable
+    
 
-<p>
-ANALYSIS_REF
-<ul>
+Links to Other Objects:
 
-<li>accession : repeated for all runs in the dataset
+DAC\_REF
 
-<p>
-POLICY_REF
-<ul>
+*   accession                                                                                                                                                                                                                                                                                                                                                                                    | [EGA.policy.xsd](https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/EGA.policy.xsd)         | [Policy\_0.xml](https://ega-archive.org/files/Policy_0.xml)                                      |
+| dataset              | Describes a set of files that are logically grouped together and represent a unit to which would be provided access. Must link to the policy that defines how it can be used and the runs and/or analyses that describe the data set files. Examples provided by the EGA include: cases and controls, or different phenotypes. | DATASET\_TYPE
 
-<li>accession EGAP
+Links to Other Objects:
 
-<li>refcenter
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-   </td>
-   <td><a href="https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/EGA.dataset.xsd">EGA.dataset.xsd</a>
-   </td>
-   <td><a href="https://ega-archive.org/files/Dataset_0.xml">Dataset_0.xml</a>
-   </td>
-  </tr>
-</table>
+RUN\_REF 
+
+*   accession : repeated for all runs in the dataset
+    
+
+ANALYSIS\_REF
+
+*   accession : repeated for all runs in the dataset
+    
+
+POLICY\_REF
+
+*   accession EGAP
+    
+*   refcenter                                                                                                                                                                                                                                                                                                                      | [EGA.dataset.xsd](https://github.com/enasequence/schema/blob/master/src/main/resources/uk/ac/ebi/ena/sra/schema/EGA.dataset.xsd)       | [Dataset\_0.xml](https://ega-archive.org/files/Dataset_0.xml)                                    |
 
 
 ![EGA Metadata Model schematic](/images/infrastructures/EGA-Metadata-Model.png)
@@ -463,13 +286,13 @@ Figure 1. Graphical representation of EGA Metadata Model to represent a sequenci
 
 ### Resources:
 
-Set of example XMLs created by EGA: [https://ega-archive.org/submission/sequence/programmatic_submissions/prepare_xml](https://ega-archive.org/submission/sequence/programmatic_submissions/prepare_xml) 
+* Set of example XMLs created by EGA: [https://ega-archive.org/submission/sequence/programmatic_submissions/prepare_xml](https://ega-archive.org/submission/sequence/programmatic_submissions/prepare_xml) 
 
-A somewhat tongue-in-cheek but potentially useful 4 part run through of one user’s experience with how to submit to EGA, mostly programmatically:
+* A somewhat tongue-in-cheek but potentially useful 4 part run through of one user’s experience with how to submit to EGA, mostly programmatically:
 
 [https://gavinband.github.io/bioinformatics/data/2019/05/01/Me_versus_the_European_Genome_Phenome_Archive.html](https://gavinband.github.io/bioinformatics/data/2019/05/01/Me_versus_the_European_Genome_Phenome_Archive.html) 
 
-Example of automated data flow to EGA from QIMRB. This transforms their internally stored metadata into the XMLs required for an EGA submission: [https://github.com/delocalizer/ega_metadata](https://github.com/delocalizer/ega_metadata) 
+* Example of automated data flow to EGA from QIMRB. This transforms their internally stored metadata into the XMLs required for an EGA submission: [https://github.com/delocalizer/ega_metadata](https://github.com/delocalizer/ega_metadata) 
 
 
 ## EGA Data Files

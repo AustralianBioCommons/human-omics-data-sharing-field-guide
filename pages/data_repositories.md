@@ -154,4 +154,8 @@ When dealing with human data, it is often necessary to archive data in a control
 
 Within Australia, the need to keep data onshore and the challenges involved in archiving in major international repositories means the majority of Australian human genomics research data remains siloed and un-FAIR in unsearchable institutional repositories. However, of the major controlled access archives, the European Genome-Phenome Archive (EGA) is the most used archive by Australian researchers, as it is the only one available to researchers without the need for specific funding arrangements or explicit approval.
 
+## Data repositories explained
+
+Choose a data respository below to learn more about it:
+
 {% include section-navigation-tiles.html type="data_repositories" search=true except="data_repositories.md" %}

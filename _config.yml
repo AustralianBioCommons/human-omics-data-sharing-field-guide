@@ -44,7 +44,7 @@ defaults:
     values:
       type: repositories
   - scope:
-      path: "pages/respositories/data_repositories"
+      path: "pages/data_repositories"
       type: "pages"
     values:
       sidebar: data_repositories

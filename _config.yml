@@ -41,14 +41,10 @@ defaults:
     values:
       type: data_standards
   - scope:
-      path: "pages/repositories"
-      type: "pages"
-    values:
-      type: repositories
-  - scope:
       path: "pages/data_repositories"
       type: "pages"
     values:
+      type: data_repositories
       sidebar: data_repositories
 
 plugins:

@@ -41,7 +41,7 @@ Submission notes:
 
 {% include callout.html type="tip" content="Use recognisable values for the aliases. The <strong>alias</strong> field that is set for each object is not strictly required, if not specified one will be provided. BUT the alias is what you used to link between the different objects so it is useful to set to names that you can recognise to facilitate the linking that is required in your submission. Aliases must be unique across all items within a submission account." %}
 
-{% incluide callout.html type="important" content="All data files that are referred to by ‘run’ or ‘analysis’ objects must be placed in the submission box and indexed by the system before it will allow submission of those object XMLs." %}
+{% include callout.html type="important" content="All data files that are referred to by ‘run’ or ‘analysis’ objects must be placed in the submission box and indexed by the system before it will allow submission of those object XMLs." %}
   
 {% include callout.html type="note" content="For objects that are linked by their accessions i.e. policy, dataset, the objects they refer to must be submitted and assigned accessions by the EGA before they can be linked." %}
 

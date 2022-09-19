@@ -1,6 +1,7 @@
 ---
 title: Human Cell Atlas
 contributors: [Marion Shadbolt]
+affiliations: [US, GB]
 ---
 
 The [Human Cell Atlas](https://www.humancellatlas.org/) (HCA) is an ambitious project to map the location, function and molecular signature of every cell type in the human body. As well as being an extremely important resource in its own right, it aims to be a healthy reference dataset that many researchers can use to supplement their own research data.

@@ -40,3 +40,15 @@
   expose: true
   type: funder
   url: https://www.education.gov.au/ncris
+- name: EMBL-EBI
+  image_url: /image/infrastructures/embl-ebi.png
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://www.ebi.ac.uk/
+- name: NCBI
+  image_url: /image/infrastructures/ncbi.png
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://www.ncbi.nlm.nih.gov/

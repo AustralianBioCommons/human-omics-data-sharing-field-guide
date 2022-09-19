@@ -1,0 +1,14 @@
+- description:
+    Generalist research data repository built and developed by OpenAIRE
+    and CERN
+  url: https://zenodo.org/
+  name: Zenodo
+  instance_of: test
+  registry:
+    fairsharing: wy4egf
+    tess: Zenodo
+  related_pages:
+- description:
+    API spec and data model for cross-cohort searching.
+  url: https://github.com/ga4gh-beacon/beacon-v2
+  name: Beacon

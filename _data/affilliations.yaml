@@ -1,0 +1,42 @@
+- name: ELIXIR Europe
+  image_url: /images/infrastructures/ELIXIR-logo.svg
+  pid: 
+  expose: true
+  type: infrastructure
+  url: https://elixir-europe.org/
+- name: Australian BioCommons
+  image_url: /assets/img/main_logo.svg
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://www.biocommons.org.au/
+- name: GA4GH
+  image_url: /images/infrastructures/GA4GH-color-logo_tag_CMYK-170118.png
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://www.ga4gh.org/
+- name: BioplatformsAustralia
+  image_url: /images/infrastructures/BioplatformsAustralia.png
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://bioplatforms.com/
+- name: ARDC
+  image_url: /images/infrastructures/ARDC_logo_RGB.png
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://ardc.edu.au/
+- name: Australian Genomics
+  image_url: /images/infrastructure/Australian-Genomics.png
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://www.australiangenomics.org.au/
+- name: NCRIS
+  image_url: /images/infrastructures/NCRIS-PROVIDER.png
+  pid:
+  expose: true
+  type: funder
+  url: https://www.education.gov.au/ncris

@@ -50,11 +50,9 @@ Table: Detailed information about ega objects and tips on creating XMLs for each
 
 Table to be reformatted and placed here.
 
-{% include image.html file="/repositories/EGA-Metadata-Model.png" caption="Figure 1. Graphical representation of EGA Metadata Model to represent a sequencing experiment with some recommended fields specified based on EGA example xmls. For comprehensive detail of available fields, see the XML schemas." alt="EGA Metadata Model Diagram" max-width="10" %} 
+{% include image.html file="/repositories/EGA-Metadata-Model.png" caption="Figure 1. Graphical representation of EGA Metadata Model to represent a sequencing experiment with some recommended fields specified based on EGA example xmls. For comprehensive detail of available fields, see the XML schemas." alt="EGA Metadata Model Diagram" max-width="10" %}
 
-![EGA Metadata Model schematic](/repositories/EGA-Metadata-Model.png)
-
-Figure 1. Graphical representation of EGA Metadata Model to represent a sequencing experiment with some recommended fields specified based on [EGA example xmls](https://ega-archive.org/submission/sequence/programmatic_submissions/prepare_xml). For comprehensive detail of available fields, see the [XML schemas](https://github.com/enasequence/schema/tree/master/src/main/resources/uk/ac/ebi/ena/sra/schema).
+<iframe width="768" height="432" src="https://miro.com/app/embed/uXjVPZp_d5U=/?pres=1&frameId=3458764532682541686&embedId=872264539803" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
 
 #### Resources:
@@ -72,17 +70,17 @@ Figure 1. Graphical representation of EGA Metadata Model to represent a sequenci
 
 All files that will be referenced from the Run or Analysis objects must be encrypted before they are transferred to the EGA servers. Encryption is done by using the [EGAcryptor](https://ega-archive.org/submission/tools/egacryptor) software and you need the [public key](https://ega-archive.org/files/submission_2020_public.gpg.asc) provided by EGA. The files must be checksummed both before and after encryption, and the checksums as well as the method used must be incorporated into the metadata files. File can be transferred using Aspera (faster) or FTP. They don’t generally allow for more than 10TB of data to be uploaded to a submission box at a time, but this can be negotiated with the helpdesk if a higher limit is needed.
 
-Note: Ensure that any potentially identifiable information is take out of any data files, such as information in BAM headers
+{% include callout.html type="warning" content="Ensure that any potentially identifiable information is take out of any data files, such as information in BAM headers" %}
 
-Note: Once files are uploaded, it takes time for them to be indexed and recognised as present within the submission box. Submission of file-related metadata won’t be possible until the EGA system recognises the files are in the submission box.
+{% include callout.html type="note" content="Once files are uploaded, it takes time for them to be indexed and recognised as present within the submission box. Submission of file-related metadata won’t be possible until the EGA system recognises the files are in the submission box." %}
 
-Note: File names should be kept in a simple flat structure when uploading and ideally shouldn’t change names as changes in names may take up to 24 hours to change.
+{% include callout.html type="tip" content="File names should be kept in a simple flat structure when uploading and ideally shouldn’t change names as changes in names may take up to 24 hours to change." %}
 
-Note: There may be limits on the bandwidth of data that can be uploaded to a submission box but this is unknown. Be prepared for timeouts, dropouts and don’t over burden with lots of parallelisation. 
+{% include callout.html type="tip" content="There may be limits on the bandwidth of data that can be uploaded to a submission box but this is unknown. Be prepared for timeouts, dropouts and don’t over burden with lots of parallelisation." %}
 
-Note: The transfer process can be very slow from Australia->Europe
+{% include callout.html type="note" content="The transfer process can be very slow from Australia->Europe" %}
 
-Note: It is expected that you will complete your submission, including metadata from the entire experiment, within 60 days of uploading files to a submission box, and files will be deleted after 90 days. So don’t upload files unless you are ready to complete your submission. 
+{% include callout.html type="important" content="It is expected that you will complete your submission, including metadata from the entire experiment, within 60 days of uploading files to a submission box, and files will be deleted after 90 days. So don’t upload files unless you are ready to complete your submission." %}
 
 
 #### Resources:

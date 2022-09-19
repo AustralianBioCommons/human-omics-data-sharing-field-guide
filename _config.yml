@@ -35,6 +35,16 @@ defaults:
       type: "pages"
     values:
       type: data_standards
+  - scope:
+      path: "pages/repositories"
+      type: "pages"
+    values:
+      type: repositories
+  - scope:
+      path: "pages/respositories/data_repositories"
+      type: "path"
+    values:
+      sidebar: data_repositories
 
 plugins:
   - jemoji

@@ -37,7 +37,7 @@ However, it is possible to create a fully automated submission process that cont
 
 Submission notes:
 
-* When preparing a submission, it is important to validate and check all the details because editing after submission is not possible without going through the helpdesk. Submission to the test instance of the EGA is recommended before making your final submission.
+{% include callout.html type="note" content="When preparing a submission, it is important to validate and check all the details because editing after submission is not possible without going through the helpdesk. Submission to the test instance of the EGA is recommended before making your final submission." %} 
 
 * The **alias** field that is set for each object is not strictly required, if not specified one will be provided. BUT the alias is what you used to link between the different objects so it is useful to set to names that you can recognise to facilitate the linking that is required in your submission. Aliases must be unique across all items within a submission account.
 
@@ -50,6 +50,7 @@ Table: Detailed information about ega objects and tips on creating XMLs for each
 
 Table to be reformatted and placed here.
 
+{% include image.html file="/images/repositories/EGA-Metadata-Model.png" caption="Figure 1. Graphical representation of EGA Metadata Model to represent a sequencing experiment with some recommended fields specified based on [EGA example xmls](https://ega-archive.org/submission/sequence/programmatic_submissions/prepare_xml). For comprehensive detail of available fields, see the [XML schemas](https://github.com/enasequence/schema/tree/master/src/main/resources/uk/ac/ebi/ena/sra/schema)." alt="EGA Metadata Model Diagram" max-width="10" %} 
 
 ![EGA Metadata Model schematic](/images/repositories/EGA-Metadata-Model.png)
 

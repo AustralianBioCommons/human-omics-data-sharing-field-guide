@@ -1,0 +1,25 @@
+title: Data repositories
+title_url: /data_repositories
+subitems:
+  - title: EGA
+    url: /ega
+  - title: dgGAP
+    url: /dbgap
+  - title: GSA-Human
+    url: /gsa_human
+  - title: Australian Genomics Data repository
+    url: /agdr
+  - title: ArrayExpress
+    url: /arrayexpress
+  - title: Expression Atlas
+    url: /expression_atlas
+  - title: BioSample
+    url: /biosample
+  - title: BioStudies
+    url: /biostudies
+  - title: BioProject 
+    url: /bioproject
+  - title: Human Cell Atlas
+    url: /hca 
+  - title: OmicsDI
+    url: omicsdi

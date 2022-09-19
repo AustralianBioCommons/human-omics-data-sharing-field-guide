@@ -52,8 +52,6 @@ Table to be reformatted and placed here.
 
 {% include image.html file="/repositories/EGA-Metadata-Model.png" caption="Figure 1. Graphical representation of EGA Metadata Model to represent a sequencing experiment with some recommended fields specified based on EGA example xmls. For comprehensive detail of available fields, see the XML schemas." alt="EGA Metadata Model Diagram" max-width="10" %}
 
-<iframe width="768" height="432" src="https://miro.com/app/embed/uXjVPZp_d5U=/?pres=1&frameId=3458764532682541686&embedId=872264539803" frameborder="0" scrolling="no" allowfullscreen></iframe>
-
 
 #### Resources:
 

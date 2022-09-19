@@ -27,8 +27,10 @@ subitems:
     subitems:
       - title: EGA
         url: /ega
-      - title: dgGAP
+      - title: dbGAP
         url: /dbgap
+      - title: JGA
+        url: /jga
       - title: GSA-Human
         url: /gsa_human
       - title: Australian Genomics Data repository
@@ -37,6 +39,8 @@ subitems:
         url: /arrayexpress
       - title: Expression Atlas
         url: /expression_atlas
+      - title: Gene Expression Omnibus
+        url: /geo
       - title: BioSample
         url: /biosample
       - title: BioStudies
@@ -45,6 +49,6 @@ subitems:
         url: /bioproject
       - title: Human Cell Atlas
         url: /hca 
-      - title: OmicsDI
-        url: omicsdi
+      - title: Omics Discovery Index
+        url: /omicsdi
 

@@ -52,6 +52,7 @@ Table to be reformatted and placed here.
 
 {% include image.html file="/repositories/EGA-Metadata-Model.png" caption="Figure 1. Graphical representation of EGA Metadata Model to represent a sequencing experiment with some recommended fields specified based on EGA example xmls. For comprehensive detail of available fields, see the XML schemas." alt="EGA Metadata Model Diagram" max-width="10" %}
 
+[View full size image](https://australianbiocommons.github.io/human-omics-data-sharing-field-guide/images//repositories/EGA-Metadata-Model.png)
 
 #### Resources:
 

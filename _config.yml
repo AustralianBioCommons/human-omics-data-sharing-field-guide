@@ -12,7 +12,8 @@ remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.17.0
 theme_variables:
   privacy_statement_url: https://www.biocommons.org.au/privacy
   toc:
-    min_headers: 3
+    min_headers: 2
+    headers: 'h3'
 
 exclude:
   - README.md

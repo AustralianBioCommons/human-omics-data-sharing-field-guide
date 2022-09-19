@@ -50,7 +50,7 @@ Table: Detailed information about ega objects and tips on creating XMLs for each
 
 Table to be reformatted and placed here.
 
-{% include image.html file="/repositories/EGA-Metadata-Model.png" caption="Figure 1. Graphical representation of EGA Metadata Model to represent a sequencing experiment with some recommended fields specified based on <a href="https://ega-archive.org/submission/sequence/programmatic_submissions/prepare_xml">EGA example xmls</a>(). For comprehensive detail of available fields, see the [XML schemas](https://github.com/enasequence/schema/tree/master/src/main/resources/uk/ac/ebi/ena/sra/schema)." alt="EGA Metadata Model Diagram" max-width="10" %} 
+{% include image.html file="/repositories/EGA-Metadata-Model.png" caption="Figure 1. Graphical representation of EGA Metadata Model to represent a sequencing experiment with some recommended fields specified based on EGA example xmls. For comprehensive detail of available fields, see the XML schemas." alt="EGA Metadata Model Diagram" max-width="10" %} 
 
 ![EGA Metadata Model schematic](/repositories/EGA-Metadata-Model.png)
 

@@ -456,7 +456,7 @@ POLICY_REF
 </table>
 
 
-![EGA Metadata Model schematic](images/infrastructures/EGA-Metadata-Model.png)
+![EGA Metadata Model schematic](/images/infrastructures/EGA-Metadata-Model.png)
 
 Figure 1. Graphical representation of EGA Metadata Model to represent a sequencing experiment with some recommended fields specified based on [EGA example xmls](https://ega-archive.org/submission/sequence/programmatic_submissions/prepare_xml). For comprehensive detail of available fields, see the [XML schemas](https://github.com/enasequence/schema/tree/master/src/main/resources/uk/ac/ebi/ena/sra/schema).
 

@@ -21,7 +21,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      permalink: /:categories/:year/:month/:day/:title
+      permalink: /:basename
       layout: "page"
       sidebar: main
   -

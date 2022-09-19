@@ -37,22 +37,22 @@ However, it is possible to create a fully automated submission process that cont
 
 Submission notes:
 
-{% include callout.html type="note" content="When preparing a submission, it is important to validate and check all the details because editing after submission is not possible without going through the helpdesk. Submission to the test instance of the EGA is recommended before making your final submission." %} 
+{% include callout.html type="warning" content="When preparing a submission, it is important to validate and check all the details because editing after submission is not possible without going through the helpdesk. Submission to the test instance of the EGA is recommended before making your final submission." %} 
 
-* The **alias** field that is set for each object is not strictly required, if not specified one will be provided. BUT the alias is what you used to link between the different objects so it is useful to set to names that you can recognise to facilitate the linking that is required in your submission. Aliases must be unique across all items within a submission account.
+{% include callout.html type="tip" content="Use recognisable values for the aliases. The <strong>alias</strong> field that is set for each object is not strictly required, if not specified one will be provided. BUT the alias is what you used to link between the different objects so it is useful to set to names that you can recognise to facilitate the linking that is required in your submission. Aliases must be unique across all items within a submission account." %}
 
-* All data files that are referred to by ‘run’ or ‘analysis’ objects must be placed in the submission box and indexed by the system before it will allow submission of those object XMLs.
-
-* For objects that are linked by their accessions i.e. policy, dataset, the objects they refer to must be submitted and assigned accessions by the EGA before they can be linked.
+{% incluide callout.html type="important" content="All data files that are referred to by ‘run’ or ‘analysis’ objects must be placed in the submission box and indexed by the system before it will allow submission of those object XMLs." %}
+  
+{% include callout.html type="note" content="For objects that are linked by their accessions i.e. policy, dataset, the objects they refer to must be submitted and assigned accessions by the EGA before they can be linked." %}
 
 Table: Detailed information about ega objects and tips on creating XMLs for each object. Adapted from [(Band 2019; EGA n.d.)](https://www.zotero.org/google-docs/?5otJgj)
 
 
 Table to be reformatted and placed here.
 
-{% include image.html file="/images/repositories/EGA-Metadata-Model.png" caption="Figure 1. Graphical representation of EGA Metadata Model to represent a sequencing experiment with some recommended fields specified based on [EGA example xmls](https://ega-archive.org/submission/sequence/programmatic_submissions/prepare_xml). For comprehensive detail of available fields, see the [XML schemas](https://github.com/enasequence/schema/tree/master/src/main/resources/uk/ac/ebi/ena/sra/schema)." alt="EGA Metadata Model Diagram" max-width="10" %} 
+{% include image.html file="/repositories/EGA-Metadata-Model.png" caption="Figure 1. Graphical representation of EGA Metadata Model to represent a sequencing experiment with some recommended fields specified based on <a href="https://ega-archive.org/submission/sequence/programmatic_submissions/prepare_xml">EGA example xmls</a>(). For comprehensive detail of available fields, see the [XML schemas](https://github.com/enasequence/schema/tree/master/src/main/resources/uk/ac/ebi/ena/sra/schema)." alt="EGA Metadata Model Diagram" max-width="10" %} 
 
-![EGA Metadata Model schematic](/images/repositories/EGA-Metadata-Model.png)
+![EGA Metadata Model schematic](/repositories/EGA-Metadata-Model.png)
 
 Figure 1. Graphical representation of EGA Metadata Model to represent a sequencing experiment with some recommended fields specified based on [EGA example xmls](https://ega-archive.org/submission/sequence/programmatic_submissions/prepare_xml). For comprehensive detail of available fields, see the [XML schemas](https://github.com/enasequence/schema/tree/master/src/main/resources/uk/ac/ebi/ena/sra/schema).
 
@@ -113,7 +113,7 @@ Unencrypt files using provided key
 [https://ega-archive.org/access/data-access](https://ega-archive.org/access/data-access) 
 
 
-### Resources:
+#### Resources:
 
 EGA data access guide: [https://ega-archive.org/access/data-access](https://ega-archive.org/access/data-access) 
 

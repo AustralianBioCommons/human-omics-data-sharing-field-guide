@@ -1,17 +1,18 @@
 ---
 title: EGA
 contributors: [Marion Shadbolt]
+affiliations: [ELIXIR Europe]
 ---
 
 The European Genome-Phenome Archive (EGA) is a controlled access data repository for sensitive human data. The repository is managed by EMBL-EBI (UK) and the Centre for Genomic Regulation (CRG) (Spain). Submission is open to anyone and data access is controlled per dataset by a user submitted data access policy and user defined data access committee. A single data access committee and policy may be used for a single dataset or may be reused for multiple datasets.
 
 
-### EGA Submission process
+# EGA Submission process
 
 The EGA submission process can be challenging to those unfamiliar to it, so the following sections provide an overview as well as some tips and tricks that may help you along the way. The first step is to gain an EGA submission account, which can be done by completing the [submission account form](https://ega-archive.org/submission-form.php).
 
 
-#### EGA Metadata
+## EGA Metadata
 
 The metadata files that must be submitted to EGA follow the same INSDC schemas, with the addition of policy, dataset and dac objects. These allow for the administration aspects related to controlled access of data and allow for finer grained access to datasets within a study. All information submitted in these XML files is considered public access and can be queried via the EGA API once the study is available in the platform. The required attributes that must be included about each sample are:
 
@@ -456,19 +457,16 @@ POLICY_REF
 
 
 
-##### 
-
 
 <p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image1.png "image_tooltip")
+![EGA Metadata Model schematic](images/infrastructures/EGA-Metadata-Model.png "EGA Metadata Model schematic")
+
+Figure 1. Graphical representation of EGA Metadata Model to represent a sequencing experiment with some recommended fields specified based on [EGA example xmls](https://ega-archive.org/submission/sequence/programmatic_submissions/prepare_xml). For comprehensive detail of available fields, see the [XML schemas](https://github.com/enasequence/schema/tree/master/src/main/resources/uk/ac/ebi/ena/sra/schema).
 
 
-Figure x. Graphical representation of EGA Metadata Model to represent a sequencing experiment with some recommended fields specified based on [EGA example xmls](https://ega-archive.org/submission/sequence/programmatic_submissions/prepare_xml). For comprehensive detail of available fields, see the [XML schemas](https://github.com/enasequence/schema/tree/master/src/main/resources/uk/ac/ebi/ena/sra/schema).
-
-
-##### Resources:
+### Resources:
 
 Set of example XMLs created by EGA: [https://ega-archive.org/submission/sequence/programmatic_submissions/prepare_xml](https://ega-archive.org/submission/sequence/programmatic_submissions/prepare_xml) 
 
@@ -479,7 +477,7 @@ A somewhat tongue-in-cheek but potentially useful 4 part run through of one user
 Example of automated data flow to EGA from QIMRB. This transforms their internally stored metadata into the XMLs required for an EGA submission: [https://github.com/delocalizer/ega_metadata](https://github.com/delocalizer/ega_metadata) 
 
 
-#### EGA Data Files
+## EGA Data Files
 
 All files that will be referenced from the Run or Analysis objects must be encrypted before they are transferred to the EGA servers. Encryption is done by using the [EGAcryptor](https://ega-archive.org/submission/tools/egacryptor) software and you need the [public key](https://ega-archive.org/files/submission_2020_public.gpg.asc) provided by EGA. The files must be checksummed both before and after encryption, and the checksums as well as the method used must be incorporated into the metadata files. File can be transferred using Aspera (faster) or FTP. They don’t generally allow for more than 10TB of data to be uploaded to a submission box at a time, but this can be negotiated with the helpdesk if a higher limit is needed.
 
@@ -496,7 +494,7 @@ Note: The transfer process can be very slow from Australia->Europe
 Note: It is expected that you will complete your submission, including metadata from the entire experiment, within 60 days of uploading files to a submission box, and files will be deleted after 90 days. So don’t upload files unless you are ready to complete your submission. 
 
 
-##### Resources:
+### Resources:
 
 EGA file upload documentation: [https://ega-archive.org/submission/tools/ftp-aspera](https://ega-archive.org/submission/tools/ftp-aspera) 
 
@@ -507,7 +505,7 @@ Walk through process: [https://github.com/QingliGuo/EGA_Data_submission](https:/
 Specific software for ICGC members but may be useful/adaptable for other submitters: [https://github.com/icgc-dcc/egasub](https://github.com/icgc-dcc/egasub) (not actively maintained)
 
 
-### EGA Access Process
+## EGA Access Process
 
 Once a dataset of interest is found, a user must apply directly to the data access committee that controls the dataset. There may be different requirements around what information is required to be submitted to apply for access. Any dataset use must comply with the data access policy that is attached to the dataset.
 
@@ -524,12 +522,12 @@ Unencrypt files using provided key
 [https://ega-archive.org/access/data-access](https://ega-archive.org/access/data-access) 
 
 
-##### Resources:
+### Resources:
 
 EGA data access guide: [https://ega-archive.org/access/data-access](https://ega-archive.org/access/data-access) 
 
 
-### Federated EGA
+# Federated EGA
 
 There are currently federated EGA nodes being set up in other countries in Europe such as Finland, Sweden, Germany and Spain. The main driver for this has been to allow for data to remain within the country it is generated.
 

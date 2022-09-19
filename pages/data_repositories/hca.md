@@ -1,6 +1,7 @@
 ---
 title: Human Cell Atlas
 contributors: [Marion Shadbolt]
+description: Highly curated cellular resolution omics data with aim of building healthy atlas of all human cells.
 affiliations: [US, GB]
 ---
 

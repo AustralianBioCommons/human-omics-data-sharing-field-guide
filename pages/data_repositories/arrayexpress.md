@@ -1,6 +1,7 @@
 ---
 title: ArrayExpress
 contributors: [Marion Shadbolt]
+description: Open access database for functional genomics data including transcriptomics and micro-arrays.
 affiliations: [EMBL-EBI, GB]
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Omics Discovery Index
 contributors: [Marion Shadbolt]
+description: Index to query across multiple omics databases.
 affiliations: [EMBL-EBI, ELIXIR-EUROPE, GB]
 ---
 

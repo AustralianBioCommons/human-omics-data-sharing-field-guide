@@ -1,6 +1,7 @@
 ---
 title: Gene Expression Omnibus
 contributors: [Marion Shadbolt]
+description: Open access database for functional genomics data.
 affiliations: [NCBI, US]
 ---
 

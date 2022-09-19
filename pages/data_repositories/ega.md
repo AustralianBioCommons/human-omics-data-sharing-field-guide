@@ -1,6 +1,7 @@
 ---
 title: EGA
 contributors: [Marion Shadbolt]
+description: Controlled access database for human data.
 affiliations: [ELIXIR Europe, GB, ES]
 ---
 

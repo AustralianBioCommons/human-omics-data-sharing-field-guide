@@ -1,6 +1,7 @@
 ---
 title: GSA-Human
 contributors: [Marion Shadbolt]
+description: Controlled access database for human data run by CNCB and NGDC.
 affiliations: [CN]
 ---
 

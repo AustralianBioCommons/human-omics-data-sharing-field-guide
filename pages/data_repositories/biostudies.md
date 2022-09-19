@@ -1,6 +1,7 @@
 ---
 title: BioStudies
 contributors: [Marion Shadbolt]
+description: Database for storing project level information and linking to other repositories.
 affiliations: [EMBL-EBI, GB]
 ---
 

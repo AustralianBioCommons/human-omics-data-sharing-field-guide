@@ -1,6 +1,7 @@
 ---
 title: JGA
 contributors: [Marion Shadbolt]
+description: The Japanese Genome-Phenome archive for controlled access human data.
 affiliations: [JP]
 ---
 

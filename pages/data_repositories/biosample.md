@@ -1,6 +1,7 @@
 ---
 title: BioSample
 contributors: [Marion Shadbolt]
+description: Object used to describe samples when submitting to INSDC and CNCB repositories
 ---
 
 All major archives have some version of a ‘sample’ object that stores sample related metadata. The NCBI (SRA), DDBJ and CNCB (GSA) databases are limited to storing metadata that gets submitted when submitting a study to their related genome archives.

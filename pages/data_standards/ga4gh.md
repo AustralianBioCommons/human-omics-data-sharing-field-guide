@@ -35,7 +35,7 @@ An overview of GA4GH standards
         </td>
         <td>Define and share individual characteristics, demographics and phenotypes in a standard format
         </td>
-        <td>Clin/Pheno
+        <td><a href="https://ga4gh-cp.github.io/">Clin/Pheno</a>
         </td>
         <td>2.0.0
         </td>
@@ -54,7 +54,7 @@ An overview of GA4GH standards
         </td>
         <td>Query across cohort, individual and variant metadata
         </td>
-        <td>Discovery
+        <td><a href="https://ga4gh-discovery.github.io/">Discovery</a>
         </td>
         <td>2.0.0
         </td>
@@ -73,7 +73,7 @@ An overview of GA4GH standards
         </td>
         <td>Characterise familial relationships
         </td>
-        <td>Clin/Pheno
+        <td><a href="https://ga4gh-cp.github.io/">Clin/Pheno</a>
         </td>
         <td>under review as a standard
         </td>
@@ -109,7 +109,7 @@ An overview of GA4GH standards
         </td>
         <td>Protocol for accessing data files
         </td>
-        <td>Cloud
+        <td><a href="https://github.com/ga4gh/wiki/wiki">Cloud</a>
         </td>
         <td>1.2.0
         </td>
@@ -127,7 +127,7 @@ An overview of GA4GH standards
         </td>
         <td>
         </td>
-        <td>Cloud
+        <td><a href="https://github.com/ga4gh/wiki/wiki">Cloud</a>
         </td>
         <td>
         </td>
@@ -145,7 +145,7 @@ An overview of GA4GH standards
         </td>
         <td>Protocol for defining tokens for data access
         </td>
-        <td>DURI
+        <td><a href="https://ga4gh-duri.github.io/">DURI</a>
         </td>
         <td>
         </td>
@@ -163,7 +163,7 @@ An overview of GA4GH standards
         </td>
         <td>Translates consent form clause to machine readable ontology
         </td>
-        <td>DURI
+        <td><a href="https://ga4gh-duri.github.io/">DURI</a>
         </td>
         <td>
         </td>

@@ -9,7 +9,7 @@ Stuff about GA4GH
 
 <table>
   <tr>
-   <td>standard
+   <td>Standard
    </td>
    <td>In a nutshell
    </td>
@@ -81,9 +81,7 @@ Stuff about GA4GH
    </td>
   </tr>
   <tr>
-   <td>VRS
-<p>
-Variation representation
+   <td>VRS Variation representation
    </td>
    <td>Characterise variants
    </td>

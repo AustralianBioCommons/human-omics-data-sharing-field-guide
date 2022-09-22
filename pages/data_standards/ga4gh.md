@@ -11,22 +11,22 @@ Stuff about GA4GH
   <table>
     <thead>
       <tr>
-        <td>Standard
-        </td>
-        <td>In a nutshell
-        </td>
-        <td>workstream
-        </td>
-        <td>Version / status
-        </td>
-        <td>docs
-        </td>
-        <td>github
-        </td>
-        <td>publication
-        </td>
-        <td>other useful resources
-        </td>
+        <th>Standard
+        </th>
+        <th>In a nutshell
+        </th>
+        <th>workstream
+        </th>
+        <th>Version / status
+        </th>
+        <th>docs
+        </th>
+        <th>github
+        </th>
+        <th>publication
+        </th>
+        <th>other useful resources
+        </th>
       </tr>
     </thead>
     <tbody>

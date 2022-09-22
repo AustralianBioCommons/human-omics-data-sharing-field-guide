@@ -45,6 +45,11 @@ defaults:
       type: "pages"
     values:
       type: data_repositories
+  - scope:
+      path: pages/legal_ethical
+      type: "pages"
+    values:
+      type: legal_ethical
 
 plugins:
   - jemoji

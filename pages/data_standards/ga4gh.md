@@ -87,10 +87,10 @@ An overview of GA4GH standards
         </td>
       </tr>
       <tr>
-        <td>VRS Variation representation
+        <td>VRS Variation representation 
         </td>
-        <td>Characterise variants
-        </td>
+        <td>Characterise variants in a standard format.
+        </td><a href="https://ga4gh-gks.github.io/">Genomic Knowledge Standards</a>
         <td>
         </td>
         <td>1.2
@@ -105,7 +105,7 @@ An overview of GA4GH standards
         </td>
       </tr>
       <tr>
-        <td>DRS
+        <td>DRS Data repository service
         </td>
         <td>Protocol for accessing data files
         </td>
@@ -123,9 +123,9 @@ An overview of GA4GH standards
         </td>
       </tr>
       <tr>
-        <td>WES
+        <td>WES Workflow Execution Service
         </td>
-        <td>
+        <td>API to enable users to submit workflow requests to workflow execution systems
         </td>
         <td><a href="https://github.com/ga4gh/wiki/wiki">Cloud</a>
         </td>

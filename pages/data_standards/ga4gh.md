@@ -35,13 +35,13 @@ Stuff about GA4GH
    </td>
    <td>2.0.0
    </td>
-   <td><a href="https://phenopacket-schema.readthedocs.io/en/latest/"><i class="fa-regular fa-book"></i></a>
+   <td><a href="https://phenopacket-schema.readthedocs.io/en/latest/"><i class="fa-solid fa-book"></i></a>
    </td>
    <td><a href="https://github.com/phenopackets/phenopacket-schema"><i class="fa-brands fa-github"></i></a>
    </td>
    <td><a href="https://www.zotero.org/google-docs/?205hr8">(Jacobsen et al. 2022; Ladewig et al. 2022)</a>
    </td>
-   <td><a href="https://www.iso.org/standard/79991.html"><i class="fa-regular fa-arrow-up-right-from-square"></i> ISO </a>
+   <td><a href="https://www.iso.org/standard/79991.html"><i class="fa-solid fa-arrow-up-right-from-square"></i> ISO </a>
    </td>
   </tr>
   <tr>
@@ -53,7 +53,7 @@ Stuff about GA4GH
    </td>
    <td>2.0.0
    </td>
-   <td><a href="http://docs.genomebeacons.org/"><i class="fa-regular fa-book"></i></a>
+   <td><a href="http://docs.genomebeacons.org/"><i class="fa-solid fa-book"></i></a>
    </td>
    <td><a href="https://github.com/ga4gh-beacon/beacon-v2"><i class="fa-brands fa-github"></i></a>
    </td>
@@ -71,7 +71,7 @@ Stuff about GA4GH
    </td>
    <td>under review as a standard
    </td>
-   <td><a href="https://pedigree.readthedocs.io/en/latest/"><i class="fa-regular fa-book"></i></a>
+   <td><a href="https://pedigree.readthedocs.io/en/latest/"><i class="fa-solid fa-book"></i></a>
    </td>
    <td>
    </td>
@@ -91,7 +91,7 @@ Variation representation
    </td>
    <td>1.2
    </td>
-   <td><a href="https://vrs.ga4gh.org/en/stable/"><i class="fa-regular fa-book"></i></a>
+   <td><a href="https://vrs.ga4gh.org/en/stable/"><i class="fa-solid fa-book"></i></a>
    </td>
    <td><a href="https://github.com/ga4gh/vrs"><i class="fa-brands fa-github"></i></a>
    </td>
@@ -109,7 +109,7 @@ Variation representation
    </td>
    <td>1.2.0
    </td>
-   <td><a href="https://ga4gh.github.io/data-repository-service-schemas/preview/release/drs-1.0.0/docs/"><i class="fa-regular fa-book"></i></a>
+   <td><a href="https://ga4gh.github.io/data-repository-service-schemas/preview/release/drs-1.0.0/docs/"><i class="fa-solid fa-book"></i></a>
    </td>
    <td><a href="https://github.com/ga4gh/data-repository-service-schemas"><i class="fa-brands fa-github"></i></a>
    </td>
@@ -127,7 +127,7 @@ Variation representation
    </td>
    <td>
    </td>
-   <td><a href="https://ga4gh.github.io/workflow-execution-service-schemas/docs/"><i class="fa-regular fa-book"></i></a>
+   <td><a href="https://ga4gh.github.io/workflow-execution-service-schemas/docs/"><i class="fa-solid fa-book"></i></a>
    </td>
    <td>
    </td>
@@ -163,13 +163,13 @@ Variation representation
    </td>
    <td>
    </td>
-   <td><a href="https://github.com/EBISPOT/DUO"><i class="fa-regular fa-book"></i></a>
+   <td><a href="https://github.com/EBISPOT/DUO"><i class="fa-solid fa-book"></i></a>
    </td>
    <td><a href="https://github.com/EBISPOT/DUO"><i class="fa-brands fa-github"></i></a>
    </td>
    <td>
    </td>
-   <td><a href="https://www.ebi.ac.uk/ols/ontologies/duo"><i class="fa-regular fa-arrow-up-right-from-square"></i> OLS</a>
+   <td><a href="https://www.ebi.ac.uk/ols/ontologies/duo"><i class="fa-solid fa-arrow-up-right-from-square"></i> OLS</a>
    </td>
   </tr>
 </table>

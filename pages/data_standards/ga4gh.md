@@ -90,8 +90,8 @@ An overview of GA4GH standards
         <td>VRS Variation representation 
         </td>
         <td>Characterise variants in a standard format.
-        </td><a href="https://ga4gh-gks.github.io/">Genomic Knowledge Standards</a>
-        <td>
+        </td>
+        <td><a href="https://ga4gh-gks.github.io/">Genomic Knowledge Standards</a>
         </td>
         <td>1.2
         </td>

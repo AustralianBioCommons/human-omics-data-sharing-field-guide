@@ -62,4 +62,5 @@ subitems:
       - title: Omics Discovery Index
         url: /omicsdi
   - title: Other repositories
+    url: /other_repositories
     image_url: /assets/img/section-icons/noun-repository-5189674.svg

@@ -15,6 +15,16 @@ subitems:
     subitems:
       - title: Australian Legal Landscape
         url: /australian_legal
+      - title: National Statement for Ethical Conduct in Human Research
+        url: /national_statement_ethical_conduct
+      - title: Consent
+        url: /consent
+      - title: The Privacy Act 1988
+        url: /privacy_act
+      - title: Human Research Ethics Committees(HRECs)
+        url: /hrecs
+      - title: GDPR
+        url: /gdpr
   - title: Major Genome Projects
     url: /major_genome_projects
     image_url: /assets/img/section-icons/noun-dna-5171631.svg

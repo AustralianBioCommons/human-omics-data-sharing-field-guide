@@ -75,7 +75,7 @@ An overview of GA4GH standards
         </td>
         <td><a href="https://ga4gh-cp.github.io/">Clin/Pheno</a>
         </td>
-        <td>under review as a standard
+        <td>under review
         </td>
         <td><a href="https://pedigree.readthedocs.io/en/latest/"><i class="fa-solid fa-book fa-2x"></i></a>
         </td>

@@ -1,6 +1,6 @@
 ---
 title: GA4GH
-toc: true
+contributors: [Marion Shadbolt]
 ---
 
 Stuff about GA4GH
@@ -13,11 +13,11 @@ Stuff about GA4GH
       <tr>
         <th>Standard
         </th>
-        <th>In a nutshell
+        <th>Description
         </th>
-        <th>workstream
+        <th>Workstream
         </th>
-        <th>Version / status
+        <th>version / status
         </th>
         <th>docs
         </th>
@@ -25,7 +25,7 @@ Stuff about GA4GH
         </th>
         <th>publication
         </th>
-        <th>other useful resources
+        <th>other resources
         </th>
       </tr>
     </thead>
@@ -43,8 +43,8 @@ Stuff about GA4GH
         </td>
         <td><a href="https://github.com/phenopackets/phenopacket-schema"><i class="fa-brands fa-github fa-2x"></i></a>
         </td>
-        <td><a href="https://www.nature.com/articles/s41587-022-01357-4"><i class="fa-regular fa-file-lines"></i> Jacobsen et al. 2022</a> 
-            <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ggn2.202200016"> <i class="fa-regular fa-file-lines"></i>Ladewig et al. 2022)</a>
+        <td><a href="https://www.nature.com/articles/s41587-022-01357-4"><i class="fa-regular fa-file-lines"></i> Jacobsen et al. 2022</a><br />
+            <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ggn2.202200016"> <i class="fa-regular fa-file-lines"></i> Ladewig et al. 2022)</a>
         </td>
         <td><a href="https://www.iso.org/standard/79991.html"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i> ISO </a>
         </td>
@@ -62,9 +62,10 @@ Stuff about GA4GH
         </td>
         <td><a href="https://github.com/ga4gh-beacon/beacon-v2"><i class="fa-brands fa-github fa-2x"></i></a>
         </td>
-        <td><a href="https://www.zotero.org/google-docs/?NsWUp9">(Rambla et al. 2022)</a>
+        <td><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24369"> <i class="fa-regular fa-file-lines"></i> Rambla et al. 2022</a> <br />
+            <a href="https://doi.org/10.1093/bioinformatics/btac568"><i class="fa-regular fa-file-lines"></i> Rueda et al. 2022</a>
         </td>
-        <td><a href="https://www.zotero.org/google-docs/?GdYTvZ">(Rueda et al. 2022)</a>
+        <td><a href="https://b2ri-documentation.readthedocs.io/en/latest/"> <i class="fa-solid fa-book fa-2x"></i> Beacon RI</a>
         </td>
       </tr>
       <tr>
@@ -98,7 +99,7 @@ Stuff about GA4GH
         </td>
         <td><a href="https://github.com/ga4gh/vrs"><i class="fa-brands fa-github fa-2x"></i></a>
         </td>
-        <td><a href="https://www.zotero.org/google-docs/?rhJnYE">(Wagner et al. 2021)</a>
+        <td><a href="https://www.sciencedirect.com/science/article/pii/S2666979X21000343"><i class="fa-regular fa-file-lines"></i> Wagner et al. 2021</a>
         </td>
         <td><a href="https://github.com/ga4gh/vrs-python"><i class="fa-brands fa-github fa-2x"></i> vrs-python</a>
         </td>

@@ -3,7 +3,7 @@ title: GA4GH
 contributors: [Marion Shadbolt]
 ---
 
-Stuff about GA4GH
+An overview of GA4GH standards
 
 <script src="https://kit.fontawesome.com/46236ff899.js" crossorigin="anonymous"></script>
 
@@ -44,9 +44,9 @@ Stuff about GA4GH
         <td><a href="https://github.com/phenopackets/phenopacket-schema"><i class="fa-brands fa-github fa-2x"></i></a>
         </td>
         <td><a href="https://www.nature.com/articles/s41587-022-01357-4"><i class="fa-regular fa-file-lines"></i> Jacobsen et al. 2022</a><br />
-            <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ggn2.202200016"> <i class="fa-regular fa-file-lines"></i> Ladewig et al. 2022)</a>
+            <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ggn2.202200016"> <i class="fa-regular fa-file-lines"></i> Ladewig et al. 2022</a>
         </td>
-        <td><a href="https://www.iso.org/standard/79991.html"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i> ISO </a>
+        <td><a href="https://www.iso.org/standard/79991.html"><i class="fa-solid fa-arrow-up-right-from-square"></i> ISO </a>
         </td>
       </tr>
       <tr>
@@ -65,7 +65,7 @@ Stuff about GA4GH
         <td><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24369"> <i class="fa-regular fa-file-lines"></i> Rambla et al. 2022</a> <br />
             <a href="https://doi.org/10.1093/bioinformatics/btac568"><i class="fa-regular fa-file-lines"></i> Rueda et al. 2022</a>
         </td>
-        <td><a href="https://b2ri-documentation.readthedocs.io/en/latest/"> <i class="fa-solid fa-book fa-2x"></i> Beacon RI</a>
+        <td><a href="https://b2ri-documentation.readthedocs.io/en/latest/"> <i class="fa-solid fa-book"></i> Beacon RI</a>
         </td>
       </tr>
       <tr>
@@ -101,7 +101,7 @@ Stuff about GA4GH
         </td>
         <td><a href="https://www.sciencedirect.com/science/article/pii/S2666979X21000343"><i class="fa-regular fa-file-lines"></i> Wagner et al. 2021</a>
         </td>
-        <td><a href="https://github.com/ga4gh/vrs-python"><i class="fa-brands fa-github fa-2x"></i> vrs-python</a>
+        <td><a href="https://github.com/ga4gh/vrs-python"><i class="fa-brands fa-github"></i> vrs-python</a>
         </td>
       </tr>
       <tr>
@@ -173,7 +173,7 @@ Stuff about GA4GH
         </td>
         <td>
         </td>
-        <td><a href="https://www.ebi.ac.uk/ols/ontologies/duo"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i> OLS</a>
+        <td><a href="https://www.ebi.ac.uk/ols/ontologies/duo"><i class="fa-solid fa-arrow-up-right-from-square"></i> OLS</a>
         </td>
       </tr>
     </tbody>

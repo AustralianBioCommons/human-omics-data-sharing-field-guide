@@ -43,7 +43,8 @@ Stuff about GA4GH
         </td>
         <td><a href="https://github.com/phenopackets/phenopacket-schema"><i class="fa-brands fa-github fa-2x"></i></a>
         </td>
-        <td><a href="https://www.zotero.org/google-docs/?205hr8">(Jacobsen et al. 2022; Ladewig et al. 2022)</a>
+        <td><a href="https://www.nature.com/articles/s41587-022-01357-4"><i class="fa-regular fa-file-lines"></i> Jacobsen et al. 2022</a> 
+            <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ggn2.202200016"> <i class="fa-regular fa-file-lines"></i>Ladewig et al. 2022)</a>
         </td>
         <td><a href="https://www.iso.org/standard/79991.html"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i> ISO </a>
         </td>

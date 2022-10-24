@@ -133,11 +133,11 @@ An overview of GA4GH standards
         </td>
         <td><a href="https://ga4gh.github.io/workflow-execution-service-schemas/docs/"><i class="fa-solid fa-book fa-2x"></i></a>
         </td>
-        <td>
+        <td> <a href="https://github.com/ga4gh/workflow-execution-service-schemas "><i class="fa-brands fa-github fa-2x"></i></a>
         </td>
         <td>
         </td>
-        <td>
+        <td> <a href="https://github.com/ga4gh/ga4gh-starter-kit-wes"><i class="fa-brands fa-github fa-2x wes starter kit"></i></a>
         </td>
       </tr>
       <tr>
@@ -147,15 +147,16 @@ An overview of GA4GH standards
         </td>
         <td><a href="https://ga4gh-duri.github.io/">DURI</a>
         </td>
-        <td>
+        <td> 1.2
+        </td>
+        <td> <a href="https://github.com/ga4gh-duri/ga4gh-duri.github.io/blob/master/researcher_ids/ga4gh_passport_v1.md"><i class="fa-solid fa-book fa-2x"></i></a>
         </td>
         <td>
         </td>
-        <td>
+        <td> <a href="https://doi.org/10.1016/j.xgen.2021.100030"><i class="fa-regular fa-file-lines"></i> Voisin et al. 2021</a>
         </td>
-        <td>
-        </td>
-        <td>
+        <td> <a href="https://github.com/ga4gh/ga4gh-starter-kit-passport-ui"><i class="fa-brands fa-github fa-2x passport ui starter kit"></i></a>
+             <a href="https://github.com/ga4gh/ga4gh-starter-kit-passport-broker"><i class="fa-brands fa-github fa-2x passport broker starter kit"></i></a>
         </td>
       </tr>
       <tr>
@@ -165,13 +166,13 @@ An overview of GA4GH standards
         </td>
         <td><a href="https://ga4gh-duri.github.io/">DURI</a>
         </td>
-        <td>
+        <td> 2021-02-23
         </td>
         <td><a href="https://github.com/EBISPOT/DUO"><i class="fa-solid fa-book fa-2x"></i></a>
         </td>
         <td><a href="https://github.com/EBISPOT/DUO"><i class="fa-brands fa-github fa-2x"></i></a>
         </td>
-        <td>
+        <td><a href="https://doi.org/10.1016/j.xgen.2021.100028"><i class="fa-regular fa-file-lines"></i> Lawson et al. 2021</a>
         </td>
         <td><a href="https://www.ebi.ac.uk/ols/ontologies/duo"><i class="fa-solid fa-arrow-up-right-from-square"></i> OLS</a>
         </td>

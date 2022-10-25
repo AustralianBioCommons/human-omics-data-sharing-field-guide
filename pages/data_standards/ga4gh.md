@@ -3,7 +3,7 @@ title: GA4GH
 contributors: [Marion Shadbolt]
 ---
 
-An overview of GA4GH standards
+An overview of selected GA4GH data standards, see [GA4GH website](https://www.ga4gh.org/how-we-work/workstreams/) for all standards.
 
 <script src="https://kit.fontawesome.com/46236ff899.js" crossorigin="anonymous"></script>
 
@@ -129,7 +129,7 @@ An overview of GA4GH standards
         </td>
         <td><a href="https://github.com/ga4gh/wiki/wiki">Cloud</a>
         </td>
-        <td>
+        <td>1.0.1
         </td>
         <td><a href="https://ga4gh.github.io/workflow-execution-service-schemas/docs/"><i class="fa-solid fa-book fa-2x"></i></a>
         </td>

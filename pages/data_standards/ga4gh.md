@@ -155,7 +155,7 @@ An overview of selected GA4GH data standards, see [GA4GH website](https://www.ga
         </td>
         <td> <a href="https://doi.org/10.1016/j.xgen.2021.100030"><i class="fa-regular fa-file-lines"></i> Voisin et al. 2021</a>
         </td>
-        <td> <a href="https://github.com/ga4gh/ga4gh-starter-kit-passport-ui"><i class="fa-brands fa-github"></i> passport ui starter kit</a><br\>
+        <td> <a href="https://github.com/ga4gh/ga4gh-starter-kit-passport-ui"><i class="fa-brands fa-github"></i> passport ui starter kit</a><br>
              <a href="https://github.com/ga4gh/ga4gh-starter-kit-passport-broker"><i class="fa-brands fa-github"></i> passport broker starter kit</a>
         </td>
       </tr>

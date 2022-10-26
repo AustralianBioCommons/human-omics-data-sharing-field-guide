@@ -5,9 +5,13 @@ contributors: [Marion Shadbolt]
 
 ## Generalist repositories
 
-[https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories)
+Many repositories exist to support sharing of data that may not fit into one of the specialist repositories. See below for some commonly used options that may suit your needs.
 
-[https://www.re3data.org/](https://www.re3data.org/)
+- [figshare](https://figshare.com/) - general purpose repository for papers, data and non-traditional research outputs. May be available through your institution or linked to particular publishing requirements
+- [zenodo](https://zenodo.org/) - general purpose repository for documents and research artefacts, mints a doi, indexed by OpenAIRE and can link works to your ORCID
+- [NIH curated list of general data repositories](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories)
+
+- [Registry of Research Data Repositories](https://www.re3data.org/)
 
 ## Tool/workflow repositories
 
@@ -43,23 +47,24 @@ WorkflowHub is a registry run by ELIXIR to describe, share and publish scientifi
 
 ## Protocol repositories
 
-### Protocols exchange
+The need to share protocols is an emerging need to ensure reproducibility of scientific experiments. There are several journals and repositories that enable researchers to share their protocols in an open manner. See below for more details.
 
-[https://protocolexchange.researchsquare.com/](https://protocolexchange.researchsquare.com/)
+### Protocol Repositories
 
+- [Protocol exchange](https://protocolexchange.researchsquare.com/) - open repository for sharing scientific research protocols. Protocols are posted directly on the Protocol Exchange by authors and are made freely available to the scientific community for use and comment. Protocols are released under a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license.
+- [protocols.io](https://www.protocols.io/) - platform to publish and develop protocols as well as give and receive feedback. Free for public sharing of protocols, private use requires a subscription. Public protocols are released under a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license.
+- [bio-protocol exchange](https://bio-protocol.org/exchange) - platform to share protocols and post pre-prints before publication as well as ask questions of other scientists.
 
-### Protocols.io [https://www.protocols.io/](https://www.protocols.io/)
+### Protocol journals
 
-Protocol journals
+- [JMIR Research Protocols](https://www.researchprotocols.org/) - peer-reviewed journal that publishes openly accessible research ideas and grant proposals, study and trial protocols, reports of ongoing research, current methods and approaches in all areas of medical and health research.
 
-[https://www.researchprotocols.org/](https://www.researchprotocols.org/)
+- [Methods and Protocols](https://www.mdpi.com/journal/mps) - an international, peer-reviewed, open access journal aiming to establish and describe new experimental techniques in the biological and medical sciences, published bimonthly online by MDPI.
 
-[https://www.mdpi.com/journal/mps](https://www.mdpi.com/journal/mps)
+- [Nature protocols](https://www.nature.com/nprot/) - Nature Protocols publishes secondary research articles - predominantly Protocols (including Protocol Updates and Protocol Extensions), but also techniques-related Reviews, Perspectives, Correspondences, Matters Arising, Commentaries, and Consensus Statements - all of which are based on published primary research papers. We cover new techniques and technologies, as well as established methods, used in all fields of the biological, chemical and clinical sciences. Articles are commissioned by the editors. Authors are welcome to submit suggestions for articles as Presubmission Enquiries, which may then be formally commissioned by the editors.
 
-[https://www.nature.com/nprot/](https://www.nature.com/nprot/) Nature protocols
+- [Current Protocols](https://currentprotocols.onlinelibrary.wiley.com/) - The aim of Current Protocols is to provide the clearest, most detailed, and reliable step-by-step instructions for all protocols relevant to a given scientific subject area. Protocols are commissioned by the editors and have been used to generate results from previous publications.
 
-[https://currentprotocols.onlinelibrary.wiley.com/](https://currentprotocols.onlinelibrary.wiley.com/)
+- [STAR protocols](https://www.cell.com/star-protocols/home) - STAR (Structured Transparent Accessible Reproducible) Protocols is an open-access peer-reviewed protocol journal from Cell Press that publishes step-by-step experimental and computational protocols from all areas of life, health, earth, and physical sciences. The primary criteria for publication in STAR Protocols are usability and reproducibility.
 
-[https://www.cell.com/star-protocols/home](https://www.cell.com/star-protocols/home)
-
-[https://bio-protocol.org/default.aspx](https://bio-protocol.org/default.aspx)
+- [bio-protocol](https://bio-protocol.org/default.aspx) - an online peer-reviewed protocol journal curating and hosting high quality, free access protocols across the life sciences. Protocols are related to published journal articles

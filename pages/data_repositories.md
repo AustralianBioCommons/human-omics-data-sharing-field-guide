@@ -156,6 +156,6 @@ Within Australia, the need to keep data onshore and the challenges involved in a
 
 ## Data repositories explained
 
-Choose a data respository below to learn more about it:
+Choose a data repository below to learn more about it:
 
-{% include section-navigation-tiles.html type="data_repositories" search=true except="data_repositories.md" %}
+{% include section-navigation-tiles.html type="data_repositories" affiliations=true search=true %}

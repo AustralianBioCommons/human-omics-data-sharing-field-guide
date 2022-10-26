@@ -7,7 +7,7 @@ topnav_title: Human 'Omics Data Sharing Field Guide
 description: "Guide to all things human 'omics data sharing in Australia."
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@1.17.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@affiliations-bug
 
 theme_variables:
   privacy_statement_url: https://www.biocommons.org.au/privacy

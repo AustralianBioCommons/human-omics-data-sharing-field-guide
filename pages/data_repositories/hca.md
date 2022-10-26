@@ -2,7 +2,7 @@
 title: Human Cell Atlas
 contributors: [Marion Shadbolt]
 description: Highly curated cellular resolution omics data with aim of building healthy atlas of all human cells.
-affiliations: [GA4GH, EMBL-EBI, UCSC, Broad, US, GB]
+affiliations: [GA4GH, EMBL-EBI, US, GB]
 ---
 
 The [Human Cell Atlas](https://www.humancellatlas.org/) (HCA) is an ambitious project to map the location, function and molecular signature of every cell type in the human body. As well as being an extremely important resource in its own right, it aims to be a healthy reference dataset that many researchers can use to supplement their own research data.

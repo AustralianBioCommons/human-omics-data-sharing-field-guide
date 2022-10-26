@@ -137,7 +137,7 @@ An overview of selected GA4GH data standards, see [GA4GH website](https://www.ga
         </td>
         <td>
         </td>
-        <td> <a href="https://github.com/ga4gh/ga4gh-starter-kit-wes"><i class="fa-brands fa-github fa-2x wes starter kit"></i></a>
+        <td> <a href="https://github.com/ga4gh/ga4gh-starter-kit-wes"><i class="fa-brands fa-github"></i>wes starter kit</a>
         </td>
       </tr>
       <tr>
@@ -155,8 +155,8 @@ An overview of selected GA4GH data standards, see [GA4GH website](https://www.ga
         </td>
         <td> <a href="https://doi.org/10.1016/j.xgen.2021.100030"><i class="fa-regular fa-file-lines"></i> Voisin et al. 2021</a>
         </td>
-        <td> <a href="https://github.com/ga4gh/ga4gh-starter-kit-passport-ui"><i class="fa-brands fa-github fa-2x passport ui starter kit"></i></a>
-             <a href="https://github.com/ga4gh/ga4gh-starter-kit-passport-broker"><i class="fa-brands fa-github fa-2x passport broker starter kit"></i></a>
+        <td> <a href="https://github.com/ga4gh/ga4gh-starter-kit-passport-ui"><i class="fa-brands fa-github"></i>passport ui starter kit</a>
+             <a href="https://github.com/ga4gh/ga4gh-starter-kit-passport-broker"><i class="fa-brands fa-github"></i>passport broker starter kit</a>
         </td>
       </tr>
       <tr>

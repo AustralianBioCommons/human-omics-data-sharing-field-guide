@@ -65,7 +65,7 @@
   type: infrastructure
   url: https://ngdc.cncb.ac.cn/
 - name: CNCB
-  image_url: /images/infrastructures/cnbc-nav.png
+  image_url: /images/infrastructures/cncb-nav.png
   pid:
   expose: true
   type: infrastructure

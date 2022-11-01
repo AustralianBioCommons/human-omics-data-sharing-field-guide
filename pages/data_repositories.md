@@ -7,8 +7,6 @@ Researchers usually need to submit generated human genomics data to a central re
 
 Several tools exist to help a researcher decide where to submit their data:
 
-
-
 * EBI submission helper tool: [https://www.ebi.ac.uk/submission/](https://www.ebi.ac.uk/submission/) 
 * NCBI submission helper tool: [https://submit.ncbi.nlm.nih.gov/](https://submit.ncbi.nlm.nih.gov/) 
 * DDBJ submission guide [https://www.ddbj.nig.ac.jp/documents/data-categories-e.html](https://www.ddbj.nig.ac.jp/documents/data-categories-e.html) 
@@ -159,3 +157,6 @@ Within Australia, the need to keep data onshore and the challenges involved in a
 Choose a data respository below to learn more about it:
 
 {% include section-navigation-tiles.html type="data_repositories" search=true except="data_repositories.md" %}
+
+For full table see here: [https://marion-biocommons.shinyapps.io/field_guide_repo_table/](https://marion-biocommons.shinyapps.io/field_guide_repo_table/)
+<iframe height="400" width="100%" frameborder="no" src="https://marion-biocommons.shinyapps.io/field_guide_repo_table/"> </iframe>

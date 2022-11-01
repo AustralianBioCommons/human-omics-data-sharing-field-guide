@@ -52,3 +52,21 @@
   expose: true
   type: infrastructure
   url: https://www.ncbi.nlm.nih.gov/
+- name: DDBJ
+  image_url: /images/infrastructures/ddbj-logo.png
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://www.ddbj.nig.ac.jp/index-e.html
+- name: NGDC
+  image_url: /images/infrastructures/ngdc-nav.png
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://ngdc.cncb.ac.cn/
+- name: CNCB
+  image_url: /images/infrastructures/cnbc-nav.png
+  pid:
+  expose: true
+  type: infrastructure
+  url: https://www.cncb.ac.cn/

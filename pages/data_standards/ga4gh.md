@@ -1,6 +1,7 @@
 ---
 title: GA4GH
 contributors: [Marion Shadbolt]
+affiliations: [GA4GH]
 ---
 
 An overview of selected GA4GH data standards, see [GA4GH website](https://www.ga4gh.org/how-we-work/workstreams/) for all standards.

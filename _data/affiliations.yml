@@ -44,13 +44,13 @@
   image_url: /images/infrastructures/embl-ebi.png
   pid:
   expose: true
-  type: infrastructure
+  type: institute
   url: https://www.ebi.ac.uk/
 - name: NCBI
   image_url: /images/infrastructures/ncbi.png
   pid:
   expose: true
-  type: infrastructure
+  type: institute
   url: https://www.ncbi.nlm.nih.gov/
 - name: DDBJ
   image_url: /images/infrastructures/ddbj-logo.png
@@ -62,11 +62,23 @@
   image_url: /images/infrastructures/ngdc-nav.png
   pid:
   expose: true
-  type: infrastructure
+  type: institute
   url: https://ngdc.cncb.ac.cn/
 - name: CNCB
   image_url: /images/infrastructures/cncb-nav.png
   pid:
   expose: true
-  type: infrastructure
+  type: institute
   url: https://www.cncb.ac.cn/
+- name: Broad
+  image_url: /images/infrastructures/broad-logo.png
+  pid:
+  expose: true
+  type: institute
+  url: https://www.broadinstitute.org/
+- name: UCSC
+  image_url: /images/infrastructures/UCSC-Logo.png
+  pid:
+  expose: true
+  type: institute
+  url: https://www.ucsc.edu/

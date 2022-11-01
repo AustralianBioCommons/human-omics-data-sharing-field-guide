@@ -29,7 +29,7 @@
   type: infrastructure
   url: https://ardc.edu.au/
 - name: Australian Genomics
-  image_url: /images/infrastructure/Australian-Genomics.png
+  image_url: /images/infrastructures/Australian-Genomics.png
   pid:
   expose: true
   type: infrastructure
@@ -41,13 +41,13 @@
   type: funder
   url: https://www.education.gov.au/ncris
 - name: EMBL-EBI
-  image_url: /image/infrastructures/embl-ebi.png
+  image_url: /images/infrastructures/embl-ebi.png
   pid:
   expose: true
   type: infrastructure
   url: https://www.ebi.ac.uk/
 - name: NCBI
-  image_url: /image/infrastructures/ncbi.png
+  image_url: /images/infrastructures/ncbi.png
   pid:
   expose: true
   type: infrastructure

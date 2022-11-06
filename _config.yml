@@ -51,8 +51,12 @@ defaults:
     values:
       type: legal_ethical
 
+scholar:
+  style: apa
+
 plugins:
   - jemoji
   - jekyll-sitemap
   - jekyll-github-metadata
   - webrick
+  - jekyll-scholar

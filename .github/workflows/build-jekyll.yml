@@ -19,8 +19,7 @@ jobs:
       run: |
         set -xo pipefail
         rm -rf _site/*
-        docker run --rm -v "$PWD:/srv/jekyll" --user $(id -u):$(id -g) -i martinopilia/m-pilia.github.io:latest jekyll build
-        cp CNAME _site/CNAME
+        docker run --rm -v "$PWD:/srv/jekyll" --user $(id -u):$(id -g) -i mshadbolt/human-omics-data-sharing-field-guide:latest jekyll build
     - name: Deploy
       if: github.ref == 'refs/heads/source'
       env:

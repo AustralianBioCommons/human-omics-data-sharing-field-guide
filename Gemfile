@@ -4,7 +4,7 @@ gem 'jekyll', '~> 3.9'
 
 group :jekyll_plugins do
 #   gem 'jekyll-scholar'
-  gem 'github-pages'
+#   gem 'github-pages'
   gem 'elixir-toolkit-theme'
   gem 'jemoji'
   gem 'jekyll-sitemap'

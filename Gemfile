@@ -4,6 +4,7 @@ gem 'jekyll', '~> 4.2'
 
 group :jekyll_plugins do
   gem 'jekyll-scholar'
+  gem 'elixir-toolkit-theme'
   gem 'jemoji'
   gem 'jekyll-sitemap'
   gem 'jekyll-github-metadata'

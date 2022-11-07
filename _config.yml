@@ -20,6 +20,8 @@ theme_variables:
 exclude:
   - README.md
   - [vendor]
+  - vendor
+  - ruby
 
 defaults:
   -

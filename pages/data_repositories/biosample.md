@@ -12,4 +12,9 @@ Samples can be linked to EGA projects if sample metadata provided is openly acce
 
 Metadata can be submitted and queried via their [REST API](https://www.ebi.ac.uk/biosamples/docs/references/api/overview). There is a [python wrapper ](https://github.com/Kerruba/python_biosamples-v4_lib)though it is not actively maintained.
 
-Can be used to provide a stable identifier to project samples as they are being processed and then linked to the final archival submission e.g. HipSci project example [(Streeter et al. 2017)](https://www.zotero.org/google-docs/?854iXy), FAANG project example [https://www.ebi.ac.uk/biosamples/samples?filter=attr%3Aproject%3AFAANG](https://www.ebi.ac.uk/biosamples/samples?filter=attr%3Aproject%3AFAANG) [https://data.faang.org/specimen](https://data.faang.org/specimen)  [https://www.faang.org/](https://www.faang.org/)
+Can be used to provide a stable identifier to project samples as they are being processed and then linked to the final archival submission e.g. HipSci project example {% cite streeter_human-induced_2017 %}, FAANG project example [https://www.ebi.ac.uk/biosamples/samples?filter=attr%3Aproject%3AFAANG](https://www.ebi.ac.uk/biosamples/samples?filter=attr%3Aproject%3AFAANG) [https://data.faang.org/specimen](https://data.faang.org/specimen)  [https://www.faang.org/](https://www.faang.org/)
+
+
+## References
+
+{% bibliography --cited %}

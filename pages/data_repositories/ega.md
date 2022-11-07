@@ -46,7 +46,7 @@ Submission notes:
   
 {% include callout.html type="note" content="For objects that are linked by their accessions i.e. policy, dataset, the objects they refer to must be submitted and assigned accessions by the EGA before they can be linked." %}
 
-Table: Detailed information about ega objects and tips on creating XMLs for each object. Adapted from [(Band 2019; EGA n.d.)](https://www.zotero.org/google-docs/?5otJgj)
+Table: Detailed information about ega objects and tips on creating XMLs for each object. Adapted from {% cite band_me_2019 ega_prepare_2022 %}
 
 
 Table to be reformatted and placed here.

@@ -28,7 +28,7 @@ Many repositories exist to support sharing of data that may not fit into one of 
 
 ### scRNA-tools
 
-[scRNA-tools](https://www.scrna-tools.org/) is a registry for software to analysis single-cell RNA-seq data [(Zappia, Phipson, and Oshlack 2018)](https://www.zotero.org/google-docs/?v3UOD4). There are over 1300 tools in over 30 categories that have been added to date. Users can [nominate new tools](https://www.scrna-tools.org/submit) to be added through a webform. [Stats](https://www.scrna-tools.org/analysis) on the tools are presented and tools can be queried and sorted in a number of different ways, such as by the number of citations or how recently it was updated.
+[scRNA-tools](https://www.scrna-tools.org/) is a registry for software to analysis single-cell RNA-seq data {% cite zappia_exploring_2018 %}. There are over 1300 tools in over 30 categories that have been added to date. Users can [nominate new tools](https://www.scrna-tools.org/submit) to be added through a webform. [Stats](https://www.scrna-tools.org/analysis) on the tools are presented and tools can be queried and sorted in a number of different ways, such as by the number of citations or how recently it was updated.
 
 
 ### WorkflowHub
@@ -68,3 +68,7 @@ The need to share protocols is an emerging need to ensure reproducibility of sci
 - [STAR protocols](https://www.cell.com/star-protocols/home) - STAR (Structured Transparent Accessible Reproducible) Protocols is an open-access peer-reviewed protocol journal from Cell Press that publishes step-by-step experimental and computational protocols from all areas of life, health, earth, and physical sciences. The primary criteria for publication in STAR Protocols are usability and reproducibility.
 
 - [bio-protocol](https://bio-protocol.org/default.aspx) - an online peer-reviewed protocol journal curating and hosting high quality, free access protocols across the life sciences. Protocols are related to published journal articles
+
+## References
+
+{% bibliography --cited %}

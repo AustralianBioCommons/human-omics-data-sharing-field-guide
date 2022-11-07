@@ -4,6 +4,7 @@ gem 'jekyll', '~> 4.2'
 
 group :jekyll_plugins do
   gem 'jekyll-scholar'
+  gem 'jemoji'
 end
 
 # gem 'jekyll', group: :jekyll_plugins

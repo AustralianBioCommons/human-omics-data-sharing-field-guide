@@ -5,7 +5,7 @@ description: Controlled access database for human data.
 affiliations: [ELIXIR Europe, GA4GH, GB, ES]
 ---
 
-The European Genome-Phenome Archive (EGA) is a controlled access data repository for sensitive human data. The repository is managed by EMBL-EBI (UK) and the Centre for Genomic Regulation (CRG) (Spain). Submission is open to anyone and data access is controlled per dataset by a user submitted data access policy and user defined data access committee. A single data access committee and policy may be used for a single dataset or may be reused for multiple datasets.
+The European Genome-Phenome Archive (EGA) {% cite freeberg_european_2022 %} is a controlled access data repository for sensitive human data. The repository is managed by EMBL-EBI (UK) and the Centre for Genomic Regulation (CRG) (Spain). Submission is open to anyone and data access is controlled per dataset by a user submitted data access policy and user defined data access committee. A single data access committee and policy may be used for a single dataset or may be reused for multiple datasets.
 
 
 ## EGA Submission process
@@ -121,3 +121,7 @@ EGA data access guide: [https://ega-archive.org/access/data-access](https://ega-
 There are currently federated EGA nodes being set up in other countries in Europe such as Finland, Sweden, Germany and Spain. The main driver for this has been to allow for data to remain within the country it is generated.
 
 As part of the [Human Genomes Platform Project](https://www.biocommons.org.au/hgpp), leading Australian institutes are looking into the feasibility of setting up a federated node in Australia.
+
+## References
+
+{% bibliography --cited %}

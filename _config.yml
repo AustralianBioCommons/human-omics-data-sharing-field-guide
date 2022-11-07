@@ -7,7 +7,7 @@ topnav_title: Human 'Omics Data Sharing Field Guide
 description: "Guide to all things human 'omics data sharing in Australia."
 # Metadata description of the website
 
-repository: 'mshadbolt/human-omics-data-sharing-field-guide'
+repository: 'AustralianBiocommons/human-omics-data-sharing-field-guide'
 
 remote-theme: ELIXIR-Belgium/elixir-toolkit-theme
 theme: elixir-toolkit-theme

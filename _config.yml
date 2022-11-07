@@ -20,6 +20,10 @@ theme_variables:
   github_buttons:
     history: false
 
+github:  
+  source:
+    branch: main
+
 exclude:
   - README.md
   - [vendor]

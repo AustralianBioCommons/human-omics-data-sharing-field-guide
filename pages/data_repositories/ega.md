@@ -121,3 +121,7 @@ EGA data access guide: [https://ega-archive.org/access/data-access](https://ega-
 There are currently federated EGA nodes being set up in other countries in Europe such as Finland, Sweden, Germany and Spain. The main driver for this has been to allow for data to remain within the country it is generated.
 
 As part of the [Human Genomes Platform Project](https://www.biocommons.org.au/hgpp), leading Australian institutes are looking into the feasibility of setting up a federated node in Australia.
+
+## References
+
+{% bibliography --cited %}

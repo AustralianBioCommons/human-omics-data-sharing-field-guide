@@ -59,6 +59,8 @@ defaults:
 
 scholar:
   bibliography_template: bib
+  sort_by: year, month
+  order: descending
 
 plugins:
   - jemoji

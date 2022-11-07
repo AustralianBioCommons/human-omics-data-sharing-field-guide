@@ -23,4 +23,4 @@ Icons from [Noun Project](https://thenounproject.com/):
 
 # References
 
-List of refs
+For a list of academic references and resources used in this website see the [references](references) page.

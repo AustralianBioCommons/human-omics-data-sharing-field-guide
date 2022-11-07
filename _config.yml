@@ -57,6 +57,9 @@ defaults:
     values:
       type: legal_ethical
 
+scholar:
+  bibliography_template: bib
+
 plugins:
   - jemoji
   - jekyll-sitemap

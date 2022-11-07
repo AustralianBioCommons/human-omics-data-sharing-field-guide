@@ -9,7 +9,6 @@ description: "Guide to all things human 'omics data sharing in Australia."
 
 repository: 'mshadbolt/human-omics-data-sharing-field-guide'
 
-theme: elixir-toolkit-theme
 remote-theme: ELIXIR-Belgium/elixir-toolkit-theme
 
 theme_variables:

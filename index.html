@@ -23,7 +23,24 @@ layout: none
             <div>
                 <p class="text-center lead">A field guide to help Researchers on their Human Omics data sharing journey.
                 </p>
-                <p class="text-center lead">Pick a topic below or use the search bar above to get started!</p>
+                <p class="text-center lead">Pick a topic below or use the search bar to get started!</p>
+            </div>
+        </section>
+        <section id="search-section" class="bg-light py-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="no-anchor text-center mb-3">What can we help you find?</h2>
+                    <div class="position-relative">
+                        <div class="d-flex justify-content-center">
+                            <form role="search" class="input-group">
+                                <span class="input-group-text" id="search-label"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <input type="search" id="search-input" class="search-input form-control form-control-lg bg-white" tabindex="0"
+                                    placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
+                            </form>
+                            <div id="search-results" class="search-results"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="bg-light pb-5">

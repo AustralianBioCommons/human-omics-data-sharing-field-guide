@@ -3,6 +3,6 @@ title: Major Genome Projects
 toc: true
 ---
 
-sections
+National and International Genome projects.
 
-{% include section-navigation-tiles.html type="major_genome_projects" search=true except="major_genome_projects.md" %}
+{% include section-navigation-tiles.html type="major_genome_projects" affiliations=true search=true %} 

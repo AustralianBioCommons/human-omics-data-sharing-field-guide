@@ -60,6 +60,11 @@ defaults:
       type: "pages"
     values:
       type: legal_ethical
+  - scope:
+      path: pages/major_genome_projects
+      type: "pages"
+    values:
+      types: major_genome_projects
 
 scholar:
   bibliography_template: bib
@@ -71,3 +76,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-github-metadata
   - webrick
+  - jekyll-scholar

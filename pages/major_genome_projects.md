@@ -1,9 +1,8 @@
 ---
-title: Human Genomes Platform Project
+title: Major Genome Projects
 toc: true
-description: The HGPP project is designed to enhance capability for securely and responsibly sharing human genome research data nationally and internationally, ensuring maximum value can be derived from these valuable assets.
-contributors: [Marion Shadbolt]
-affiliations: [ARDC, NCRIS, Australian BioCommons]
 ---
 
-description
+sections
+
+{% include section-navigation-tiles.html type="major_genome_projects" search=true except="major_genome_projects.md" %}

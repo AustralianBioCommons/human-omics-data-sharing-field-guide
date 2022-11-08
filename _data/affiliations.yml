@@ -82,3 +82,9 @@
   expose: true
   type: institute
   url: https://www.ucsc.edu/
+- name: FHIR
+  image_url: /images/infrastructures/fhir-logo.jpeg
+  pid:
+  expose: true
+  type: standard
+  url: http://hl7.org/fhir/

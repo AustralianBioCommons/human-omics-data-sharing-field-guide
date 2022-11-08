@@ -88,3 +88,9 @@
   expose: true
   type: standard
   url: http://hl7.org/fhir/
+- name: Beacon
+  image_url: /images/tools/beacon_logo.png
+  pid:
+  expose: true
+  type: standard
+  url: https://docs.genomebeacons.org/

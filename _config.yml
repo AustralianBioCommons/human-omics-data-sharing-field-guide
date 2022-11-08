@@ -61,7 +61,7 @@ defaults:
     values:
       type: legal_ethical
   - scope:
-      path: pages/major_genome_projects
+      path: "pages/major_genome_projects"
       type: "pages"
     values:
       types: major_genome_projects

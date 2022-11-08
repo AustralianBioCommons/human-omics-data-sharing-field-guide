@@ -9,6 +9,8 @@ subitems:
         url: ga4gh
       - title: FHIR
         url: /fhir
+      - title: Beacon
+        url: /beacon
   - title: Legal and Ethical Considerations
     url: /legal_ethical
     image_url: /assets/img/section-icons/noun-ethical-4351477.svg
@@ -20,6 +22,9 @@ subitems:
   - title: Major Genome Projects
     url: /major_genome_projects
     image_url: /assets/img/section-icons/noun-dna-5171631.svg
+    subitems:
+      - title: Human Genome Platforms Project
+        url: /hgpp
   - title: Support Agencies
     url: /support_agencies
     image_url: /assets/img/section-icons/noun-support-4615984.svg

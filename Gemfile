@@ -4,7 +4,7 @@ gem 'jekyll', '~> 3.9'
 
 group :jekyll_plugins do
   gem 'github-pages'
-  gem 'elixir-toolkit-theme'
+  gem 'elixir-toolkit-theme', '1.19.0'
   gem 'jemoji'
   gem 'jekyll-sitemap'
   gem 'jekyll-github-metadata'

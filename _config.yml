@@ -50,21 +50,30 @@ defaults:
       type: "pages"
     values:
       type: data_standards
-  - scope:
+  -
+    scope:
       path: "pages/data_repositories"
       type: "pages"
     values:
       type: data_repositories
-  - scope:
+  -
+    scope:
       path: pages/legal_ethical
       type: "pages"
     values:
       type: legal_ethical
-  - scope:
+  -
+    scope:
       path: "pages/major_genome_projects"
       type: "pages"
     values:
       types: major_genome_projects
+  -
+    scope:
+      path: "pages/support_agencies"
+      type: "pages"
+    values:
+      types: support_agencies
 
 scholar:
   bibliography_template: bib

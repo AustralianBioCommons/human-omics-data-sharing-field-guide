@@ -19,7 +19,7 @@ subitems:
         url: /australian_legal
       - title: GDPR
         url: /gdpr
-  - title: Major Genome Projects
+  - title: Major genome projects
     url: /major_genome_projects
     image_url: /assets/img/section-icons/noun-dna-5171631.svg
     subitems:

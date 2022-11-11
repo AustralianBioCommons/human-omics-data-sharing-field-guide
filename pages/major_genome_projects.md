@@ -1,5 +1,5 @@
 ---
-title: Major Genome Projects
+title: Major genome projects
 toc: true
 ---
 

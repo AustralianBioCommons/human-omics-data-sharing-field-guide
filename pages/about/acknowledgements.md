@@ -20,7 +20,3 @@ Icons from [Noun Project](https://thenounproject.com/):
 - [Data](https://thenounproject.com/icon/data-5139557/) by ToZIcon
 - [users](https://thenounproject.com/icon/users-943303/) by Oksana Latysheva
 - [repository](https://thenounproject.com/icon/repository-5189674/) by RAHMAT DWI CAHYO
-
-# References
-
-For a list of academic references and resources used in this website see the [references](references) page.

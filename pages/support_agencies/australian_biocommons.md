@@ -1,6 +1,6 @@
 ---
 title: Australian BioCommons
-contributors: [Jessica Holliday, Marion Shadbolt]
+contributors: [Jess Holliday, Marion Shadbolt]
 toc: true
 description: Support for Australian Life Science researchers
 ---

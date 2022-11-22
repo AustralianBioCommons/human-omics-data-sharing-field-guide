@@ -7,3 +7,10 @@ affiliations: [Beacon]
 ---
 
 Stuff about beacon
+
+stuff about sbeacon
+
+beacon network
+
+reference implementation 
+etc

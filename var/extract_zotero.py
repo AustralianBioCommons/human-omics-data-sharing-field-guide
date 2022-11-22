@@ -13,7 +13,7 @@ def process_args():
                         help='Specify your personal zotero userid or the library id')
     parser.add_argument('--zot-library-type', default='group', choices=['group', 'user'],
                         help='Specify the zotero library type, "user" or "group", default "group"')
-    parser.add_argument('--output-path', default='../_bibliography/references.bib',
+    parser.add_argument('--output-path', default='_bibliography/references.bib',
                         help='Path where the bibtex file should be saved')
 
     return parser.parse_args()

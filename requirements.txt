@@ -4,4 +4,3 @@ argparse
 PyYAML
 python-frontmatter
 urllib3
-pyzotero

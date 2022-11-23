@@ -1,7 +1,6 @@
-from pyzotero import zotero
+
 import argparse
 import requests
-from pyzotero import zotero
 
 def process_args():
     """parse command-line arguments

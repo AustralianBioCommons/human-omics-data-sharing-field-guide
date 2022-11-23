@@ -26,10 +26,10 @@ if __name__ == "__main__":
 
     ref_strings = []
     response = requests.get(f'{api_url}/groups/{library_id}/items/top?pprint=1&limit=30&format=bibtex&start=0')
-    while response.links['next']['url'] != response.links['last']['url']:
+    while 'next' in response.links.keys():
+        print(f"Fetching from: {response.links['next']['url']}")
         ref_strings.append(response.text)
         response = requests.get(response.links['next']['url'])
-
 
     with open(args.output_path, "w+") as refs:
         for text in ref_strings:

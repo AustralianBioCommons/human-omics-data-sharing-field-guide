@@ -51,23 +51,36 @@ To find out the identifier of the article you want to reference:
 1. Once you have found the article, copy the article identifier, the first part of the entry, just after the `@article{`. It is usually a combination of the first author, a key word from the title, and the year of publication. e.g. `zappia_exploring_2018`
 1. Open the markdown file of the page where you would like to add the citation
 1. At the location where you want to add the reference, use the identifier to create the following code:
-```markdown
+
+{% raw %}
+```
 {% cite $identifier %}
 ```
+{% raw %}
+
 So using the example above, this would look like
-```markdown
+
+{% raw %}
+```
 {% cite zappia_exploring_2018 %}
 ```
+{% raw %}
 When the website is built, this will be rendered into a reference like this: {% cite zappia_exploring_2018 %}
 
 ### Adding reference list to a page
 
 If you would like to have a list of the references that have been cited on a page at the bottom, simply use the following code:
-```markdown
+
+{% raw %}
+```
 {% bibliography --cited %}
 ```
+{% raw %}
 
-If you want to list all references  that are in the entire references.bib file, remove the `--cited` tag. This is what is displayed on the [References](/references) page.
+Using our example reference, this would look like this:
+{% bibliography %}
+
+If you want to list all references  that are in the entire `references.bib` file, remove the `--cited` tag. This is what is displayed on the [References](/references) page.
 
 ### Modifying citation and reference style and appearances
 

@@ -56,7 +56,7 @@ To find out the identifier of the article you want to reference:
 ```
 {% cite $identifier %}
 ```
-{% raw %}
+{% endraw %}
 
 So using the example above, this would look like
 
@@ -64,7 +64,8 @@ So using the example above, this would look like
 ```
 {% cite zappia_exploring_2018 %}
 ```
-{% raw %}
+{% endraw %}
+
 When the website is built, this will be rendered into a reference like this: {% cite zappia_exploring_2018 %}
 
 ### Adding reference list to a page
@@ -75,7 +76,7 @@ If you would like to have a list of the references that have been cited on a pag
 ```
 {% bibliography --cited %}
 ```
-{% raw %}
+{% endraw %}
 
 Using our example reference, this would look like this:
 {% bibliography %}

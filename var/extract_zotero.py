@@ -5,7 +5,7 @@ import requests
 def process_args():
     """parse command-line arguments
     """
-    parser = argparse.ArgumentParser(prog='Zotero Extracter',
+    parser = argparse.ArgumentParser(prog='Zotero Extractor',
                                      description='Extracts the latest references from a zotero library and saves a '
                                                  'bibtex file.', )
     parser.add_argument('--zot-library-id',

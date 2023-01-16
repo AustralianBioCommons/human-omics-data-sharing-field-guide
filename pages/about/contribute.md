@@ -116,13 +116,15 @@ To reference an organisation or country affiliation from a page, it needs to be 
 title: EGA
 contributors: [Marion Shadbolt]
 description: Controlled access database for human data.
-affiliations: [ELIXIR Europe, GA4GH, GB, ES]
+affiliations: [ELIXIR Europe, GA4GH, EMBL-EBI, Centre for Genomic Regulation, GB, ES]
 ---
 ```
 
 These affiliations then show up on the navigation tiles and allow filtering on organisation and country. As well as linking directly to the provided affiliation link.
 
+Example result from the [Data repositories exaplained](https://australianbiocommons.github.io/human-omics-data-sharing-field-guide/data_repositories#data-repositories-explained) section:
 
+{% include image.html file="/screenshots/EGA-nav-tile.png" caption="Screenshot of EGA navigation tile with affiliations" alt="EEGA navigation tile with affiliations" max-width="10" %}
 
 
 ## Guide to adding contributors

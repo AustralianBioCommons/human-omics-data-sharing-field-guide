@@ -63,6 +63,9 @@ If you want to list all references  that are in the entire `references.bib` file
 
 ## Modifying citation and reference style and appearances
 
-The style and format of the references is controlled by the [_layouts/bib.html](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/main/_layouts/bib.html) file.
 
-More information about how to edit this can be found in the [Jekyll Scholar Documentation](https://github.com/inukshuk/jekyll-scholar#configuration).
+The overall style and format of citations and references is determined by the `scholar` block in the [`_config.yml`](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/90cbd1f372ab2e50fc4ad3ea94fa185dfd798973/_config.yml#L85).
+
+You can modify what is displayed in the reference when it is listed by editing the [_layouts/bib.html](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/main/_layouts/bib.html) file.
+
+More information about how to edit the configurations can be found in the [Jekyll Scholar Documentation](https://github.com/inukshuk/jekyll-scholar#configuration).

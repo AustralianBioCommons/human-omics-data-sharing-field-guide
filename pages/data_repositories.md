@@ -149,9 +149,12 @@ Table 1. Databases of the three INSDC nodes (adapted from {% cite arita_internat
   </tr>
 </table>
 
-$(document).ready( function () {
-    $('#table_id').DataTable();
-} );
+<script>
+    $(document).ready( function () {
+        $('#table_id').DataTable();
+    } );
+</script>
+
 
 ## Controlled Access data repositories
 

@@ -74,6 +74,13 @@ defaults:
       type: "pages"
     values:
       type: support_agencies
+  -
+    scope:
+      path: "pages/about/contribute"
+      type: "pages"
+    values:
+      type: contribute
+
 
 scholar:
   bibliography_template: bib

@@ -6,6 +6,10 @@ contributors: [Marion Shadbolt]
 
 ## Ways to contribute:
 
+For detailed information on how to add particular aspects, see the following guides:
+
+{% include section-navigation-tiles.html type="contribute" affiliations=true search=true %}
+
 ### GitHub Issues
 
 If you find an error, bug or mistake, please [make a GitHub issue](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/issues/new) detailing the problem and we will do our best fix it as soon as we can. This can also be done by clicking the `!` symbol next to the title of any page.

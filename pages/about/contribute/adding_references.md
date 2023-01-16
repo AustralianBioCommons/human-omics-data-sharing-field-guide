@@ -8,7 +8,7 @@ The references for the field guide are managed using a Zotero group library - [H
 
 Each time the website is built, [a script](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/main/var/extract_zotero.py) to extract all references from Zotero and save as a bibtex file (`_bibliography/references.bib`) in the repo is run via [GitHub actions](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/main/.github/workflows/github-pages.yml). 
 
-# Adding references to bibliography
+## Adding references to bibliography
 
 {% include callout.html type="note" content="Ensure you have [Zotero](https://www.zotero.org/) installed with the appropriate browser addon and the ability to add references to the Zotero group library, if you need to be added as a member, please [contact the HGI team](mailto:marion@biocommons.org.au)." %}
 
@@ -18,7 +18,7 @@ Each time the website is built, [a script](https://github.com/AustralianBioCommo
 
 Next time the Human 'Omics field guide is updated, the new reference will be automatically added to the `_bibliography/references.bib` file.
 
-# Adding citations to a page
+## Adding citations to a page
 
 Any citation in the `_bibliography/references.bib` file can be referenced using its identifier. This is done through the use of the [Jekyll Scholar](https://github.com/inukshuk/jekyll-scholar) extension.  
 
@@ -46,7 +46,7 @@ So using the example above, this would look like
 
 When the website is built, this will be rendered into a reference like this: {% cite zappia_exploring_2018 %}
 
-# Adding reference list to a page
+## Adding reference list to a page
 
 If you would like to have a list of the references that have been cited on a page at the bottom, simply use the following code:
 
@@ -61,7 +61,7 @@ Using our example reference, this would look like this:
 
 If you want to list all references  that are in the entire `references.bib` file, remove the `--cited` tag. This is what is displayed on the [References](https://australianbiocommons.github.io/human-omics-data-sharing-field-guide/references) page.
 
-# Modifying citation and reference style and appearances
+## Modifying citation and reference style and appearances
 
 The style and format of the references is controlled by the [_layouts/bib.html](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/main/_layouts/bib.html) file.
 

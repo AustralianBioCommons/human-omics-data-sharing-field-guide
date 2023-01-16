@@ -5,6 +5,9 @@ subitems:
     url: /contributors
   - title: Contribute
     url: /contribute
+    subitems:
+      - title: adding_references
+      - url: /adding_references
   - title: Acknowledgements
     url: /acknowledgements
   - title: References

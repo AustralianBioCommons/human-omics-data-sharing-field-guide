@@ -1,6 +1,7 @@
 ---
 title: Data repositories
 contributors: [Marion Shadbolt]
+datatable: true
 ---
 
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">

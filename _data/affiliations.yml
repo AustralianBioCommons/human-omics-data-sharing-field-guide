@@ -94,3 +94,9 @@
   expose: true
   type: standard
   url: https://docs.genomebeacons.org/
+- name: Centre for Genomic Regulation
+  image_url: /images/institutes/crg_logo.png
+  pid:
+  expose: true
+  type: institute
+  url: https://www.crg.eu/

@@ -162,7 +162,7 @@ Choose a data repository below to learn more about it:
 
 {% include section-navigation-tiles.html type="data_repositories" affiliations=true search=true %}
 
-### Data repositories summary table
+## Data repositories summary table
 
 For full-size interactive table see here: [https://marion-biocommons.shinyapps.io/field_guide_repo_table/](https://marion-biocommons.shinyapps.io/field_guide_repo_table/)
 <iframe height="800" width="100%" frameborder="no" src="https://marion-biocommons.shinyapps.io/field_guide_repo_table/"> </iframe>

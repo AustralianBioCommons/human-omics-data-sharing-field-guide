@@ -544,11 +544,6 @@ python automated script </td>
 </tbody>
 </table>
 
-<script>
-    $(document).ready( function () {
-        $('#table_id2').DataTable();
-    } );
-</script>
 
 For full-size interactive table see here: [https://marion-biocommons.shinyapps.io/field_guide_repo_table/](https://marion-biocommons.shinyapps.io/field_guide_repo_table/)
 <iframe height="800" width="100%" frameborder="no" src="https://marion-biocommons.shinyapps.io/field_guide_repo_table/"> </iframe>

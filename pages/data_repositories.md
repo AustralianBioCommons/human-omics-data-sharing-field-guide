@@ -3,6 +3,11 @@ title: Data repositories
 contributors: [Marion Shadbolt]
 ---
 
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
+  
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
+
+
 Researchers usually need to submit generated human genomics data to a central repository in order to obtain an accession that will allow publication {% cite plos_one_data_2019 cannon_repository_2021 cellpress_authors_2021 springer_nature_mandated_2022  %} and to meet funding requirements. Where to submit depends both on the data type and permissions related to data use.
 
 Several tools exist to help a researcher decide where to submit their data:
@@ -33,7 +38,7 @@ While not part of the INSDC, the China National Center for Bioinformation (CNCB)
 Table 1. Databases of the three INSDC nodes (adapted from {% cite arita_international_2020 %} and the NGDC CNCB. INSDC resources coloured in blue
 
 
-<table>
+<table id="table_id">
   <tr>
    <td><strong>Institute</strong>
    </td>
@@ -144,7 +149,9 @@ Table 1. Databases of the three INSDC nodes (adapted from {% cite arita_internat
   </tr>
 </table>
 
-
+$(document).ready( function () {
+    $('#table_id').DataTable();
+} );
 
 ## Controlled Access data repositories
 

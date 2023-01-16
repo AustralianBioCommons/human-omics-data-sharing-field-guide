@@ -6,8 +6,12 @@ subitems:
   - title: Contribute
     url: /contribute
     subitems:
-      - title: adding_references
-      - url: /adding_references
+      - title: Adding references
+        url: /adding_references
+      - title: Adding contributors
+        url: /adding_contributors
+      - title: Adding affiliations
+        url: /adding_affiliations
   - title: Acknowledgements
     url: /acknowledgements
   - title: References

@@ -8,7 +8,7 @@ contributors: [Marion Shadbolt]
 
 For detailed information on how to add particular aspects, see the following guides:
 
-{% include section-navigation-tiles.html type="contribute" affiliations=true search=true %}
+{% include section-navigation-tiles-simple.html type="contribute" affiliations=false search=false %}
 
 ### GitHub Issues
 

@@ -33,6 +33,8 @@ subitems:
     subitems:
       - title: Australian BioCommons
         url: /australian_biocommons
+      - title: BioGrid
+        url: /biogrid
   - title: Data repositories
     url: /data_repositories
     image_url: /assets/img/section-icons/noun-database-5180256.svg

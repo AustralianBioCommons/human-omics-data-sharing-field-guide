@@ -9,8 +9,9 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-github-metadata'
   gem 'webrick'
-  gem 'citeproc', '1.0.4'
-  gem 'citeproc-ruby', '1.1.4'
+  gem 'citeproc', '~>1.0.4'
+  gem 'citeproc-ruby', '~>1.1.4'
+  gem 'csl-styles'
   gem 'jekyll-scholar', '5.16.0'
 end
 

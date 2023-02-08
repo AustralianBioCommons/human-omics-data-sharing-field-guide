@@ -35,7 +35,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -m "update refs" -a
+          git diff-index --quiet HEAD || git commit -m "update refs"
 
       - name: Push if changes
         #if: steps.changed-files-specific.outputs.any_changed == 'true'

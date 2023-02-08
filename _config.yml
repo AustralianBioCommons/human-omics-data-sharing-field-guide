@@ -14,6 +14,9 @@ theme: elixir-toolkit-theme
 
 theme_variables:
   privacy_statement_url: https://www.biocommons.org.au/privacy
+  topnav:
+    theme: dark
+  theme_colour: ed087c
   toc:
     min_headers: 2
     headers: 'h2, h3'
@@ -29,6 +32,9 @@ exclude:
   - [vendor]
   - vendor
   - ruby
+  - var/
+  - Gemfile*
+  - LICENSE
 
 defaults:
   -

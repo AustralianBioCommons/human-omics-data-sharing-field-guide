@@ -10,6 +10,8 @@ The European Genome-Phenome Archive ([EGA](https://ega-archive.org/)) {% cite fr
 
 ## EGA Submission process
 
+{% include callout.html type="important" content="Note that the EGA are transitioning to programmatic submissions with JSON files and schemas, expected by Q4 2023." %}
+
 The EGA submission process can be challenging to those unfamiliar to it, so the following sections provide an overview as well as some tips and tricks that may help you along the way. The first step is to gain an EGA submission account, which can be done by completing the [submission account form](https://ega-archive.org/submission-form.php).
 
 

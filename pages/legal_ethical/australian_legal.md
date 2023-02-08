@@ -20,10 +20,11 @@ The main ethical code covering sharing of human genomic information for research
 
 Chapters 2.2 and 2.3 of the National Statement deal with consent and qualifiers and waivers of consent. Chapter 3.3 deals with genomic data. Chapter 4.7 addresses considerations related to Aboriginal and Torres Strait Islander peoples.
 
-## The Privacy act
+## The *Privacy act*
 
-Consent is usually required for genomic information meeting the definition of personal information as defined under Australian privacy laws. The federal public sector and private corporations are bound by the Privacy Act 1988 {% cite ag_privacy_2022 oaic_privacy_2022 %}(Commonwealth). Similarly most states and territories also have their own privacy legislation. In the federal legislation personal information must not be disclosed by a regulated entity beyond its original purpose for collection, unless a person has consented to the disclosure or exemptions apply. Exemptions allowing disclosure without consent include research with an impact on public health and safety and circumstances where the research cannot proceed without the use of de-identified data. The privacy act does not say whether genomic sequencing data on its own constitutes personal information, and this has not been tested in court.
+Consent is usually required for genomic information meeting the definition of personal information as defined under Australian privacy laws. The federal public sector and private corporations are bound by the *Privacy Act* 1988 {% cite ag_privacy_2022 oaic_privacy_2022 %}(Commonwealth). Similarly most states and territories also have their own privacy legislation. In the federal legislation personal information must not be disclosed by a regulated entity beyond its original purpose for collection, unless a person has consented to the disclosure or exemptions apply. Exemptions allowing disclosure without consent include research with an impact on public health and safety and circumstances where the research cannot proceed without the use of de-identified data. The *Privacy Act* does not say whether genomic sequencing data on its own constitutes personal information, and this has not been tested in court. 
 
+A recent publication by Paltiel, Taylor and Newson {% cite paltiel_protection_2023 -A %} provides a deeper discussion of when genomic data may or may not be considered 'personal information' and protected under the *Privacy Act*. The context of the data and how it may contribute to the reasonable identifiability is important to understanding whether the *Privacy Act* applies to such data {% cite paltiel_protection_2023 %}.
 
 ## References
 

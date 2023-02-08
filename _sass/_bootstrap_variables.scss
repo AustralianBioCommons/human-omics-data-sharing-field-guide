@@ -15,11 +15,18 @@ $bioc-green: #2cb77c;
 $primary:       $bioc-blue;
 $secondary:     $bioc-teal;
 $light:         #f8f9fa;
-$dark:          #212529;
+$dark:          #ed087c;
+$white:         #fff;
 $blue:          $bioc-blue;
 
 /*-----Custom values for Bootstrap variables-----*/
+$component-active-bg: $primary;
+$navbar-dark-color: $white;
+$navbar-dark-hover-color: $primary;
+$navbar-dark-toggler-border-color: transparent;
 $link-decoration: none;
 $nav-link-color: $dark;
 $nav-link-hover-color: $primary;
 $box-shadow: rgba(0, 0, 0, 0.19) 0px 3px 8px;
+$body-bg: $white;
+$body-color: $dark;

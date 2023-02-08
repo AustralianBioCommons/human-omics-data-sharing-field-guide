@@ -22,15 +22,7 @@ jobs:
       - name: execute python script
         run: python var/extract_zotero.py --zot-library-id 4744118
 
-      - name: Get changed files in the _bibliography folder
-        id: changed-files-specific
-        uses: tj-actions/changed-files@v34
-        with:
-          files: |
-            _bibliography/**
-
       - name: Commit if bibliography has been updated
-        #if: steps.changed-files-specific.outputs.any_changed == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -38,7 +30,6 @@ jobs:
           git diff-index --quiet HEAD || git commit -m "update refs"
 
       - name: Push if changes
-        #if: steps.changed-files-specific.outputs.any_changed == 'true'
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

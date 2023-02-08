@@ -30,7 +30,7 @@ jobs:
             _bibliography/**
 
       - name: Commit if bibliography has been updated
-        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        #if: steps.changed-files-specific.outputs.any_changed == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -38,7 +38,7 @@ jobs:
           git commit -m "update refs" -a
 
       - name: Push if changes
-        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        #if: steps.changed-files-specific.outputs.any_changed == 'true'
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

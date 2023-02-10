@@ -98,4 +98,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-github-metadata
   - webrick
+  - citeproc
+  - citeproc-ruby
   - jekyll-scholar

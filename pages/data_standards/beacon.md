@@ -32,13 +32,17 @@ The two main GitHub repos are:
 
 A serverless implementation of the Beacon specification has been developled by the Transformational Bioinformatics team at [CSIRO AERC](https://aehrc.csiro.au/research/cloud-native-genomics/). This 'on-demand' implementation can offer a fast and cost-effective way of running a Beacon as the cost is proportional to how much it is used, rather than a constant running cost. Originally published to the [version 1 specification](https://github.com/aehrc/terraform-aws-serverless-beacon), developers are now updating the implementation to support [Beacon v2](https://github.com/aehrc/terraform-aws-serverless-beacon/tree/dev).
 
-An investigation of the in-progress v2 sBeacon implementation by the team at the University of Melbourne Centre for Cancer Research can be explored here: [<i class="fa-brands fa-github"></i> *sbeacon-exploration*](https://github.com/umccr/sbeacon-exploration)
+An investigation of the in-progress v2 sBeacon implementation by the team at the University of Melbourne Centre for Cancer Research can be explored here: 
+
+[<i class="fa-brands fa-github"></i> *sbeacon-exploration*](https://github.com/umccr/sbeacon-exploration)
 
 ### Java Beacon (jBeacon)
 
-A Java implementation of the Beacon v2 Specification was developed by the Barcelona Supercomputing Centre (BSC)
+A Java implementation of the Beacon v2 Specification has been developed by the Barcelona Supercomputing Centre (BSC) {% cite repchevsky_open_2022 %}.
 
-An investigation of the jBeacon implementation by the team at the University of Melbourne Centre for Cancer Research can be explored here: [<i class="fa-brands fa-github"></i> *sbeacon-exploration*](https://github.com/umccr/beacon-doc)
+An investigation of the jBeacon implementation by the team at the University of Melbourne Centre for Cancer Research can be explored here: 
+
+[<i class="fa-brands fa-github"></i> *jbeacon-exploration*](https://github.com/umccr/beacon-doc)
 
 ## Beacon networks
 

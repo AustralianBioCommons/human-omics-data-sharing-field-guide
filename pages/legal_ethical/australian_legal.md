@@ -26,6 +26,22 @@ Consent is usually required for genomic information meeting the definition of pe
 
 A recent publication by Paltiel, Taylor and Newson {% cite paltiel_protection_2023 %} provides a deeper discussion of when genomic data may or may not be considered 'personal information' and protected under the *Privacy Act*. The context of the data and how it may contribute to the reasonable identifiability is important to understanding whether the *Privacy Act* applies to such data {% cite paltiel_protection_2023 %}.
 
+The *Privacy Act* is currently under review with a [report](https://www.ag.gov.au/rights-and-protections/publications/privacy-act-review-report) recently released with the plan for how to strengthen protection of personal information. It is open for feedback until 31 March 2023.
+
+Some potentially relevant proposals and amendments that are part of the report:
+
+- **4.9 Sensitive Information** 
+  - a. Recommendation to add 'genomic information' as one of the categories of sensitive information
+- **14 Research** 
+  1. introduce legislative provision that permits broad consent for the purposes of research 
+  2. consult further on broadening scope of research permitted without consent under the Act
+- **18 Rights of the individual**
+  - **18.1** - right to access and explanation
+  - **18.2** - right to objection to use or disclosure 
+  - **18.3** - right to erasure
+  - **18.4** - right to correction 
+- **22.1 Introduction of concepts of controllers and processors** - This is reminiscent of the language used in international legislation such as Europe's GDPR legislation.
+
 ## References
 
 {% bibliography --cited %}

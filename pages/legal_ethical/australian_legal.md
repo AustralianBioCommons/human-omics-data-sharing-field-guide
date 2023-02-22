@@ -40,7 +40,7 @@ Some potentially relevant proposals and amendments that are part of the report:
   - **18.2** - right to objection to use or disclosure 
   - **18.3** - right to erasure
   - **18.4** - right to correction 
-- **22.1 Introduction of concepts of controllers and processors** - This is reminiscent of the language used in international legislation such as Europe's GDPR legislation.
+- **22.1 Introduction of concepts of controllers and processors** - This is intentionally using similar language used in international legislation such as Europe's GDPR legislation.
 
 ## References
 

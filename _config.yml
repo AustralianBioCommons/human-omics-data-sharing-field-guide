@@ -16,6 +16,7 @@ theme_variables:
   privacy_statement_url: https://www.biocommons.org.au/privacy
   topnav:
     theme: dark
+    brand_logo: asses/img/main_logo.png
   theme_colour: 205a86
   toc:
     min_headers: 2

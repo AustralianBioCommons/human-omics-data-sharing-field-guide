@@ -20,3 +20,4 @@ Icons from [Noun Project](https://thenounproject.com/):
 - [Data](https://thenounproject.com/icon/data-5139557/) by ToZIcon
 - [users](https://thenounproject.com/icon/users-943303/) by Oksana Latysheva
 - [repository](https://thenounproject.com/icon/repository-5189674/) by RAHMAT DWI CAHYO
+- [pages](https://thenounproject.com/icon/pages-4201181/) by Alzam

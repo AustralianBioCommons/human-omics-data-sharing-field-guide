@@ -16,5 +16,7 @@ subitems:
         url: /adding_to_data_repository_table
   - title: Acknowledgements
     url: /acknowledgements
+  - title: News
+    url: /news
   - title: References
     url: /references

@@ -23,6 +23,8 @@ theme_variables:
     headers: 'h2, h3'
   github_buttons:
     history: false
+  fonts:
+    - https://fonts.googleapis.com/css?family=Nunito
 
 github:  
   source:

@@ -68,3 +68,6 @@ subitems:
   - title: Other repositories
     url: /other_repositories
     image_url: /assets/img/section-icons/noun-repository-5189674.svg
+  - title: Infrastructure Technology Platforms
+    url: /infrastructure_technology_platforms
+    image_url: /assets/img/section-icons/noun-technology-5621926.svg

@@ -21,3 +21,4 @@ Icons from [Noun Project](https://thenounproject.com/):
 - [users](https://thenounproject.com/icon/users-943303/) by Oksana Latysheva
 - [repository](https://thenounproject.com/icon/repository-5189674/) by RAHMAT DWI CAHYO
 - [pages](https://thenounproject.com/icon/pages-4201181/) by Alzam
+- [technology](https://thenounproject.com/icon/technology-5621926/) by Teguh Arif

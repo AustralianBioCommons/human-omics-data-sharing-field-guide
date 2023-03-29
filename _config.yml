@@ -89,7 +89,8 @@ defaults:
       type: "pages"
     values:
       type: contribute
-  - scope:
+  -
+    scope:
       path: "pages/infrastructure_technology_platforms"
       type: "pages"
     values:

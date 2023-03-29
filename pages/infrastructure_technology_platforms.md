@@ -1,6 +1,6 @@
 ---
-title: Infrastrucure Technology Platforms
+title: Infrastructure Technology Platforms
 toc: true
 ---
 
-{% include section-navigation-tiles.html type="legal_ethical" search=true except="infrastructure_platforms.md" %}
+{% include section-navigation-tiles.html type="infrastructure_technology_platforms" search=true except="infrastructure_platforms.md" %}

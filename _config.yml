@@ -24,7 +24,7 @@ theme_variables:
   github_buttons:
     history: false
   fonts:
-    - https://fonts.googleapis.com/css?family=Nunito
+    - https://fonts.googleapis.com/css?family=Nunito&display=swap"
 
 github:  
   source:

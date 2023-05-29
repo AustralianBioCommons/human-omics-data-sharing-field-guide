@@ -1,5 +1,5 @@
 ---
-title: Data repositories
+title: Repositories
 contributors: [Marion Shadbolt]
 ---
 
@@ -160,7 +160,7 @@ Within Australia, the need to keep data onshore and the challenges involved in a
 
 Choose a data repository below to learn more about it:
 
-{% include section-navigation-tiles.html type="data_repositories" affiliations=true search=true %}
+{% include section-navigation-tiles.html type="repositories" affiliations=true search=true %}
 
 ## Data repositories summary table
 

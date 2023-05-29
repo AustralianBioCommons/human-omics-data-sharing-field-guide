@@ -11,6 +11,12 @@ subitems:
         url: /fhir
       - title: Beacon
         url: /beacon
+      - title: Gen3
+        url: /gen3
+      - title: phenopackets
+        url: /phenopackets
+      - title: rems
+        url: /rems
   - title: Ethical, Legal and Social Issues
     url: /legal_ethical
     image_url: /assets/img/section-icons/noun-ethical-4351477.svg
@@ -63,6 +69,3 @@ subitems:
         url: /omicsdi
       - title: Other repositories
         url: other_repositories
-  - title: Infrastructure Technology Platforms
-    url: /infrastructure_technology_platforms
-    image_url: /assets/img/section-icons/noun-technology-5621926.svg

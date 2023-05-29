@@ -55,16 +55,16 @@ defaults:
       sidebar: about
   -
     scope:
-      path: "pages/data_standards"
+      path: "pages/technologies_standards"
       type: "pages"
     values:
-      type: data_standards
+      type: technologies_standards
   -
     scope:
-      path: "pages/data_repositories"
+      path: "pages/repositories"
       type: "pages"
     values:
-      type: data_repositories
+      type: repositories
   -
     scope:
       path: pages/legal_ethical
@@ -73,28 +73,16 @@ defaults:
       type: legal_ethical
   -
     scope:
-      path: "pages/major_genome_projects"
+      path: pages/activities_agencies
       type: "pages"
     values:
-      type: major_genome_projects
-  -
-    scope:
-      path: "pages/support_agencies"
-      type: "pages"
-    values:
-      type: support_agencies
+      type: activities_agencies
   -
     scope:
       path: "pages/about/contribute"
       type: "pages"
     values:
       type: contribute
-  -
-    scope:
-      path: "pages/infrastructure_technology_platforms"
-      type: "pages"
-    values:
-      type: infrastructure_technology_platforms
 
 
 scholar:

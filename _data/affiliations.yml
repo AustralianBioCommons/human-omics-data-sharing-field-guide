@@ -102,3 +102,5 @@
   url: https://www.crg.eu/
 - name: CCIA
   image_url: /images/institutes/ccia-logo.png
+  type: institute
+  url: https://www.ccia.org.au/

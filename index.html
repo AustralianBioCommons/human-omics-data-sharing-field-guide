@@ -127,7 +127,7 @@ layout: none
                 </div>
                 <div class="col">
                     <div class="bg-light d-flex align-items-center rounded p-3 text-center h-100">
-                        {%- assign content_pages = site.pages %}
+                        {%- assign content_pages = site.pages | where_exp: "page", "page.search_exclude != true" %}
                         <div class="row g-1 flex-grow-1">
                             <div class="col-7">
                                 <span class="count-number text-primary">{{content_pages.size}}</span>

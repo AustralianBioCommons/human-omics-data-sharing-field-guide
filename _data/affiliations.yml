@@ -41,49 +41,49 @@
   type: funder
   url: https://www.education.gov.au/ncris
 - name: EMBL-EBI
-  image_url: /images/infrastructures/embl-ebi.png
+  image_url: /images/institutes/embl-ebi.png
   pid:
   expose: true
   type: institute
   url: https://www.ebi.ac.uk/
 - name: NCBI
-  image_url: /images/infrastructures/ncbi.png
+  image_url: /images/institutes/ncbi.png
   pid:
   expose: true
   type: institute
   url: https://www.ncbi.nlm.nih.gov/
 - name: DDBJ
-  image_url: /images/infrastructures/ddbj-logo.png
+  image_url: /images/institutes/ddbj-logo.png
   pid:
   expose: true
   type: infrastructure
   url: https://www.ddbj.nig.ac.jp/index-e.html
 - name: NGDC
-  image_url: /images/infrastructures/ngdc-nav.png
+  image_url: /images/institutes/ngdc-nav.png
   pid:
   expose: true
   type: institute
   url: https://ngdc.cncb.ac.cn/
 - name: CNCB
-  image_url: /images/infrastructures/cncb-nav.png
+  image_url: /images/institutes/cncb-nav.png
   pid:
   expose: true
   type: institute
   url: https://www.cncb.ac.cn/
 - name: Broad
-  image_url: /images/infrastructures/broad-logo.png
+  image_url: /images/institutes/broad-logo.png
   pid:
   expose: true
   type: institute
   url: https://www.broadinstitute.org/
 - name: UCSC
-  image_url: /images/infrastructures/UCSC-Logo.png
+  image_url: /images/institutes/UCSC-Logo.png
   pid:
   expose: true
   type: institute
   url: https://www.ucsc.edu/
 - name: FHIR
-  image_url: /images/infrastructures/fhir-logo.jpeg
+  image_url: /images/institutes/fhir-logo.jpeg
   pid:
   expose: true
   type: standard
@@ -100,3 +100,5 @@
   expose: true
   type: institute
   url: https://www.crg.eu/
+- name: CCIA
+  image_url: /images/institutes/ccia-logo.png

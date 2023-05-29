@@ -1,3 +1,6 @@
+- name: Updated website structure
+  date: 2023-05-29
+  description: Updated the website to contain 4 major categories and consolidated former categories into these overarching ones.
 - name: Updated home page
   date: 2023-03-24
   description: Updated the home page with counter and news section

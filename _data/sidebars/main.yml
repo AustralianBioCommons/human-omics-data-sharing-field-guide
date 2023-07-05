@@ -69,3 +69,5 @@ subitems:
         url: /omicsdi
       - title: Other repositories
         url: other_repositories
+      - title: New repository
+        url: new_repository

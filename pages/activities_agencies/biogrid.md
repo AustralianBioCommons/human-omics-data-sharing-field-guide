@@ -1,6 +1,6 @@
 ---
 title: BioGrid
-contributors: [Jess Holliday, Marion Shadbolt]
+contributors: [Jess Holliday, Marion Shadbolt, Bernie Pope]
 toc: true
 description: Secure research platform for access to clinical, imaging and biospecimen data.
 ---
@@ -17,3 +17,6 @@ BioGrid Australia is a not-for-profit company owned by the Australian medical re
 
 Turner, Maureen 2020 _Accelerate medical research by accessing enduring curated clinical data through BioGrid Australia_ [YouTube](https://youtu.be/XEIYiF9zdq4)
 
+## Another heading
+
+This is some more information

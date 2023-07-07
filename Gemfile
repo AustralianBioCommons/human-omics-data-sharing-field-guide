@@ -4,7 +4,7 @@ gem 'jekyll', '~> 3.9'
 
 group :jekyll_plugins do
   gem 'github-pages'
-  gem 'elixir-toolkit-theme', '1.23.0'
+  gem 'elixir-toolkit-theme', '2.0.0'
   gem 'jemoji'
   gem 'jekyll-sitemap'
   gem 'jekyll-github-metadata'
@@ -12,7 +12,7 @@ group :jekyll_plugins do
   gem 'citeproc', '~>1.0.4'
   gem 'citeproc-ruby', '~>1.1.4'
   gem 'csl-styles'
-  gem 'jekyll-scholar', '5.16.0'
+  gem 'jekyll-scholar'
 end
 
 # gem 'jekyll', group: :jekyll_plugins

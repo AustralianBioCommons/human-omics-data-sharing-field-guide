@@ -15,7 +15,9 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag", "~> 2.8"
   gem "jekyll-remote-theme"
   gem "jekyll-scholar"
+  gem "citeproc"
   gem "citeproc-ruby"
+  gem "csl-styles"
 end
 
 # gem 'jekyll', group: :jekyll_plugins

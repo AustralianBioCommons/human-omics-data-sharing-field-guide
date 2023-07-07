@@ -20,6 +20,3 @@ group :jekyll_plugins do
   gem "csl-styles"
   gem "jekyll-scholar"
 end
-
-# gem 'jekyll', group: :jekyll_plugins
-# gem 'github-pages', group: :jekyll_plugins

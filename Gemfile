@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem "elixir-toolkit-theme"
 gem "elixir-toolkit-theme-plugins", "~> 0.1.6"
 gem "webrick", "~> 1.7"
 gem "jekyll", "~> 4.3.1"
@@ -13,6 +14,7 @@ group :jekyll_plugins do
   gem "jekyll-relative-links", "~> 0.6"
   gem "jekyll-seo-tag", "~> 2.8"
   gem "jekyll-remote-theme"
+  gem "jekyll-scholar"
 end
 
 # gem 'jekyll', group: :jekyll_plugins

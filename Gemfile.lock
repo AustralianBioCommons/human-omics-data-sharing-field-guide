@@ -129,3 +129,5 @@ DEPENDENCIES
 
 BUNDLED WITH
    2.2.16
+
+bundle lock --add-platform x86_64-linux

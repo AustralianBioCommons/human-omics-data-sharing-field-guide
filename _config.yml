@@ -91,10 +91,10 @@ scholar:
   order: descending
 
 plugins:
-  - jemoji
+  - elixir-toolkit-theme-plugins
+  - jekyll-redirect-from
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-github-metadata
+  - jemoji
   - webrick
-  - citeproc
-  - citeproc-ruby
-  - jekyll-scholar

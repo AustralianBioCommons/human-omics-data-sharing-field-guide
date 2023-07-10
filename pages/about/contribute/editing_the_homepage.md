@@ -4,7 +4,21 @@ toc: true
 contributors: [Marion Shadbolt]
 ---
 
-The homepage is populated from the `index.html` file. It is written mainly in `html` but also incorporates some elements that it populates from other configuration files. When there is code that is enclosed in curly brackets `{{ ... }}` or `{% ... %}`, it is reading information from elsewhere or running some javascript.
+The homepage is populated from the `index.html` file. It is written mainly in `html` but also incorporates some elements that it populates from other configuration files. When there is code that is enclosed in curly brackets 
+
+e.g.
+
+`{{ ... }}` 
+
+or 
+
+{% raw %}
+```
+{% ... %}
+```
+{% endraw %}
+
+it is reading information from elsewhere or running some javascript.
 
 ## Header
 

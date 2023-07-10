@@ -1,7 +1,7 @@
 title: Human 'Omics Data Sharing Field Guide
 # This appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-# topnav_title: Human 'Omics Data Sharing Field Guide
+topnav_title: Human 'Omics Data Sharing Field Guide
 # Optional: this appears on the top navigation bar next to the main_logo.svg icon
 
 description: "Guide to all things human 'omics data sharing in Australia."
@@ -16,15 +16,12 @@ theme_variables:
   privacy_statement_url: https://www.biocommons.org.au/privacy
   topnav:
     theme: dark
-    brand_logo: assets/img/main_logo.png
   theme_colour: 205a86
   toc:
     min_headers: 2
     headers: 'h2, h3'
   github_buttons:
     history: false
-  fonts:
-    - https://fonts.googleapis.com/css?family=Nunito&display=swap"
 
 github:  
   source:
@@ -55,16 +52,16 @@ defaults:
       sidebar: about
   -
     scope:
-      path: "pages/technologies_standards"
+      path: "pages/data_standards"
       type: "pages"
     values:
-      type: technologies_standards
+      type: data_standards
   -
     scope:
-      path: "pages/repositories"
+      path: "pages/data_repositories"
       type: "pages"
     values:
-      type: repositories
+      type: data_repositories
   -
     scope:
       path: pages/legal_ethical
@@ -73,10 +70,16 @@ defaults:
       type: legal_ethical
   -
     scope:
-      path: pages/activities_agencies
+      path: "pages/major_genome_projects"
       type: "pages"
     values:
-      type: activities_agencies
+      type: major_genome_projects
+  -
+    scope:
+      path: "pages/support_agencies"
+      type: "pages"
+    values:
+      type: support_agencies
   -
     scope:
       path: "pages/about/contribute"
@@ -91,10 +94,8 @@ scholar:
   order: descending
 
 plugins:
-  - elixir-toolkit-theme-plugins
-  - jekyll-redirect-from
-  - jekyll-seo-tag
+  - jemoji
   - jekyll-sitemap
   - jekyll-github-metadata
-  - jemoji
   - webrick
+  - jekyll-scholar

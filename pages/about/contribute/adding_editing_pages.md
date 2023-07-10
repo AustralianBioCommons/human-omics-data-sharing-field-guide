@@ -11,12 +11,11 @@ The overall process to create a page on the website is as follows
 1. Create a markdown file within the relevant section's folder
 1. Add the page to the relevant sidebar
 
-
 ### 1. Create a markdown file
 
-#### Via a browser using the GitHub website interface
-
 Each major section of the website has a folder within the `pages` folder. All pages relating to that section have a corresponding markdown file within the folder. 
+
+#### Using the GitHub website interface
 
 1. Navigate to the relevant subfolder, e.g. [`pages/legal_ethical`](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/tree/main/pages/legal_ethical)
 1. In the top right, click on the 'Add File' dropdown, and click '+ Create new file' 
@@ -26,16 +25,16 @@ Each major section of the website has a folder within the `pages` folder. All pa
 1. When happy with your draft, hit the green 'Commit changes...' button in the top right and enter a short message to describe what you have changed. We are happy to choose the default option of 'Commit directly to the main branch' at the moment. If you do want a specific review of your change, you can also choose to 'Create a new branch for this commit and start a pull request', and add a specific reviewer before your change will be incorporated into the website
 1. Once your commit has been incorporated into the main branch, it will trigger the website to rebuild. The progress of the rebuild can be monitored in the [Actions](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/actions) tab. It should only take a few minutes. Once you see a green tick, it means it has completed and your new page should be live on the website and viewable by going to `https://australianbiocommons.github.io/human-omics-data-sharing-field-guide/<name_of_your_file_without_.md>`. Before your new page will appear in the sidebar you will need to follow the instructions below...
 
-### 1. Add a page to the sidebar
+### 2. Add the page to the sidebar
 
 All pages that are part of the main sections of the website, need to be added to the **main** sidebar before they will show up in the left-hand side navigation. All pages within the **About** section, need to be added to the **about** sidebar. 
 
-#### Via a browser using the GitHub website interface
+#### Using the GitHub website interface
 
 1. Open the relevant sidebar file within [`_data/sidebars`](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/tree/main/_data/sidebars), e.g. [`main.yml`](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/main/_data/sidebars/main.yml)
-1. Click on the <i class="fa-solid fa-pencil"></i>pencil icon in the top right to begin editing the file
-1. Find the relevant title of the section where you would like your page to be added
-1. Copy the pattern already in the file to add your page. Noting that the order in the sidebar will be as it is ordered in the file. Note that the hyphen and indentation should be consistent with the existing entries.
+2. Click on the <i class="fa-solid fa-pencil"></i>pencil icon in the top right to begin editing the file
+3. Find the relevant title of the section where you would like your page to be added
+4. Copy the pattern already in the file to add your page. Noting that the order in the sidebar will be as it is ordered in the file. Note that the hyphen and indentation should be consistent with the existing entries.
 
 So the added text would look something like the block below:
 ```yaml
@@ -44,9 +43,8 @@ So the added text would look something like the block below:
         url: my_new_page   # The exact name of your file without the .md extension
 ```
 
-1. Once you have added the page or pages to the sidebar, commit the file to main to trigger the rebuild. 
-1. When the site has successfully rebuilt, check the sidebar has been updated but navigating to the page and refreshing
-
+5. Once you have added the page or pages to the sidebar, commit the file to main to trigger the rebuild. 
+6. When the site has successfully rebuilt, check the sidebar has been updated but navigating to the page and refreshing
 
 ## Editing an existing page
 

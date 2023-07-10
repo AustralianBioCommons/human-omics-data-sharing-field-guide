@@ -20,7 +20,7 @@ it is reading information from elsewhere or running some javascript.
 
 ### The logo
 
-The logo displayed in the top left corner gets automatically populated from `assets/img/main_logo.svg`. To change the logo it is easiest to replace this logo with your preferred image.
+The logo displayed in the top left corner gets automatically populated from `assets/img/main_logo.svg`. To change the logo it is easiest to replace this logo with your preferred image, retaining the same filename.
 
 ### Top Navigation bar
 
@@ -34,11 +34,11 @@ theme_variables:
     github: false
 ```
 
-Further configuration options are specified in the [elixir toolkit theme documentation](https://elixir-belgium.github.io/elixir-toolkit-theme/configuring_theme).
+Further configuration options are specified in the [ELIXIR toolkit theme documentation](https://elixir-belgium.github.io/elixir-toolkit-theme/configuring_theme).
 
 ## Development banner
 
-To edit the banner at the top of the page, the following section of code needs to be edited:
+To edit the banner at the top of the page, the [following section](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/4939e03ef83527fc618c11eb8f062c91988a91b3/index.html#L13C3-L20C15) of code needs to be edited:
 
 ```html
     <section class="container mb-5">
@@ -50,7 +50,6 @@ To edit the banner at the top of the page, the following section of code needs t
         </div>
     </section>
 ```
-https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/4939e03ef83527fc618c11eb8f062c91988a91b3/index.html#L13C3-L20C15
 
 Text and links can be updated or the whole section can be deleted once we know longer want to display this.
 
@@ -60,7 +59,7 @@ The text below the banner is within this section and can be updated by editing t
 
 ## Search bar
 
-The search bar section has the id [`search-section`](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/4939e03ef83527fc618c11eb8f062c91988a91b3/index.html#L28). 
+The search bar section has the id [`search-section`](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/4939e03ef83527fc618c11eb8f062c91988a91b3/index.html#L28). Editing this section you can change the [placeholder](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/4939e03ef83527fc618c11eb8f062c91988a91b3/index.html#L37C37-L37C48) text that appears in the search bar as well as the [icon](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/4939e03ef83527fc618c11eb8f062c91988a91b3/index.html#L35C82-L35C126).
 
 ## Topic Tiles
 
@@ -74,9 +73,11 @@ The grid layout of the tiles is determined by the [`class`](https://github.com/A
 
 ## Contribution section
 
-The icon for this section is determined by the [`img`](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/4939e03ef83527fc618c11eb8f062c91988a91b3/index.html#L73) div. It can be updating by changing the link within the `src` attribute to an alternate relative path of an image within the repo.
+The icon that appears on the left for this section is determined by the [`img`](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/4939e03ef83527fc618c11eb8f062c91988a91b3/index.html#L73) div. It can be updating by changing the link within the `src` attribute to an alternate relative path of an image within the repo.
 
-The text can be edited in the `div` below by adjusting the heading and paragraph.
+The text can be edited in the [`div`](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/4939e03ef83527fc618c11eb8f062c91988a91b3/index.html#L76C24-L79C29) below by adjusting the heading and paragraph.
+
+The button is linking to the 'contribute' page and can be updated by modifying the `href` argument [on this line](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/4939e03ef83527fc618c11eb8f062c91988a91b3/index.html#L82C78-L82C112).
 
 ## News section
 

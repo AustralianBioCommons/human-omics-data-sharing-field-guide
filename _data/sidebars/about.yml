@@ -16,6 +16,8 @@ subitems:
         url: /adding_to_data_repository_table
       - title: Editing the homepage
         url: /editing_the_homepage
+      - title: Adding & Editing Pages
+        url: /adding_editing_pages
   - title: Acknowledgements
     url: /acknowledgements
   - title: News

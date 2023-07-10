@@ -4,17 +4,13 @@ toc: true
 contributors: [Marion Shadbolt]
 ---
 
-The homepage is populated from the `index.html` file. It is written mainly in `html` but also incorporates some elements that it populates from other configuration files. When there is code that is enclosed in curly brackets 
-
-e.g.
-
-`{{ ... }}` 
-
-or 
+The homepage is populated from the `index.html` file. It is written mainly in `html` but also incorporates some elements that it populates from other configuration files. When there is code that is enclosed in curly brackets e.g.
 
 {% raw %}
 ```
 {% ... %}
+or
+{{ ... }}
 ```
 {% endraw %}
 

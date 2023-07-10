@@ -4,11 +4,7 @@ toc: true
 contributors: [Marion Shadbolt]
 ---
 
-## Ways to contribute:
-
-For detailed information on how to add particular aspects, see the following guides:
-
-{% include section-navigation-tiles-simple.html type="contribute" affiliations=false search=false %}
+We welcome any feedback or contributions from any interested parties. Please see below for more information about how you can contribute!
 
 ### GitHub Issues
 
@@ -27,3 +23,11 @@ For more complex changes or addition of new pages, you may find it easier to for
 If you are not too familiar with GitHub, please feel free to [send us an email](mailto:marion@biocommons.org.au) and we will get back to you as soon as we can.
 
 Thanks for your contribution!
+
+## Editing the website:
+
+The [documentation website](https://elixir-belgium.github.io/elixir-toolkit-theme/) to the ELIXIR toolkit theme is a great place to start to find useful information about how to configure this website. While developing the website we found some gaps and have created the following guides to give more detailed configuration information and walk-throughs.
+
+For detailed information on how to configure, edit and add to the site, please see the following guides:
+
+{% include section-navigation-tiles-simple.html type="contribute" affiliations=false search=false %}

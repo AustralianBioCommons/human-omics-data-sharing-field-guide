@@ -14,6 +14,8 @@ subitems:
         url: /adding_affiliations
       - title: Adding data repos
         url: /adding_to_data_repository_table
+      - title: Editing the homepage
+        url: /editing_the_homepage
   - title: Acknowledgements
     url: /acknowledgements
   - title: News

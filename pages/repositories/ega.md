@@ -1,5 +1,6 @@
 ---
 title: EGA
+type: repositories
 contributors: [Marion Shadbolt]
 description: Controlled access database for human data.
 affiliations: [ELIXIR Europe, GA4GH, EMBL-EBI, Centre for Genomic Regulation, GB, ES]

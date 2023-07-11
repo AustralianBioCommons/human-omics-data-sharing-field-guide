@@ -1,5 +1,6 @@
 ---
 title: Gene Expression Omnibus
+type: repositories
 contributors: [Marion Shadbolt]
 description: Open access database for functional genomics data.
 affiliations: [NCBI, US]

@@ -1,5 +1,6 @@
 ---
 title: Other repositories
+type: repositories
 contributors: [Marion Shadbolt]
 description: A guide to other types of repositories for tools, workflows and protocols.
 affiliations: []

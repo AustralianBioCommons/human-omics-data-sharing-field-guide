@@ -1,5 +1,6 @@
 ---
 title: Human Cell Atlas Data Portal
+type: repositories
 contributors: [Marion Shadbolt]
 description: Highly curated cellular resolution omics data with aim of building healthy atlas of all human cells.
 affiliations: [GA4GH, EMBL-EBI, Broad, UCSC, US, GB]

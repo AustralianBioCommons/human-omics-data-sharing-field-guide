@@ -1,5 +1,6 @@
 ---
 title: Expression Atlas
+type: repositories
 contributors: [Marion Shadbolt]
 description: Explore analysed gene and protein expression atlas across many species.
 affiliations: [EMBL-EBI, GB]

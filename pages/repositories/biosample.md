@@ -1,5 +1,6 @@
 ---
 title: BioSample
+type: repositories
 contributors: [Marion Shadbolt]
 description: Object used to describe samples when submitting to INSDC and CNCB repositories
 ---

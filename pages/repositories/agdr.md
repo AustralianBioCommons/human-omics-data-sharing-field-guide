@@ -1,5 +1,6 @@
 ---
 title: Australian Genomics Data Repository
+type: repositories
 contributors: [Marion Shadbolt]
 description: Repository of controlled access AG flagship studies.
 affiliations: [Australian Genomics, AU]

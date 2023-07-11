@@ -1,5 +1,6 @@
 ---
 title: dbGAP
+type: repositories
 contributors: [Marion Shadbolt]
 description: Controlled access repository for human data managed by NCBI.
 affiliations: [NCBI, US]

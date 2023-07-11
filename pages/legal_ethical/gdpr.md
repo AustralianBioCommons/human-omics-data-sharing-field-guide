@@ -1,5 +1,6 @@
 ---
 title: GDPR
+type: repositories
 contributors: [Bernie Pope]
 ---
 

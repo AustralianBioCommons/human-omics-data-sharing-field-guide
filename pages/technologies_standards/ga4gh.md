@@ -1,5 +1,6 @@
 ---
 title: GA4GH
+type: technologies_standards
 contributors: [Marion Shadbolt]
 description: The Global Alliance for Genomics and Health is a policy-framing and technical standards-setting organization, seeking to enable responsible genomic data sharing within a human rights framework.
 affiliations: [GA4GH]

@@ -1,5 +1,6 @@
 ---
 title: Australian Legal Landscape
+type: legal_ethical
 contributors: [Bernie Pope]
 toc: true
 ---

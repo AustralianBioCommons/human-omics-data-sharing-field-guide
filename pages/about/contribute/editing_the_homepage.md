@@ -1,5 +1,6 @@
 ---
 title: How to edit the home page
+type: contribute
 toc: true
 contributors: [Marion Shadbolt]
 ---

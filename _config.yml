@@ -50,12 +50,7 @@ defaults:
       path: "pages/about"
     values:
       sidebar: about
-  -
-    scope:
-      path: "pages/about/contribute"
-      type: "pages"
-    values:
-      type: contribute
+
 
 
 scholar:

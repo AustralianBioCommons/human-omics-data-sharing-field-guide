@@ -30,4 +30,4 @@ The [documentation website](https://elixir-belgium.github.io/elixir-toolkit-them
 
 For detailed information on how to configure, edit and add to the site, please see the following guides:
 
-{% include section-navigation-tiles-simple.html type="contribute" affiliations=false search=false %}
+{% include section-navigation-tiles-simple.html type="contribute" affiliations=false search=false except="contribute.md" %}

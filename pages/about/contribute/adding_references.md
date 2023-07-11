@@ -1,5 +1,6 @@
 ---
 title: How to add references
+type: contribute
 toc: true
 contributors: [Marion Shadbolt]
 ---

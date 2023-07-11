@@ -1,5 +1,6 @@
 ---
 title: How to add contributors
+type: contribute
 toc: true
 contributors: [Marion Shadbolt]
 ---

@@ -1,5 +1,6 @@
 ---
 title: How to add to the data repositories summary table
+type: contribute
 toc: true
 contributors: [Marion Shadbolt]
 ---

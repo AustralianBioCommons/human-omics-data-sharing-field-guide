@@ -52,36 +52,6 @@ defaults:
       sidebar: about
   -
     scope:
-      path: "pages/data_standards"
-      type: "pages"
-    values:
-      type: data_standards
-  -
-    scope:
-      path: "pages/data_repositories"
-      type: "pages"
-    values:
-      type: data_repositories
-  -
-    scope:
-      path: pages/legal_ethical
-      type: "pages"
-    values:
-      type: legal_ethical
-  -
-    scope:
-      path: "pages/major_genome_projects"
-      type: "pages"
-    values:
-      type: major_genome_projects
-  -
-    scope:
-      path: "pages/support_agencies"
-      type: "pages"
-    values:
-      type: support_agencies
-  -
-    scope:
       path: "pages/about/contribute"
       type: "pages"
     values:

@@ -13,14 +13,11 @@ Human Genomics data sharing is an increasingly complex task. Researchers need to
 
 ## Deployment
 
-The website is deployed using github actions defined in the workflow here: [github-pages.yml](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/main/.github/workflows/github-pages.yml)
+The website is deployed using GitHub actions defined in the workflow here: [github-pages.yml](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/main/.github/workflows/github-pages.yml)
 
-The action is run each time a new commit is pushed to the github repository.
+The action is run each time a new commit is pushed to the GitHub repository.
 
-The actions perform two things:
+The actions perform three things:
 1. Extract references from the group Zotero library and save it to the `_bibliography` folder as `references.bib`
-2. Render the markdown into html and push to the `gh-pages` branch
-
-The main reason for doing it this way is to allow the use of other Jekyll extensions that would not be allowed by the native github pages workflow. Specifically, this allows us to use the [Jekyll Scholar](https://github.com/inukshuk/jekyll-scholar) extension for the display of nicely formatted citations and reference lists. 
-
-One thing to be aware of is that version `5.16.0` of the Jekyll Scholar extension needs to be used due to the `elixir-toolkit-theme` relying on version `3.9` of Jekyll. Later versions of the Jekyll Scholar extension use Jekyll `~>4.0`. I am yet to run into any issues with using the earlier version of the extension.
+2. Builds the website using Ruby/Jekyll, converting all the markdown files to html
+3. Deploys the website

@@ -26,6 +26,10 @@ Each major section of the website has a folder within the `pages` folder. All pa
 1. When happy with your draft, hit the green 'Commit changes...' button in the top right and enter a short message to describe what you have changed. We are happy to choose the default option of 'Commit directly to the main branch' at the moment. If you do want a specific review of your change, you can also choose to 'Create a new branch for this commit and start a pull request', and add a specific reviewer before your change will be incorporated into the website
 1. Once your commit has been incorporated into the main branch, it will trigger the website to rebuild. The progress of the rebuild can be monitored in the [Actions](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/actions) tab. It should only take a few minutes. Once you see a green tick, it means it has completed and your new page should be live on the website and viewable by going to `https://australianbiocommons.github.io/human-omics-data-sharing-field-guide/<name_of_your_file_without_.md>`. Before your new page will appear in the sidebar you will need to follow the instructions below...
 
+{% include callout.html type="important" content="To enable the navigation tile functionality, it is important to include the `type` argument in the yaml header of the markdown file" %}
+
+See the ELIXIR Toolkit theme documentation about [section overviews](https://elixir-belgium.github.io/elixir-toolkit-theme/overview_tiles) or the [Data repositories explained](https://australianbiocommons.github.io/human-omics-data-sharing-field-guide/repositories#data-repositories-explained) section for examples.
+
 ### 2. Add the page to the sidebar
 
 All pages that are part of the main sections of the website, need to be added to the **main** sidebar before they will show up in the left-hand side navigation. All pages within the **About** section, need to be added to the **about** sidebar. 
@@ -57,7 +61,7 @@ So the added text would look something like the block below:
 
 ## Editing locally
 
-For users comfortable with interacting with GitHub via the commandline, a similar process as above can be followed as above by first cloning the repo, making changes as required, committing and pushing to the remote repository. 
+For users who are comfortable interacting with GitHub via the commandline, a similar process as above can be followed as above by first cloning the repo, making changes as required, committing and pushing to the remote repository. 
 
 It is also possible (in theory) to run the website locally, see instructions on the ELIXIR toolkit theme [README](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme#locally-using-jekyll).
 

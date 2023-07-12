@@ -24,7 +24,7 @@ If you are not too familiar with GitHub, please feel free to [send us an email](
 
 Thanks for your contribution!
 
-## Editing the website
+### Editing the website
 
 The [documentation website](https://elixir-belgium.github.io/elixir-toolkit-theme/) to the ELIXIR toolkit theme is a great place to start to find useful information about how to configure this website. While developing the website we found some gaps and have created the following guides to give more detailed configuration information and walk-throughs.
 

@@ -20,7 +20,7 @@ For more complex changes or addition of new pages, you may find it easier to for
 
 ### Email
 
-If you are not too familiar with GitHub, please feel free to [send us an email](mailto:marion@biocommons.org.au) and we will get back to you as soon as we can.
+If you are not too familiar with GitHub, please feel free to [send us an email](mailto:contact@biocommons.org.au) and we will get back to you as soon as we can.
 
 Thanks for your contribution!
 

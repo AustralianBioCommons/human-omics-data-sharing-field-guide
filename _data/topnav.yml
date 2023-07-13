@@ -5,8 +5,8 @@ subitems:
   url: /index
 - title: About
   subitems:
-  - About
-  url: /about
-  - Contribute
-  url: /contribute
+  - title: About
+    url: /about
+  - title: Contribute
+    url: /contribute
     

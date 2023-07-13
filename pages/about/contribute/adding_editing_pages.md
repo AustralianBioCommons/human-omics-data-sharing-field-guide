@@ -28,7 +28,7 @@ Each major section of the website has a folder within the `pages` folder. All pa
 
 {% include callout.html type="important" content="To enable the navigation tile functionality, it is important to include the `type` argument in the yaml header of the markdown file" %}
 
-See the ELIXIR Toolkit theme documentation about [section overviews](https://elixir-belgium.github.io/elixir-toolkit-theme/overview_tiles) or the [Data repositories explained](https://australianbiocommons.github.io/human-omics-data-sharing-field-guide/repositories#data-repositories-explained) section for examples.
+See the ELIXIR Toolkit theme documentation about [section overviews](https://elixir-belgium.github.io/elixir-toolkit-theme/overview_tiles) or the [Data repositories explained](/repositories#data-repositories-explained) section for examples.
 
 ### 2. Add the page to the sidebar
 

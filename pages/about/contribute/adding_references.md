@@ -60,7 +60,7 @@ If you would like to have a list of the references that have been cited on a pag
 Using our example reference, this would look like this:
 {% bibliography --cited %}
 
-If you want to list all references  that are in the entire `references.bib` file, remove the `--cited` tag. This is what is displayed on the [References](https://australianbiocommons.github.io/human-omics-data-sharing-field-guide/references) page.
+If you want to list all references  that are in the entire `references.bib` file, remove the `--cited` tag. This is what is displayed on the [References](/references) page.
 
 ## Modifying citation and reference style and appearances
 

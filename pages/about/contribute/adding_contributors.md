@@ -7,7 +7,7 @@ contributors: [Marion Shadbolt]
 
 The Elixir Toolkit theme allows you to show who has contributed to the site as a whole, as well as those who have contributed to individual pages.
 
-All contributors to this site are listed on the [Contributors](https://australianbiocommons.github.io/human-omics-data-sharing-field-guide/contributors) page.
+All contributors to this site are listed on the [Contributors](/contributors) page.
 
 The listed contributors are populated from the [`_data/CONTRIBUTORS.yml`](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/main/_data/CONTRIBUTORS.yml)
 

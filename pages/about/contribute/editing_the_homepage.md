@@ -21,7 +21,7 @@ it is reading information from elsewhere or running some javascript.
 
 ### The logo
 
-The logo displayed in the top left corner gets automatically populated from `assets/img/main_logo.png`. To change the logo it is easiest to replace this logo with your preferred image, retaining the same filename. If you prefer to change the filename, you will need to add the new filename to the `brand_logo` parameter of the [`_config`](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/bdf3feebae2df834dec7d71e5afa0f9dde08c153/_config.yml#L19) file.
+The logo displayed in the top left corner gets automatically populated from `assets/img/main_logo.svg`. To change the logo it is easiest to replace this logo with your preferred image, retaining the same filename. If you prefer to change the filename, you will need to add the new filename to the `brand_logo` parameter of the [`_config`](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/bdf3feebae2df834dec7d71e5afa0f9dde08c153/_config.yml#L19) file.
 
 ### Top Navigation bar
 

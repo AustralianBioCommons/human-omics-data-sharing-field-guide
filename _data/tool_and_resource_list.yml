@@ -4,6 +4,8 @@
   url: https://zenodo.org/
   name: Zenodo
   id: zenodo
+  related_pages:
+    - other_repositories
   registry:
     fairsharing: wy4egf
     tess: Zenodo
@@ -11,6 +13,8 @@
     API framework and data model for cross-cohort searching.
   url: https://github.com/ga4gh-beacon/beacon-v2
   id: beacon
+  related_pages:
+    - beacon
   name: Beacon v2
   registry:
     fairsharing: 6fba91
@@ -91,3 +95,12 @@
     fairsharing: mtjvme
     tess: BioStudies
   url: https://www.ebi.ac.uk/biostudies/
+- description: Omics Discovery Index (OmicsDI) provides a knowledge discovery framework
+    across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics)
+  name: OmicsDI
+  id: omicsdi
+  registry:
+    biotools: omicsdi
+    fairsharing: re1278
+    tess: OmicsDI
+  url: https://www.omicsdi.org

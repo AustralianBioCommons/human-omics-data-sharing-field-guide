@@ -4,8 +4,6 @@
   url: https://zenodo.org/
   name: Zenodo
   id: zenodo
-  related_pages:
-    - other_repositories
   registry:
     fairsharing: wy4egf
     tess: Zenodo
@@ -13,8 +11,6 @@
     API framework and data model for cross-cohort searching.
   url: https://github.com/ga4gh-beacon/beacon-v2
   id: beacon
-  related_pages:
-    - beacon
   name: Beacon v2
   registry:
     fairsharing: 6fba91
@@ -68,9 +64,6 @@
     biotools: arrayexpress
     fairsharing: 6k0kwd
     tess: ArrayExpress
-  related_pages:
-  - micro_biotech
-  - data_publication
   url: https://www.ebi.ac.uk/arrayexpress/
 - description: A repository of MIAME-compliant genomics data from arrays and high-throughput
     sequencing

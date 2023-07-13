@@ -26,3 +26,5 @@ subitems:
     url: /news
   - title: References
     url: /references
+  - title: Tools & Resources
+    url: tools_resources

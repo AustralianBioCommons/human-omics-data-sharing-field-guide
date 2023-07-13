@@ -14,3 +14,80 @@
   name: Beacon v2
   registry:
     fairsharing: 6fba91
+- description: Data publishing platform
+  name: FigShare
+  id: figshare
+  registry:
+    fairsharing: drtwnh
+    tess: FigShare
+  url: https://figshare.com/
+- description: "REMS (Resource Entitlement Management System), developed by CSC, is\
+    \ a tool that can be used to manage researchers\u2019 access rights to datasets."
+  name: REMS
+  id: rems
+  registry:
+    biotools: rems
+    tess: REMS
+  url: https://github.com/CSCfi/rems
+- description: EGA is a service for permanent archiving and sharing of all types of
+    personally identifiable genetic and phenotypic data resulting from biomedical
+    research projects
+  name: The European Genome-phenome Archive (EGA)
+  id: ega
+  registry:
+    biotools: ega
+    fairsharing: mya1ff
+    tess: The European Genome-phenome Archive (EGA)
+  url: https://ega-archive.org/
+- description: A record of sequence information scaling from raw sequcning reads to
+    assemblies and functional annotation
+  name: European Nucleotide Archive (ENA)
+  id: ena
+  registry:
+    biotools: ena
+    fairsharing: dj8nt8
+    tess: European Nucleotide Archive (ENA)
+  url: https://www.ebi.ac.uk/ena/browser/home
+- description: The database of Genotypes and Phenotypes (dbGaP) archives and distributes
+    data from studies investigating the interaction of genotype and phenotype in Humans
+  name: dbGAP
+  id: dbgap
+  registry:
+    biotools: dbgap
+    fairsharing: 88v2k0
+    tess: dbGAP
+  url: https://www.ncbi.nlm.nih.gov/gap/
+- description: A repository of array based genomics data
+  name: ArrayExpress
+  id: arrayexpress
+  registry:
+    biotools: arrayexpress
+    fairsharing: 6k0kwd
+    tess: ArrayExpress
+  related_pages:
+  - micro_biotech
+  - data_publication
+  url: https://www.ebi.ac.uk/arrayexpress/
+- description: A repository of MIAME-compliant genomics data from arrays and high-throughput
+    sequencing
+  name: Gene Expression Omnibus (GEO)
+  id: geo
+  url: https://www.ncbi.nlm.nih.gov/geo/
+- description: BioSamples stores and supplies descriptions and metadata about biological
+    samples used in research and development by academia and industry.
+  name: BioSamples
+  id: biosamples
+  registry:
+    biotools: biosamples
+    fairsharing: ewjdq6
+    tess: BioSamples
+  url: https://www.ebi.ac.uk/biosamples/
+- description: A database hosting datasets from biological studies. Useful for storing
+    or accessing data that is not compliant for mainstream repositories.
+  name: BioStudies
+  id: biostudies
+  registry:
+    biotools: biostudies
+    fairsharing: mtjvme
+    tess: BioStudies
+  url: https://www.ebi.ac.uk/biostudies/

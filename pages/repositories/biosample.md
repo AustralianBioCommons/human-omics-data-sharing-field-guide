@@ -7,7 +7,7 @@ description: Object used to describe samples when submitting to INSDC and CNCB r
 
 All major archives have some version of a ‘sample’ object that stores sample related metadata. The NCBI (SRA), DDBJ and CNCB (GSA) databases are limited to storing metadata that gets submitted when submitting a study to their related genome archives.
 
-As well as storing metadata from samples that are submitted as part of an ENA submission, the EBI’s BioSamples database can be used for any form of sample metadata archiving and can be linked to other EBI archives at a later point. It is flexible to store any kind of key value pair and values can be linked to ontologies. Multiple BioSamples can be linked together, for example, a virus sample could be linked to a sample from its host through a ‘Derived from’ relationship. Samples may also be linked under a project by specifying a ‘project’ key.
+As well as storing metadata from samples that are submitted as part of an ENA submission, the EBI’s {% tool "biosamples" %} database can be used for any form of sample metadata archiving and can be linked to other EBI archives at a later point. It is flexible to store any kind of key value pair and values can be linked to ontologies. Multiple BioSamples can be linked together, for example, a virus sample could be linked to a sample from its host through a ‘Derived from’ relationship. Samples may also be linked under a project by specifying a ‘project’ key.
 
 Samples can be linked to EGA projects if sample metadata provided is openly accessible (e.g. [https://www.ebi.ac.uk/biosamples/samples/SAMEA4940335](https://www.ebi.ac.uk/biosamples/samples/SAMEA4940335) ).
 

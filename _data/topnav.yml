@@ -4,5 +4,9 @@ subitems:
 - title: Home
   url: /index
 - title: About
+  subitems:
+  - About
   url: /about
+  - Contribute
+  url: /contribute
     

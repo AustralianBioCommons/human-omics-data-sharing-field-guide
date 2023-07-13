@@ -11,3 +11,15 @@ columns:
     children: 
       - url_text: Home
         url: /
+      - url_text: About
+        url: /about
+      - url_text: Contribute
+        url: /contribute
+      - url_text: Technologies and Standards
+        url: /technologies_standards
+      - url_text: Legal & Ethical
+        url: /legal_ethical
+      - url_text: Repositories
+        url: /repositories
+      - url_text: Activities & Agencies
+        url: activities_agencies

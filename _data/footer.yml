@@ -2,7 +2,7 @@ copyright: '[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/
 extra_line: Icons used on this page from [The Noun Project](https://thenounproject.com/) see [Acknowledgements](acknowledgements) for more info.
 columns:
   - type: image
-    image_width: 88px
+    image_width: 150px
     width: 2
     src: 'assets/img/Australian-Biocommons-Logo-Horizontal-144dpi-Transparent.png'
     alt: Australian BioCommons Logo

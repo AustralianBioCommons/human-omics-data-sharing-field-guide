@@ -15,6 +15,9 @@ columns:
         url: /about
       - url_text: Contribute
         url: /contribute
+  - type: links
+    width: 3
+    children:
       - url_text: Technologies and Standards
         url: /technologies_standards
       - url_text: Legal & Ethical

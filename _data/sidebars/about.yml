@@ -18,6 +18,8 @@ subitems:
         url: /editing_the_homepage
       - title: Adding & Editing Pages
         url: /adding_editing_pages
+      - title: Editing tips
+        url: /editing_tips
   - title: Acknowledgements
     url: /acknowledgements
   - title: News

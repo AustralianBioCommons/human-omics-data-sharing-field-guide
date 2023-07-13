@@ -1,5 +1,6 @@
 ---
 title: BioStudies
+page_id: biostudies
 type: repositories
 contributors: [Marion Shadbolt]
 description: Database for storing project level information and linking to other repositories.

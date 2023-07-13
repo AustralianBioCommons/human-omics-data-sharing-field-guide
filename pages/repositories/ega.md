@@ -1,5 +1,6 @@
 ---
 title: EGA
+page_id: ega
 type: repositories
 contributors: [Marion Shadbolt]
 description: Controlled access database for human data.

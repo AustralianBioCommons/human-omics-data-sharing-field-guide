@@ -1,5 +1,6 @@
 ---
 title: ArrayExpress
+page_id: arrayexpress
 type: repositories
 contributors: [Marion Shadbolt]
 description: Open access database for functional genomics data including transcriptomics and micro-arrays.

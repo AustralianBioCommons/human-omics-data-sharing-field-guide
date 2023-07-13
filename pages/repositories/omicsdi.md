@@ -1,5 +1,6 @@
 ---
 title: Omics Discovery Index
+page_id: omicsdi
 type: repositories
 contributors: [Marion Shadbolt]
 description: Index to query across multiple omics databases.

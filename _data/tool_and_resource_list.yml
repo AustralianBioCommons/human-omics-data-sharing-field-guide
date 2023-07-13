@@ -104,3 +104,40 @@
     fairsharing: re1278
     tess: OmicsDI
   url: https://www.omicsdi.org
+- description: Japan-based Nucleotide sequence archive database and accompanying database tools for sequence submission, entry retrieval and annotation analysis.
+  name: DNA Data Bank of Japan (DDBJ)
+  id: ddbj
+  registry:
+    biotools: ddbj
+  url: https://www.ddbj.nig.ac.jp/index-e.html
+- description: A database of genetic sequence information. GenBank may also refer
+    to the data format used for storing information around genetic sequence data.
+  name: GenBank
+  id: genbank
+  registry:
+    biotools: genbank
+    fairsharing: 9kahy4
+    tess: GenBank
+  url: https://www.ncbi.nlm.nih.gov/genbank/
+- description: A collaborative database of genetic sequence datasets from DDBJ, EMBL-EBI
+    and NCBI
+  name: International Nucleotide Sequence Database Collaboration (INSDC)
+  id: insdc
+  registry:
+    biotools: insdc
+  url: http://www.insdc.org
+- description: Online database hosting a vast amount of biotechnological information
+    including nucleic acids, proteins, genomes and publications. Also boasts integrated
+    tools for analysis.
+  name: National Center for Biotechnology Information (NCBI)
+  id: ncbi
+  url: https://www.ncbi.nlm.nih.gov
+- description: EMBL-EBI's wizard for finding the right EMBL-EBI repository for your
+    data.
+  name: EMBL-EBI's data submission wizard
+  id: ebi-submission
+  url: https://www.ebi.ac.uk/submission/
+- description: GSA Human is a China-based controlled-access repository for sensitive human data
+  name: Genome Sequence Archive for Human (GSA Human)
+  id: gsa-human
+  url: https://ngdc.cncb.ac.cn/gsa-human/

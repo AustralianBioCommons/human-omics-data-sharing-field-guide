@@ -1,5 +1,6 @@
 ---
 title: Beacon
+page_id: beacon
 type: technologies_standards
 toc: true
 description: Beacon is an API framework and metadata model to enable discoverability of genomic variants and related cohort and individual level metadata.

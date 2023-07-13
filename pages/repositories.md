@@ -27,7 +27,7 @@ Ownership of data remains with the original data providers, but the INSDC requir
 
 It is composed of three nodes:
 
-* The European Nucleotide Archive (ENA)
+* The {% tool "ena" %}
 * The DNA Data Bank of Japan (DDBJ)
 * GenBank
 

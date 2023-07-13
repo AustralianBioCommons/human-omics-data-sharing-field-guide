@@ -3,12 +3,14 @@
     and CERN
   url: https://zenodo.org/
   name: Zenodo
-  instance_of: test
+  id: zenodo
   registry:
     fairsharing: wy4egf
     tess: Zenodo
-  related_pages:
 - description:
-    API spec and data model for cross-cohort searching.
+    API framework and data model for cross-cohort searching.
   url: https://github.com/ga4gh-beacon/beacon-v2
-  name: Beacon
+  id: beacon
+  name: Beacon v2
+  registry:
+    fairsharing: 6fba91

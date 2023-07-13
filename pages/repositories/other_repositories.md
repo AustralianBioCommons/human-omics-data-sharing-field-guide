@@ -11,7 +11,7 @@ affiliations: []
 Many repositories exist to support sharing of data that may not fit into one of the specialist repositories. See below for some commonly used options that may suit your needs.
 
 - [figshare](https://figshare.com/) - general purpose repository for papers, data and non-traditional research outputs. May be available through your institution or linked to particular publishing requirements
-- [zenodo](https://zenodo.org/) - general purpose repository for documents and research artefacts, mints a doi, indexed by OpenAIRE and can link works to your ORCID
+- {% tool "zenodo" %} - general purpose repository for documents and research artefacts, mints a doi, indexed by OpenAIRE and can link works to your ORCID
 - [NIH curated list of general data repositories](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories)
 
 - [Registry of Research Data Repositories](https://www.re3data.org/)

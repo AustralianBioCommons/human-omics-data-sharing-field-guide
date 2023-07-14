@@ -1,5 +1,6 @@
 ---
 title: BioGrid
+page_id: biogrid
 type: repositories
 contributors: [Jess Holliday, Marion Shadbolt, Bernie Pope]
 toc: true

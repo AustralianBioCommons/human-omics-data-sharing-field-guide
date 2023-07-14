@@ -1,5 +1,6 @@
 ---
 title: How to add affiliations
+pages_id: adding_affiliations
 type: contribute
 toc: true
 contributors: [Marion Shadbolt]

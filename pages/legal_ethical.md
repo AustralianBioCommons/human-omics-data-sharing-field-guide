@@ -1,5 +1,6 @@
 ---
 title: Legal and Ethical Considerations
+page_id: legal_ethical
 toc: true
 ---
 

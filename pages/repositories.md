@@ -1,5 +1,6 @@
 ---
 title: Repositories
+page_id: repositories
 contributors: [Marion Shadbolt]
 ---
 
@@ -12,7 +13,7 @@ Researchers usually need to submit generated human genomics data to a central re
 
 Several tools exist to help a researcher decide where to submit their data:
 
-* EBI submission helper tool: [https://www.ebi.ac.uk/submission/](https://www.ebi.ac.uk/submission/) 
+* {% tool "ebi-submission" %}
 * NCBI submission helper tool: [https://submit.ncbi.nlm.nih.gov/](https://submit.ncbi.nlm.nih.gov/) 
 * DDBJ submission guide [https://www.ddbj.nig.ac.jp/documents/data-categories-e.html](https://www.ddbj.nig.ac.jp/documents/data-categories-e.html) 
 * NIH list of Repositories for Sharing Scientific Data [https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/repositories-for-sharing-scientific-data) 

@@ -1,5 +1,6 @@
 ---
 title: Contributors
+page_id: contributors
 toc: false
 ---
 

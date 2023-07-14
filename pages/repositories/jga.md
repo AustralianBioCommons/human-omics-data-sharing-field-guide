@@ -1,5 +1,6 @@
 ---
 title: JGA
+page_id: jga
 type: repositories
 contributors: [Marion Shadbolt]
 description: The Japanese Genome-Phenome archive for controlled access human data.

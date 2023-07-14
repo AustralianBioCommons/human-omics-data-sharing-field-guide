@@ -1,5 +1,6 @@
 ---
 title: Expression Atlas
+page_id: expression_atlas
 type: repositories
 contributors: [Marion Shadbolt]
 description: Explore analysed gene and protein expression atlas across many species.

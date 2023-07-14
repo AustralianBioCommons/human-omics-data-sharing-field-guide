@@ -1,5 +1,6 @@
 ---
 title: Editing tips
+page_id: editing_tios
 type: contribute
 toc: true
 contributors: [Marion Shadbolt]

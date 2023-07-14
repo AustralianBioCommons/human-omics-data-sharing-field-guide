@@ -1,5 +1,6 @@
 ---
 title: Phenopackets
+page_id: phenopackets
 type: technologies_standards
 toc: true
 description: Phenopackets are a way of exchanging structured clinical, demographic and phenotypic metadata in a standardised way.

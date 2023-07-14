@@ -1,5 +1,6 @@
 ---
 title: BioProject
+page_id: bioproject
 type: repositories
 contributors: [Marion Shadbolt]
 description: Object used to describe projects when submitting to INSDC and CNCB repositories

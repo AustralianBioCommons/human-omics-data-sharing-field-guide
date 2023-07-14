@@ -1,5 +1,6 @@
 ---
-title: GSA-Human
+title: GSA Human
+page_id: gsa_human
 type: repositories
 contributors: [Marion Shadbolt]
 description: Controlled access database for human data run by CNCB and NGDC.

@@ -1,5 +1,6 @@
 ---
 title: How to add contributors
+page_id: adding_contributors
 type: contribute
 toc: true
 contributors: [Marion Shadbolt]

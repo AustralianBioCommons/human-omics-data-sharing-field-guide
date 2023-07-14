@@ -1,5 +1,6 @@
 ---
 title: How to add references
+page_id: adding_references
 type: contribute
 toc: true
 contributors: [Marion Shadbolt]

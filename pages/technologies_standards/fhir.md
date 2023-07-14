@@ -1,5 +1,6 @@
 ---
 title: FHIR
+page_id: fhir
 type: technologies_standards
 toc: true
 description: FHIR (Fast Healthcare Interoperability Resources) is a standard for exchanging healthcare information electronically. 

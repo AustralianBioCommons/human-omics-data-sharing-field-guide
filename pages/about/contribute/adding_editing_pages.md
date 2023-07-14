@@ -1,5 +1,6 @@
 ---
 title: How to add a new page or edit an existing page
+page_id: adding_editing_pages
 type: contribute
 toc: true
 contributors: [Marion Shadbolt]

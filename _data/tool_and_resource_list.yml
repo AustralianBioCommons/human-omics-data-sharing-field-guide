@@ -11,7 +11,7 @@
   name: Beacon v2
   registry:
   - fairsharing: 6fba91
-  - europmc: '35297548'
+  - europmc: 35297548
   url: https://github.com/ga4gh-beacon/beacon-v2
 - description: BioSamples stores and supplies descriptions and metadata about biological
     samples used in research and development by academia and industry.
@@ -73,7 +73,7 @@
   id: passports
   name: Passports
   registry:
-  - europmc: '34820660'
+  - europmc: 34820660
   url: https://www.ga4gh.org/product/ga4gh-passports/
 - description: 'GA4GH '
   id: drs
@@ -83,7 +83,7 @@
   id: vrs
   name: Variant Representation (VRS)
   registry:
-  - europmc: '36540993'
+  - europmc: 36540993
 - description: 'GA4GH '
   id: wes
   name: Workflow Execution Service (WES)
@@ -102,7 +102,7 @@
   id: duo
   name: Data Use Ontology (DUO)
   registry:
-  - europmc: '34820659'
+  - europmc: 34820659
   url: https://www.ebi.ac.uk/ols4/ontologies/duo
 - description: A repository of MIAME-compliant genomics data from arrays and high-throughput
     sequencing
@@ -156,7 +156,7 @@
   id: phenopackets
   name: Phenopackets
   registry:
-  - europmc: '36910590'
+  - europmc: 36910590
   url: https://phenopacket-schema.readthedocs.io/en/latest/index.html
 - description: "REMS (Resource Entitlement Management System), developed by CSC, is\
     \ a tool that can be used to manage researchers\u201A access rights to datasets."

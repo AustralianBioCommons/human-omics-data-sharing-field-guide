@@ -4,12 +4,13 @@ Adapted from https://github.com/elixir-europe/rdmkit/blob/master/var/conversions
 
 import pandas as pd
 import yaml
+import os
 
 # --------- Variables ---------
 google_id = "1fkilWZmnh3P7VLEvM01I7g9shLkGGTHoT2pHsZmaCmc"
 gid = "0"
 url = f"https://docs.google.com/spreadsheets/d/{google_id}/export?format=csv&gid={gid}"
-output_path = "../_data/tool_and_resource_list.yml"
+output_path = "_data/tool_and_resource_list.yml"
 rootdir = '../pages'
 allowed_registries = ['biotools', 'fairsharing', 'tess', 'europmc']
 
@@ -30,6 +31,7 @@ for resource in resource_list:
     clean_resource_list.append(clean_resource)
     clean_resource['registry'] = registry_list
 
+print(os.getcwd())
 with open(output_path, 'w+') as yaml_file:
     documents = yaml.dump(clean_resource_list, yaml_file)
 

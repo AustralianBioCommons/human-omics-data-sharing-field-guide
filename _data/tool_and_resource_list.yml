@@ -2,154 +2,154 @@
   id: arrayexpress
   name: ArrayExpress
   registry:
-  - biotools: arrayexpress
-  - fairsharing: 6k0kwd
-  - tess: ArrayExpress
-  - europmc: 33211879
+    biotools: arrayexpress
+    europmc: 33211879
+    fairsharing: 6k0kwd
+    tess: ArrayExpress
   url: https://www.ebi.ac.uk/arrayexpress/
 - description: API framework and data model for cross-cohort searching.
   id: beacon
   name: Beacon v2
   registry:
-  - fairsharing: 6fba91
-  - europmc: 35297548
+    europmc: 35297548
+    fairsharing: 6fba91
   url: https://github.com/ga4gh-beacon/beacon-v2
 - description: BioSamples stores and supplies descriptions and metadata about biological
     samples used in research and development by academia and industry.
   id: biosamples
   name: BioSamples
   registry:
-  - biotools: biosamples
-  - fairsharing: ewjdq6
-  - tess: BioSamples
+    biotools: biosamples
+    fairsharing: ewjdq6
+    tess: BioSamples
   url: https://www.ebi.ac.uk/biosamples/
 - description: A database hosting datasets from biological studies. Useful for storing
     or accessing data that is not compliant for mainstream repositories.
   id: biostudies
   name: BioStudies
   registry:
-  - biotools: biostudies
-  - fairsharing: mtjvme
-  - tess: BioStudies
+    biotools: biostudies
+    fairsharing: mtjvme
+    tess: BioStudies
   url: https://www.ebi.ac.uk/biostudies/
 - description: The database of Genotypes and Phenotypes (dbGaP) archives and distributes
     data from studies investigating the interaction of genotype and phenotype in Humans
   id: dbgap
   name: dbGAP
   registry:
-  - biotools: dbgap
-  - fairsharing: 88v2k0
-  - tess: dbGAP
+    biotools: dbgap
+    fairsharing: 88v2k0
+    tess: dbGAP
   url: https://www.ncbi.nlm.nih.gov/gap/
 - description: Japan-based Nucleotide sequence archive database and accompanying database
     tools for sequence submission, entry retrieval and annotation analysis.
   id: ddbj
   name: DNA Data Bank of Japan (DDBJ)
   registry:
-  - biotools: ddbj
+    biotools: ddbj
   url: https://www.ddbj.nig.ac.jp/index-e.html
 - description: EMBL-EBI's wizard for finding the right EMBL-EBI repository for your
     data.
   id: ebi-submission
   name: EMBL-EBI's data submission wizard
-  registry: []
+  registry: {}
   url: https://www.ebi.ac.uk/submission/
 - description: A record of sequence information scaling from raw sequcning reads to
     assemblies and functional annotation
   id: ena
   name: European Nucleotide Archive (ENA)
   registry:
-  - biotools: ena
-  - fairsharing: dj8nt8
-  - tess: European Nucleotide Archive (ENA)
+    biotools: ena
+    fairsharing: dj8nt8
+    tess: European Nucleotide Archive (ENA)
   url: https://www.ebi.ac.uk/ena/browser/home
 - description: Data publishing platform
   id: figshare
   name: FigShare
   registry:
-  - fairsharing: drtwnh
-  - tess: FigShare
+    fairsharing: drtwnh
+    tess: FigShare
   url: https://figshare.com/
 - description: GA4GH open standard to encode data access permissions of users
   id: passports
   name: Passports
   registry:
-  - europmc: 34820660
+    europmc: 34820660
   url: https://www.ga4gh.org/product/ga4gh-passports/
 - description: 'GA4GH '
   id: drs
   name: Data Repository Service (DRS)
-  registry: []
+  registry: {}
 - description: 'GA4GH '
   id: vrs
   name: Variant Representation (VRS)
   registry:
-  - europmc: 36540993
+    europmc: 36540993
 - description: 'GA4GH '
   id: wes
   name: Workflow Execution Service (WES)
-  registry: []
+  registry: {}
 - description: A database of genetic sequence information. GenBank may also refer
     to the data format used for storing information around genetic sequence data.
   id: genbank
   name: GenBank
   registry:
-  - biotools: genbank
-  - fairsharing: 9kahy4
-  - tess: GenBank
+    biotools: genbank
+    fairsharing: 9kahy4
+    tess: GenBank
   url: https://www.ncbi.nlm.nih.gov/genbank/
 - description: GA4GH standard ontology for describing access and use restrictions
     on datasets
   id: duo
   name: Data Use Ontology (DUO)
   registry:
-  - europmc: 34820659
+    europmc: 34820659
   url: https://www.ebi.ac.uk/ols4/ontologies/duo
 - description: A repository of MIAME-compliant genomics data from arrays and high-throughput
     sequencing
   id: geo
   name: Gene Expression Omnibus (GEO)
-  registry: []
+  registry: {}
   url: https://www.ncbi.nlm.nih.gov/geo/
 - description: GSA Human is a China-based controlled-access repository for sensitive
     human data
   id: gsa-human
   name: Genome Sequence Archive for Human (GSA Human)
-  registry: []
+  registry: {}
   url: https://ngdc.cncb.ac.cn/gsa-human/
 - description: A collaborative database of genetic sequence datasets from DDBJ, EMBL-EBI
     and NCBI
   id: insdc
   name: International Nucleotide Sequence Database Collaboration (INSDC)
   registry:
-  - biotools: insdc
+    biotools: insdc
   url: http://www.insdc.org
 - description: Online database hosting a vast amount of biotechnological information
     including nucleic acids, proteins, genomes and publications. Also boasts integrated
     tools for analysis.
   id: ncbi
   name: National Center for Biotechnology Information (NCBI)
-  registry: []
+  registry: {}
   url: https://www.ncbi.nlm.nih.gov
 - description: Nextflow is a framework for data analysis workflow execution
   id: nextflow
   name: Nextflow
-  registry: []
+  registry: {}
   url: https://www.nextflow.io
 - description: Omics Discovery Index (OmicsDI) provides a knowledge discovery framework
     across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics)
   id: omicsdi
   name: OmicsDI
   registry:
-  - biotools: omicsdi
-  - fairsharing: re1278
-  - tess: OmicsDI
+    biotools: omicsdi
+    fairsharing: re1278
+    tess: OmicsDI
   url: https://www.omicsdi.org
 - description: OMOP is a common data model for the harmonisation for of observational
     health data.
   id: omop
   name: OMOP-CDM
-  registry: []
+  registry: {}
   url: https://ohdsi.github.io/CommonDataModel/
 - description: GA4GH standard for sharing disease and phenotype information that characterizes
     an individual person, linking that individual to detailed phenotypic descriptions,
@@ -157,15 +157,15 @@
   id: phenopackets
   name: Phenopackets
   registry:
-  - europmc: 36910590
+    europmc: 36910590
   url: https://phenopacket-schema.readthedocs.io/en/latest/index.html
 - description: "REMS (Resource Entitlement Management System), developed by CSC, is\
     \ a tool that can be used to manage researchers\u201A access rights to datasets."
   id: rems
   name: REMS
   registry:
-  - biotools: rems
-  - tess: REMS
+    biotools: rems
+    tess: REMS
   url: https://github.com/CSCfi/rems
 - description: EGA is a service for permanent archiving and sharing of all types of
     personally identifiable genetic and phenotypic data resulting from biomedical
@@ -173,15 +173,15 @@
   id: ega
   name: The European Genome-phenome Archive (EGA)
   registry:
-  - biotools: ega
-  - fairsharing: mya1ff
-  - tess: The European Genome-phenome Archive (EGA)
+    biotools: ega
+    fairsharing: mya1ff
+    tess: The European Genome-phenome Archive (EGA)
   url: https://ega-archive.org/
 - description: Generalist research data repository built and developed by OpenAIRE
     and CERN
   id: zenodo
   name: Zenodo
   registry:
-  - fairsharing: wy4egf
-  - tess: Zenodo
+    fairsharing: wy4egf
+    tess: Zenodo
   url: https://zenodo.org/

@@ -4,7 +4,7 @@ on:
       - main  # Here source code branch is `master`, it could be other branch
 
 jobs:
-  fetch_references:
+  fetch_references_update_tools:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -23,7 +23,7 @@ jobs:
         run: python var/extract_zotero.py --zot-library-id 4744118
 
       - name: execute table conversion script
-        run: python var/tool_table_conversion.py
+        run: python var/tools_table_conversion.py
 
       - name: Commit if updated
         run: |

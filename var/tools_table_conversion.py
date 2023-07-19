@@ -22,14 +22,14 @@ resource_table = pd.read_csv(url, dtype={'name': str, 'url': str, 'description':
 resource_list = resource_table.to_dict("records")
 clean_resource_list = []
 for resource in resource_list:
-    registry_list = []
+    registry_dict = {}
     for registry in allowed_registries:
         if not pd.isna(resource[registry]):
-            registry_list.append({registry: resource[registry]})
+            registry_dict[registry] = resource[registry]
         del(resource[registry])
     clean_resource = {k: resource[k] for k in resource if not pd.isna(resource[k])}
     clean_resource_list.append(clean_resource)
-    clean_resource['registry'] = registry_list
+    clean_resource['registry'] = registry_dict
 
 print(os.getcwd())
 with open(output_path, 'w+') as yaml_file:

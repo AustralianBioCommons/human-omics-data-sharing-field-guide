@@ -19,10 +19,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: execute python script
+      - name: execute zotero script
         run: python var/extract_zotero.py --zot-library-id 4744118
 
-      - name: Commit if bibliography has been updated
+      - name: execute table conversion script
+        run: python var/tool_table_conversion.py
+
+      - name: Commit if updated
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"

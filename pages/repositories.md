@@ -29,8 +29,8 @@ Ownership of data remains with the original data providers, but the INSDC requir
 It is composed of three nodes:
 
 * The {% tool "ena" %}
-* The DNA Data Bank of Japan (DDBJ)
-* GenBank
+* The {% tool "ddbj" %}
+* {% tool "genbank" %}
 
 Data submitted to each node must adhere to the INSDC data and metadata standard. This standard is implemented in a [set of XML schemas](https://github.com/enasequence/schema/tree/master/src/main/resources/uk/ac/ebi/ena/sra/schema). The [shared data model](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/metadata.html) enables each archive to mirror all data submitted to any INSDC node. Archival accessions provided by each archive follow a consistent pattern with node specific lettering used based on where the data was originally submitted, ‘E’ for ENA, ‘D’ for DDBJ and ‘S’ for GenBank (see [ENA Accession numbers documentation](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/accessions.html) for more information).
 
@@ -155,7 +155,7 @@ Table 1. Databases of the three INSDC nodes (adapted from {% cite arita_internat
 
 When dealing with human data, it is often necessary to archive data in a controlled access repository in order to comply with consent, ethics and legal regulations. Controlled access means that anyone who wants to use the data, must apply for access to the data and agree to use the data in accordance with a data use policy. It varies whether that repository has its own Data Access Committee (DAC) that decides whether a data access request (DAR) complies with the policy and access is granted, or whether the data remains under the control of a dataset specific DAC.
 
-Within Australia, the need to keep data onshore and the challenges involved in archiving in major international repositories means the majority of Australian human genomics research data remains siloed and un-FAIR in unsearchable institutional repositories. However, of the major controlled access archives, the European Genome-Phenome Archive (EGA) is the most used archive by Australian researchers, as it is the only one available to researchers without the need for specific funding arrangements or explicit approval.
+Within Australia, the need to keep data onshore and the challenges involved in archiving in major international repositories means the majority of Australian human genomics research data remains siloed and un-FAIR in unsearchable institutional repositories. However, of the major controlled access archives, the {% tool "ega" %} is the most used archive by Australian researchers, as it is the only one available to researchers without the need for specific funding arrangements or explicit approval.
 
 ## Data repositories explained
 

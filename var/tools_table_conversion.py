@@ -18,7 +18,7 @@ allowed_registries = ['biotools', 'fairsharing', 'tess', 'europmc']
 
 print(f"----> Converting google table to {output_path} started.")
 resource_table = pd.read_csv(url, dtype={'name': str, 'url': str, 'description': str, 'id': str, 'fairsharing': str,
-                                         'biotools': str, 'tess': str, 'europmc': int})
+                                         'biotools': str, 'tess': str, 'europmc': pd.Int64Dtype()})
 resource_list = resource_table.to_dict("records")
 clean_resource_list = []
 for resource in resource_list:

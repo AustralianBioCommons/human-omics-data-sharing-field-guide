@@ -5,6 +5,7 @@
   - biotools: arrayexpress
   - fairsharing: 6k0kwd
   - tess: ArrayExpress
+  - europmc: 33211879
   url: https://www.ebi.ac.uk/arrayexpress/
 - description: API framework and data model for cross-cohort searching.
   id: beacon

@@ -11,6 +11,7 @@ datatable: true
 An overview of selected GA4GH data standards, see [GA4GH website](https://www.ga4gh.org/how-we-work/workstreams/) for all standards.
 
 {% tool "passports" %}
+{% tool "beacon" %}
 
 <div class="table-responsive mt-4 mb-5">
   <table>

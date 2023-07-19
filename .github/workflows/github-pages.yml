@@ -41,7 +41,7 @@ jobs:
       # Use GitHub Actions' cache to cache dependencies on servers
   build:
     runs-on: ubuntu-latest
-    needs: fetch_references
+    needs: fetch_references_update_tools
     
     steps:
       - name: Checkout

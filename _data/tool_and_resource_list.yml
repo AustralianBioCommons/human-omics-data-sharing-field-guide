@@ -74,6 +74,7 @@
   name: Passports
   registry:
   - europmc: '34820660'
+  url: https://www.ga4gh.org/product/ga4gh-passports/
 - description: 'GA4GH '
   id: drs
   name: Data Repository Service (DRS)

@@ -10,7 +10,7 @@ datatable: true
 
 An overview of selected GA4GH data standards, see [GA4GH website](https://www.ga4gh.org/how-we-work/workstreams/) for all standards.
 
-<script src="https://kit.fontawesome.com/46236ff899.js" crossorigin="anonymous"></script>
+{% tool "passports" %}
 
 <div class="table-responsive mt-4 mb-5">
   <table>

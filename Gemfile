@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-gem "elixir-toolkit-theme-plugins", "~> 0.1.6"
-gem "elixir-toolkit-theme", "~> 2.0.0"
+gem "elixir-toolkit-theme-plugins"
+gem "elixir-toolkit-theme", "~> 2.1.0"
 gem "webrick", "~> 1.7"
 gem "jekyll", "~> 4.3.1"
 gem "jemoji", "~> 0.13.0"

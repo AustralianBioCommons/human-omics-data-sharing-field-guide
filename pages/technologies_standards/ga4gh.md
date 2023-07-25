@@ -12,6 +12,10 @@ An overview of selected GA4GH data standards, see [GA4GH website](https://www.ga
 
 {% tool "passports" %}
 {% tool "beacon" %}
+{% tool "wes" %}
+{% tool "vrs" %}
+{% tool "phenopackets" %}
+{% tool "passports" %}
 
 <div class="table-responsive mt-4 mb-5">
   <table>

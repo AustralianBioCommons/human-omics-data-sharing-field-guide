@@ -12,6 +12,8 @@ subitems:
         url: /adding_contributors
       - title: Adding affiliations
         url: /adding_affiliations
+      - title: Adding to and editing tools
+        url: /adding_tools_and_resources
       - title: Adding data repos
         url: /adding_to_data_repository_table
       - title: Editing the homepage

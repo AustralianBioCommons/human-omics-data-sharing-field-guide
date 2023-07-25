@@ -6,20 +6,20 @@ toc: true
 contributors: [Marion Shadbolt]
 ---
 
-The [tools and resources](tools_resources) table is automatically created from the yaml file [`_data/tool_and_resource_list.yml`](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/main/_data/tool_and_resource_list.yml). This file should not be edited directly. To add to or edit the information in the table, please add to or edit the information in the [Field Guide Tools and Resources google sheet](https://docs.google.com/spreadsheets/d/1fkilWZmnh3P7VLEvM01I7g9shLkGGTHoT2pHsZmaCmc/edit#gid=0). Each time the website is built, the script [`var/tools_table_converstion.py`](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/main/var/tools_table_conversion.py) runs as part of the [GitHub Actions](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/bf2bd38ee26441ecc1c5ec1de537a45216e35d9c/.github/workflows/github-pages.yml#L25) that deploy the site, and converts the google sheet to the yaml file.
+The [tools and resources](tools_resources) table is automatically created from the yaml file: [`_data/tool_and_resource_list.yml`](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/main/_data/tool_and_resource_list.yml). This file should not be edited directly. To add to or edit the information in the table, please add to or edit the information in the [Field Guide Tools and Resources google sheet](https://docs.google.com/spreadsheets/d/1fkilWZmnh3P7VLEvM01I7g9shLkGGTHoT2pHsZmaCmc/edit#gid=0). Each time the website is built, the script [`var/tools_table_converstion.py`](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/main/var/tools_table_conversion.py) runs as part of the [GitHub Actions](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/bf2bd38ee26441ecc1c5ec1de537a45216e35d9c/.github/workflows/github-pages.yml#L25) that deploy the site, and converts the google sheet to the yaml file.
 
 ## Editing the Google Sheet
 
 **Columns:**
 
-- name: This is the display name that will show up when a tool is tagged and in the table
-- url: the full url of the resource (required)
-- description: A brief description of what the tool or resource is
-- id: kebab-case (lower case with hyphens) version of the tool name that is used for tagging
-- fairsharing: The [FairSharing](https://fairsharing.org/) identifier for the resource, if one exists
-- biotools: The [bio.tools](https://bio.tools/) identifier for the tool if one exists
-- tess: The [Training eSupport Systen (TeSS)](https://tess.elixir-europe.org/) identifier for the tool if one exists
-- europmc: The [Europe PMC](https://europepmc.org/About) identifier (PMID) for the most relevant publication for the tool or resource
+- **name**: This is the display name that will show up when a tool is tagged and in the table
+- **url**: the full url of the resource (required)
+- **description**: A brief description of what the tool or resource is
+- **id**: kebab-case (lower case with hyphens) version of the tool name that is used for tagging
+- **fairsharing**: The [FairSharing](https://fairsharing.org/) identifier for the resource, if one exists
+- **biotools**: The [bio.tools](https://bio.tools/) identifier for the tool if one exists
+- **tess**: The [Training eSupport Systen (TeSS)](https://tess.elixir-europe.org/) identifier for the tool if one exists
+- **europmc**: The [Europe PMC](https://europepmc.org/About) identifier (PMID) for the most relevant publication for the tool or resource
 
 {% include callout.html type="important" content="Note that the ability to tag tools and the information in the tables on the website will not be updated until the site is rebuilt after editing the google sheet." %}
 

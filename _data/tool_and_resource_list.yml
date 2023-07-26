@@ -20,6 +20,7 @@
   name: BioSamples
   registry:
     biotools: biosamples
+    europmc: 34747489
     fairsharing: ewjdq6
     tess: BioSamples
   url: https://www.ebi.ac.uk/biosamples/
@@ -29,6 +30,7 @@
   name: BioStudies
   registry:
     biotools: biostudies
+    europmc: 29069414
     fairsharing: mtjvme
     tess: BioStudies
   url: https://www.ebi.ac.uk/biostudies/
@@ -38,6 +40,7 @@
   name: dbGAP
   registry:
     biotools: dbgap
+    europmc: 17898773
     fairsharing: 88v2k0
     tess: dbGAP
   url: https://www.ncbi.nlm.nih.gov/gap/
@@ -47,6 +50,7 @@
   name: DNA Data Bank of Japan (DDBJ)
   registry:
     biotools: ddbj
+    europmc: 36420889
   url: https://www.ddbj.nig.ac.jp/index-e.html
 - description: EMBL-EBI's wizard for finding the right EMBL-EBI repository for your
     data.
@@ -60,6 +64,7 @@
   name: European Nucleotide Archive (ENA)
   registry:
     biotools: ena
+    europmc: 36399492
     fairsharing: dj8nt8
     tess: European Nucleotide Archive (ENA)
   url: https://www.ebi.ac.uk/ena/browser/home
@@ -76,19 +81,22 @@
   registry:
     europmc: 34820660
   url: https://www.ga4gh.org/product/ga4gh-passports/
-- description: 'GA4GH '
+- description: 'GA4GH standard API for accessing and retrieving data files '
   id: drs
   name: Data Repository Service (DRS)
   registry: {}
-- description: 'GA4GH '
+  url: https://www.ga4gh.org/product/data-repository-service-drs/
+- description: GA4GH standard for representing genomic variants
   id: vrs
   name: Variant Representation (VRS)
   registry:
     europmc: 36540993
-- description: 'GA4GH '
+  url: https://www.ga4gh.org/product/variation-representation/
+- description: GA4GH standard protocol for sending workflows to compute
   id: wes
   name: Workflow Execution Service (WES)
   registry: {}
+  url: https://www.ga4gh.org/product/workflow-execution-service-wes/
 - description: A database of genetic sequence information. GenBank may also refer
     to the data format used for storing information around genetic sequence data.
   id: genbank
@@ -109,13 +117,15 @@
     sequencing
   id: geo
   name: Gene Expression Omnibus (GEO)
-  registry: {}
+  registry:
+    europmc: 23193258
   url: https://www.ncbi.nlm.nih.gov/geo/
 - description: GSA Human is a China-based controlled-access repository for sensitive
     human data
   id: gsa-human
   name: Genome Sequence Archive for Human (GSA Human)
-  registry: {}
+  registry:
+    europmc: 34702711
   url: https://ngdc.cncb.ac.cn/gsa-human/
 - description: A collaborative database of genetic sequence datasets from DDBJ, EMBL-EBI
     and NCBI
@@ -125,8 +135,7 @@
     biotools: insdc
   url: http://www.insdc.org
 - description: Online database hosting a vast amount of biotechnological information
-    including nucleic acids, proteins, genomes and publications. Also boasts integrated
-    tools for analysis.
+    including nucleic acids, proteins, genomes and publications.
   id: ncbi
   name: National Center for Biotechnology Information (NCBI)
   registry: {}
@@ -134,7 +143,9 @@
 - description: Nextflow is a framework for data analysis workflow execution
   id: nextflow
   name: Nextflow
-  registry: {}
+  registry:
+    biotools: nextflow
+    europmc: 28398311
   url: https://www.nextflow.io
 - description: Omics Discovery Index (OmicsDI) provides a knowledge discovery framework
     across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics)
@@ -142,6 +153,7 @@
   name: OmicsDI
   registry:
     biotools: omicsdi
+    europmc: 28486464
     fairsharing: re1278
     tess: OmicsDI
   url: https://www.omicsdi.org
@@ -149,7 +161,8 @@
     health data.
   id: omop
   name: OMOP-CDM
-  registry: {}
+  registry:
+    fairsharing: qk984b
   url: https://ohdsi.github.io/CommonDataModel/
 - description: GA4GH standard for sharing disease and phenotype information that characterizes
     an individual person, linking that individual to detailed phenotypic descriptions,
@@ -174,6 +187,7 @@
   name: The European Genome-phenome Archive (EGA)
   registry:
     biotools: ega
+    europmc: 34791407
     fairsharing: mya1ff
     tess: The European Genome-phenome Archive (EGA)
   url: https://ega-archive.org/
@@ -185,3 +199,69 @@
     fairsharing: wy4egf
     tess: Zenodo
   url: https://zenodo.org/
+- description: Functional genomics archive run by DDBJ in Japan
+  id: gea
+  name: Genome Expression Archive (GEA)
+  registry:
+    europmc: 36420889
+  url: https://www.ddbj.nig.ac.jp/gea/index-e.html
+- description: Repository for metabolomics data from mass spectrometry, NMR and imaging
+    run by DDBJ
+  id: metabobank
+  name: Metabobank
+  registry: {}
+  url: https://www.ddbj.nig.ac.jp/metabobank/index-e.html
+- description: MetaboLights is a database for Metabolomics experiments and derived
+    information. The database is cross-species, cross-technique and covers metabolite
+    structures and their reference spectra as well as their biological roles, locations
+    and concentrations, and experimental data from metabolic experiments.
+  id: metabolights
+  name: Metabolights
+  registry:
+    europmc: 31691833
+  url: https://www.ebi.ac.uk/metabolights/
+- description: A centralized, standards compliant, public data repository for mass
+    spectrometry proteomics data
+  id: pride
+  name: Proteomics Identifications Archive (PRIDE)
+  registry:
+    europmc: 34723319
+  url: https://www.ebi.ac.uk/pride/
+- description: A public repository for storing and sharing mass spectrometry-based
+    Proteome data.
+  id: jpostrepo
+  name: Japan Proteome Standard Repository (jPOSTrepo)
+  registry:
+    europmc: 27899654
+  url: https://repository.jpostdb.org/
+- description: Integrated proteome resources centre to accelerate worldwide data sharing
+    in proteomics.
+  id: iprox
+  name: iProX
+  registry:
+    europmc: 34871441
+  url: https://www.iprox.cn/
+- description: A community resource developed by the NIH-funded Center for Computational
+    Mass Spectrometry to promote the global, free exchange of mass spectrometry data.
+  id: massive
+  name: Mass Spectrometry Interactive Virtual Environment (MassIVE)
+  registry: {}
+  url: https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp
+- description: The BioImage Archive is a free, publicly available online resource
+    which stores and distributes biological images. It accepts submissions of data
+    from any imaging modality, as long as the data are either associated with a peer-reviewed
+    publication, or of value beyond a single experiment.
+  id: bioimage-archive
+  name: BioImage Archive
+  registry:
+    europmc: 35189131
+    fairsharing: x38D2k
+  url: https://www.ebi.ac.uk/bioimage-archive/
+- description: 'EMPIAR, the Electron Microscopy Public Image Archive, is a public
+    resource for raw images underpinning 3D cryo-EM maps and tomograms '
+  id: empiar
+  name: Electron Microscopy Public Image Archive (EMPIAR)
+  registry:
+    europmc: 36440762
+    fairsharing: dff3ef
+  url: https://www.ebi.ac.uk/empiar/

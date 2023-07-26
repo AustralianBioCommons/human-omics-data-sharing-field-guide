@@ -66,3 +66,5 @@ For users who are comfortable interacting with GitHub via the commandline, a sim
 
 It is also possible (in theory) to run the website locally, see instructions on the ELIXIR toolkit theme [README](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme#locally-using-jekyll).
 
+{% include callout.html type="note" content="Note that after you push changes, pull the latest changes before making edits because the GitHub actions may have updated the tools and resources or bib files." %}
+

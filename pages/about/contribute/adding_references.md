@@ -12,7 +12,7 @@ Each time the website is built, [a script](https://github.com/AustralianBioCommo
 
 ## Adding references to bibliography
 
-{% include callout.html type="note" content="Ensure you have [Zotero](https://www.zotero.org/) installed with the appropriate browser addon and the ability to add references to the Zotero group library, if you need to be added as a member, please [contact the HGI team](mailto:marion@biocommons.org.au)." %}
+{% include callout.html type="note" content="Ensure you have [Zotero](https://www.zotero.org/) installed with the appropriate browser addon and the ability to add references to the Zotero group library, if you need to be added as a member, please [contact the HGI team](mailto:contact@biocommons.org.au)." %}
 
 1. Open the Zotero desktop app
 1. Go to the webpage of the publication you want to add to the group library

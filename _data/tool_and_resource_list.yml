@@ -37,7 +37,7 @@
 - description: The database of Genotypes and Phenotypes (dbGaP) archives and distributes
     data from studies investigating the interaction of genotype and phenotype in Humans
   id: dbgap
-  name: dbGAP
+  name: Database of Genotypes and Phenotypes (dbGAP)
   registry:
     biotools: dbgap
     europmc: 17898773
@@ -265,3 +265,42 @@
     europmc: 36440762
     fairsharing: dff3ef
   url: https://www.ebi.ac.uk/empiar/
+- description: A GA4GH standard to allow for computable exchange of family health
+    history and representation of larger, more complex families
+  id: pedigree
+  name: Pedigree
+  registry: {}
+  url: https://www.ga4gh.org/product/pedigree/
+- description: China's national initative to build platforms and infrastructure to
+    support life science researchers in academia and industry
+  id: cncb-ngdc
+  name: China National Genomics Data Center - National Genomics Data Center (CNCB-NGDC)
+  registry:
+    europmc: 36420893
+  url: https://ngdc.cncb.ac.cn/
+- description: The Experimental Factor Ontology (EFO) provides a systematic description
+    of many experimental variables. The scope of EFO is to support the annotation,
+    analysis and visualization of data handled by many groups at the EBI.
+  id: efo
+  name: Experimental Factor Ontology (EFO)
+  registry:
+    europmc: 20200009
+    fairsharing: 1gr4tz
+  url: https://www.ebi.ac.uk/efo/
+- description: Expression Atlas is an open science resource that gives users a powerful
+    way to find information about gene and protein expression across species. Data
+    is analysed with standardised best-practice pipelines and displayed in an interactive
+    format.
+  id: expression-atlas
+  name: Expression Atlas
+  registry:
+    europmc: 34850121
+    fairsharing: f5zx00
+    tess: Expression Atlas
+  url: https://www.ebi.ac.uk/gxa/home
+- description: A controlled access data repository for human data managed by the DDBJ.
+  id: jga
+  name: Japanese Genome-Phenotype Archive (JGA)
+  registry:
+    europmc: 36420889
+  url: https://humandbs.biosciencedbc.jp/en/data-use/all-researches

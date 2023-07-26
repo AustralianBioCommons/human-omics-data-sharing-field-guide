@@ -7,7 +7,7 @@ description: Controlled access database for human data.
 affiliations: [ELIXIR Europe, GA4GH, EMBL-EBI, Centre for Genomic Regulation, GB, ES]
 ---
 
-The European Genome-Phenome Archive ({% tool "ega" %}) {% cite freeberg_european_2022 %} is a controlled access data repository for sensitive human data. The repository is managed by EMBL-EBI (UK) and the Centre for Genomic Regulation (CRG) (Spain). Submission is open to anyone and data access is controlled per dataset by a user submitted data access policy and user defined data access committee. A single data access committee and policy may be used for a single dataset or may be reused for multiple datasets.
+{% tool "ega" %} {% cite freeberg_european_2022 %} is a controlled access data repository for sensitive human data. The repository is managed by EMBL-EBI (UK) and the Centre for Genomic Regulation (CRG) (Spain). Submission is open to anyone and data access is controlled per dataset by a user submitted data access policy and user defined data access committee. A single data access committee and policy may be used for a single dataset or may be reused for multiple datasets.
 
 
 ## EGA Submission process
@@ -23,11 +23,11 @@ The metadata files that must be submitted to EGA follow the same INSDC schemas, 
 
 * Donor ID - anonymised individual identifier
 * Biological sex (referred to as gender)
-* Phenotype - preferably ontologised using [EFO](https://www.ebi.ac.uk/ols/ontologies/efo)
+* Phenotype - preferably ontologised using {% tool "efo" %}
 
 Submitters can add as many other attributes as they like, but this information will be openly accessible when the study is submitted. It is also possible to first submit attributes to the BioSamples database first and use the obtained accessions in your EGA submission to link to BioSamples. These would also only be for public metadata. 
 
-Due to limited required attributes, it is often necessary to make more comprehensive clinical, phenotypic and demographic metadata available alongside the data files. If this metadata is subject to controlled access, the information can be attached to the submission as Analysis (phenotype) files. These do not follow any kind of strict standard or format, however the use of the [GA4GH phenopacket](https://phenopacket-schema.readthedocs.io/en/latest/) is an emerging standard for characterising this type of information. README files can also be incorporated to provide an explanation of the phenotype or other analysis files.
+Due to limited required attributes, it is often necessary to make more comprehensive clinical, phenotypic and demographic metadata available alongside the data files. If this metadata is subject to controlled access, the information can be attached to the submission as Analysis (phenotype) files. These do not follow any kind of strict standard or format, however the use of {% tool "phenopackets" "%}  is an emerging standard for characterising this type of information. README files can also be incorporated to provide an explanation of the phenotype or other analysis files.
 
 Submitting to the EGA can be done via its submission interface or through submitting XMLs or JSONs via their REST API. The submission interface is useful for a user-friendly experience when submitting metadata for objects where there are relatively few objects of that type. We recommend using it for objects such as:
 

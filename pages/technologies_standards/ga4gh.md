@@ -8,14 +8,16 @@ affiliations: [GA4GH]
 datatable: true
 ---
 
-An overview of selected GA4GH data standards, see [GA4GH website](https://www.ga4gh.org/how-we-work/workstreams/) for all standards.
+An overview of selected GA4GH data standards can be reviewed below, see [GA4GH website](https://www.ga4gh.org/how-we-work/workstreams/) for all standards.
 
-{% tool "passports" %}
-{% tool "beacon" %}
-{% tool "wes" %}
-{% tool "vrs" %}
-{% tool "phenopackets" %}
-{% tool "passports" %}
+- {% tool "passports" %}
+- {% tool "beacon" %}
+- {% tool "wes" %}
+- {% tool "vrs" %}
+- {% tool "phenopackets" %}
+- {% tool "passports" %}
+- {% tool "duo" %}
+
 
 <div class="table-responsive mt-4 mb-5">
   <table>

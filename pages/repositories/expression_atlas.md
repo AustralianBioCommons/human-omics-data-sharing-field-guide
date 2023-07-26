@@ -7,7 +7,7 @@ description: Explore analysed gene and protein expression atlas across many spec
 affiliations: [EMBL-EBI, GB]
 ---
 
-The {% tool "expression-atlas" "%} is a tool to explore gene and protein expression information across a range of species {% cite moreno_expression_2022 %}. Data are processed through standardised pipelines and presented as interactive visualisations. There is also a specific [single-cell expression atlas](https://www.ebi.ac.uk/gxa/sc/home). Data often comes into the expression atlas from {% tool "arrayexpress" %}.
+The {% tool "expression-atlas" %} is a tool to explore gene and protein expression information across a range of species {% cite moreno_expression_2022 %}. Data are processed through standardised pipelines and presented as interactive visualisations. There is also a specific [single-cell expression atlas](https://www.ebi.ac.uk/gxa/sc/home). Data often comes into the expression atlas from {% tool "arrayexpress" %}.
 
 ## References
 

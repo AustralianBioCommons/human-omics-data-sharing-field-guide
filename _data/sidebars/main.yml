@@ -15,7 +15,7 @@ subitems:
         url: /gen3
       - title: phenopackets
         url: /phenopackets
-      - title: rems
+      - title: REMS
         url: /rems
   - title: Ethical, Legal and Social Issues
     url: /legal_ethical

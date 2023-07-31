@@ -304,3 +304,9 @@
     fairsharing: wy4egf
     tess: Zenodo
   url: https://zenodo.org/
+- description: An open source data platform with customisable data dictionary to enable
+    data harmonisation, discovery, sharing and analysis.
+  id: gen3
+  name: Gen3
+  registry: {}
+  url: https://gen3.org/

@@ -24,12 +24,16 @@ Storage, sharing and analysis of human omics data is a complex task. Individuals
 
 This *Human Omics Data Sharing Field Guide* seeks to provide a comprehensive resource that gathers together essential information on a broad range of topics to help individuals and organisations on their genomics data sharing journey. Human omics data sharing and analysis is an inherently international activity, and this guide follows suit, however, some details vary between countries, and in those cases we focus on the Australian perspective.
 
+## Structure
+
 To help with navigation we've broadly divided it into four main topics:
 
 1. [Technnologies and Standards](technologies_standards): the main technologies involved in omics data sharing and analysis, including software tools and file formats, and the standards that are relevant to the domain, including metadata ontologies.
 2. [Ethical Legal and Social Issues](legal_ethical): issues relating to storage and use of sensitive information and how this is viewed from a legal, ethical and social perspective.
 3. [Activities and Agencies](activities_agencies): major human omics projects and organisations involved in the generation, storage and analysis of omics data.
 4. [Repositories](repositories): significant Australian and international repositories of human omics data.
+
+You can also search the Field Guide using keywords on the [Home Page](index).
 
 ## Scope and intended audience
 

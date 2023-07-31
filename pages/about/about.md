@@ -4,8 +4,6 @@ page_id: about
 toc: false
 ---
 
-# Overview
-
 The term *Omics* refers to a broad set of methods for measuring the type and quantity of various cellular molecules at high resolution, including:
 
  * DNA ([genomics](https://en.wikipedia.org/wiki/Genomics))

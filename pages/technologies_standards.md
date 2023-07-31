@@ -1,13 +1,18 @@
 ---
 title: Technologies and Standards
 page_id: technologies_standards
-contributors: [Marion Shadbolt]
+contributors: [Marion Shadbolt, Bernie Pope]
 ---
 
-## Summary text
+Storage, sharing and analytics of human omics data involves a large ecosystem of technolgies and standards, including:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat leo, pulvinar sed molestie in, ullamcorper tempor mi. Donec scelerisque nibh et condimentum faucibus. Sed tempor felis quis lacus volutpat mattis. Praesent justo sem, volutpat sed porta ut, interdum vitae velit. Integer mattis est sit amet aliquet eleifend. Aliquam euismod ante enim. Phasellus ut bibendum turpis, quis eleifend elit. Curabitur tincidunt enim risus, et sollicitudin ex dictum id. Sed non porta lectus, quis tristique metus. Morbi vestibulum laoreet ex, at lacinia augue. Sed fermentum eget felis sed feugiat. Vivamus in vulputate neque. Aliquam turpis quam, aliquam nec sapien et, gravida congue lacus. Aliquam sed lacinia ex.
+* Data commons platforms that allow groups to manage, analyze and share omics data, searchable using key clinical and demographic variables.
+* User identity and authentication mechanisms for establishing trust and assigning permissions.
+* Computational workflow systems for orchestrating large scale distributed computations within secure computing environments.
+* File format specifications for different data types.
+* Protocols for querying datasets held across multiple organisations to assemble cohorts for further research, and for sending data between systems.
+* Language ontologies for establishing standard nomenclature and compatible representations of data and metadata.
 
-Suspendisse tempor interdum dignissim. Pellentesque tristique, eros eget ultricies eleifend, nisi tortor commodo magna, non aliquam nunc orci nec erat. In scelerisque arcu a finibus dignissim. Nullam ac ligula sollicitudin, ultrices nunc ac, porttitor mi. Aliquam cursus feugiat risus, in fermentum est aliquet sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus interdum blandit rutrum. Aenean vitae ligula mattis, vehicula ipsum nec, pulvinar sem. Maecenas id bibendum tortor.
+
 
 {% include section-navigation-tiles.html type="technologies_standards" affiliations=true search=true %}

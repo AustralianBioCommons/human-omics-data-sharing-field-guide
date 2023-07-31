@@ -4,6 +4,8 @@ page_id: about
 toc: false
 ---
 
+# Overview
+
 The term *Omics* refers to a broad set of methods for measuring the type and quantity of various cellular molecules at high resolution, including:
 
  * DNA ([genomics](https://en.wikipedia.org/wiki/Genomics))
@@ -30,5 +32,20 @@ To help with navigation we've broadly divided it into four main topics:
 2. [Ethical Legal and Social Issues](legal_ethical): issues relating to storage and use of sensitive information and how this is viewed from a legal, ethical and social perspective.
 3. [Activities and Agencies](activities_agencies): major human omics projects and organisations involved in the generation, storage and analysis of omics data.
 4. [Repositories](repositories): significant Australian and international repositories of human omics data.
+
+# Scope and intended audience
+
+As the name suggests the Field Guide aims to provide a map of the human omics data sharing and analytics landscape. It is a complex multi-disciplinary field that covers many different specialities. Therefore the purpose of the Field Guide is to provide a broad overview of the key areas and highlight how they are interconnected. It is not intended to be exhaustive, and where appropriate, links to external authorative sources are provided.
+
+We have approached the topic from the perspective of digital infrastructure, however we recognise that technology has important ethical, legal and social implications. Therefore, while the main focus is on digital infrastructure and technology, the Field Guide also touches on key non-technical topics where appropriate.
+
+The intended audience for the Field Guide includes:
+
+* Newcomers to the field of human omics data sharing and analysis.
+* Researchers and clinicians who want a better understanding of the technology landscape, particularly relating to digitial infrastructure supporting storage, sharing and analytics.
+* Policy makers, funding agencies, and individuals working in healthcare-adjacent fields.
+* Students in disciplines that overlap with human omics or with a general interest in the area.
+
+# Contributing
 
 We consider this a work in progress and would welcome your feedback and contributions. See the [Contribute](contribute) page for further info on how to contribute to this project.

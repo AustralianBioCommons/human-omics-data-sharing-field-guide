@@ -28,7 +28,7 @@ To help with navigation we've broadly divided it into four main topics:
 
 1. [Technnologies and Standards](technologies_standards): the main technologies involved in omics data sharing and analysis, including software tools and file formats, and the standards that are relevant to the domain, including metadata ontologies.
 2. [Ethical Legal and Social Issues](legal_ethical): issues relating to storage and use of sensitive information and how this is viewed from a legal, ethical and social perspective.
-3. [Activities and Agencies](activities_agenies): major human omics projects and organisations involved in the generation, storage and analysis of omics data.
+3. [Activities and Agencies](activities_agencies): major human omics projects and organisations involved in the generation, storage and analysis of omics data.
 4. [Repositories](repositories): significant Australian and international repositories of human omics data.
 
 We consider this a work in progress and would welcome your feedback and contributions. See the [Contribute](contribute) page for further info on how to contribute to this project.

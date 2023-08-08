@@ -6,6 +6,7 @@
     europmc: 33211879
     fairsharing: 6k0kwd
     tess: ArrayExpress
+  type: repository
   url: https://www.ebi.ac.uk/arrayexpress/
 - description: API framework and data model for cross-cohort searching.
   id: beacon
@@ -13,6 +14,7 @@
   registry:
     europmc: 35297548
     fairsharing: 6fba91
+  type: standard
   url: https://github.com/ga4gh-beacon/beacon-v2
 - description: The BioImage Archive is a free, publicly available online resource
     which stores and distributes biological images. It accepts submissions of data
@@ -23,6 +25,7 @@
   registry:
     europmc: 35189131
     fairsharing: x38D2k
+  type: repository
   url: https://www.ebi.ac.uk/bioimage-archive/
 - description: BioSamples stores and supplies descriptions and metadata about biological
     samples used in research and development by academia and industry.
@@ -33,6 +36,7 @@
     europmc: 34747489
     fairsharing: ewjdq6
     tess: BioSamples
+  type: repository
   url: https://www.ebi.ac.uk/biosamples/
 - description: A database hosting datasets from biological studies. Useful for storing
     or accessing data that is not compliant for mainstream repositories.
@@ -43,6 +47,7 @@
     europmc: 29069414
     fairsharing: mtjvme
     tess: BioStudies
+  type: repository
   url: https://www.ebi.ac.uk/biostudies/
 - description: China's national initative to build platforms and infrastructure to
     support life science researchers in academia and industry
@@ -50,11 +55,13 @@
   name: China National Genomics Data Center - National Genomics Data Center (CNCB-NGDC)
   registry:
     europmc: 36420893
+  type: organisation
   url: https://ngdc.cncb.ac.cn/
 - description: 'GA4GH standard API for accessing and retrieving data files '
   id: drs
   name: Data Repository Service (DRS)
   registry: {}
+  type: standard
   url: https://www.ga4gh.org/product/data-repository-service-drs/
 - description: GA4GH standard ontology for describing access and use restrictions
     on datasets
@@ -62,6 +69,7 @@
   name: Data Use Ontology (DUO)
   registry:
     europmc: 34820659
+  type: standard
   url: https://www.ebi.ac.uk/ols4/ontologies/duo
 - description: The database of Genotypes and Phenotypes (dbGaP) archives and distributes
     data from studies investigating the interaction of genotype and phenotype in Humans
@@ -72,6 +80,7 @@
     europmc: 17898773
     fairsharing: 88v2k0
     tess: dbGAP
+  type: repository
   url: https://www.ncbi.nlm.nih.gov/gap/
 - description: Japan-based Nucleotide sequence archive database and accompanying database
     tools for sequence submission, entry retrieval and annotation analysis.
@@ -80,6 +89,7 @@
   registry:
     biotools: ddbj
     europmc: 36420889
+  type: repository
   url: https://www.ddbj.nig.ac.jp/index-e.html
 - description: 'EMPIAR, the Electron Microscopy Public Image Archive, is a public
     resource for raw images underpinning 3D cryo-EM maps and tomograms '
@@ -88,12 +98,14 @@
   registry:
     europmc: 36440762
     fairsharing: dff3ef
+  type: repository
   url: https://www.ebi.ac.uk/empiar/
 - description: EMBL-EBI's wizard for finding the right EMBL-EBI repository for your
     data.
   id: ebi-submission
   name: EMBL-EBI's data submission wizard
   registry: {}
+  type: tool
   url: https://www.ebi.ac.uk/submission/
 - description: A record of sequence information scaling from raw sequcning reads to
     assemblies and functional annotation
@@ -104,6 +116,7 @@
     europmc: 36399492
     fairsharing: dj8nt8
     tess: European Nucleotide Archive (ENA)
+  type: repository
   url: https://www.ebi.ac.uk/ena/browser/home
 - description: The Experimental Factor Ontology (EFO) provides a systematic description
     of many experimental variables. The scope of EFO is to support the annotation,
@@ -113,6 +126,7 @@
   registry:
     europmc: 20200009
     fairsharing: 1gr4tz
+  type: standard
   url: https://www.ebi.ac.uk/efo/
 - description: Expression Atlas is an open science resource that gives users a powerful
     way to find information about gene and protein expression across species. Data
@@ -124,6 +138,7 @@
     europmc: 34850121
     fairsharing: f5zx00
     tess: Expression Atlas
+  type: repository
   url: https://www.ebi.ac.uk/gxa/home
 - description: Data publishing platform
   id: figshare
@@ -131,6 +146,7 @@
   registry:
     fairsharing: drtwnh
     tess: FigShare
+  type: repository
   url: https://figshare.com/
 - description: A database of genetic sequence information. GenBank may also refer
     to the data format used for storing information around genetic sequence data.
@@ -140,6 +156,7 @@
     biotools: genbank
     fairsharing: 9kahy4
     tess: GenBank
+  type: repository
   url: https://www.ncbi.nlm.nih.gov/genbank/
 - description: A repository of MIAME-compliant genomics data from arrays and high-throughput
     sequencing
@@ -147,12 +164,14 @@
   name: Gene Expression Omnibus (GEO)
   registry:
     europmc: 23193258
+  type: repository
   url: https://www.ncbi.nlm.nih.gov/geo/
 - description: Functional genomics archive run by DDBJ in Japan
   id: gea
   name: Genome Expression Archive (GEA)
   registry:
     europmc: 36420889
+  type: repository
   url: https://www.ddbj.nig.ac.jp/gea/index-e.html
 - description: GSA Human is a China-based controlled-access repository for sensitive
     human data
@@ -160,6 +179,7 @@
   name: Genome Sequence Archive for Human (GSA Human)
   registry:
     europmc: 34702711
+  type: repository
   url: https://ngdc.cncb.ac.cn/gsa-human/
 - description: A collaborative database of genetic sequence datasets from DDBJ, EMBL-EBI
     and NCBI
@@ -167,6 +187,7 @@
   name: International Nucleotide Sequence Database Collaboration (INSDC)
   registry:
     biotools: insdc
+  type: organisation
   url: http://www.insdc.org
 - description: Integrated proteome resources centre to accelerate worldwide data sharing
     in proteomics.
@@ -174,6 +195,7 @@
   name: iProX
   registry:
     europmc: 34871441
+  type: repository
   url: https://www.iprox.cn/
 - description: A public repository for storing and sharing mass spectrometry-based
     Proteome data.
@@ -181,24 +203,28 @@
   name: Japan Proteome Standard Repository (jPOSTrepo)
   registry:
     europmc: 27899654
+  type: repository
   url: https://repository.jpostdb.org/
 - description: A controlled access data repository for human data managed by the DDBJ.
   id: jga
   name: Japanese Genome-Phenotype Archive (JGA)
   registry:
     europmc: 36420889
+  type: repository
   url: https://humandbs.biosciencedbc.jp/en/data-use/all-researches
 - description: A community resource developed by the NIH-funded Center for Computational
     Mass Spectrometry to promote the global, free exchange of mass spectrometry data.
   id: massive
   name: Mass Spectrometry Interactive Virtual Environment (MassIVE)
   registry: {}
+  type: repository
   url: https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp
 - description: Repository for metabolomics data from mass spectrometry, NMR and imaging
     run by DDBJ
   id: metabobank
   name: Metabobank
   registry: {}
+  type: repository
   url: https://www.ddbj.nig.ac.jp/metabobank/index-e.html
 - description: MetaboLights is a database for Metabolomics experiments and derived
     information. The database is cross-species, cross-technique and covers metabolite
@@ -208,12 +234,14 @@
   name: Metabolights
   registry:
     europmc: 31691833
+  type: repository
   url: https://www.ebi.ac.uk/metabolights/
 - description: Online database hosting a vast amount of biotechnological information
     including nucleic acids, proteins, genomes and publications.
   id: ncbi
   name: National Center for Biotechnology Information (NCBI)
   registry: {}
+  type: organisation
   url: https://www.ncbi.nlm.nih.gov
 - description: Nextflow is a framework for data analysis workflow execution
   id: nextflow
@@ -221,6 +249,7 @@
   registry:
     biotools: nextflow
     europmc: 28398311
+  type: tool
   url: https://www.nextflow.io
 - description: Omics Discovery Index (OmicsDI) provides a knowledge discovery framework
     across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics)
@@ -231,6 +260,7 @@
     europmc: 28486464
     fairsharing: re1278
     tess: OmicsDI
+  type: repository
   url: https://www.omicsdi.org
 - description: OMOP is a common data model for the harmonisation for of observational
     health data.
@@ -238,18 +268,21 @@
   name: OMOP-CDM
   registry:
     fairsharing: qk984b
+  type: standard
   url: https://ohdsi.github.io/CommonDataModel/
 - description: GA4GH open standard to encode data access permissions of users
   id: passports
   name: Passports
   registry:
     europmc: 34820660
+  type: standard
   url: https://www.ga4gh.org/product/ga4gh-passports/
 - description: A GA4GH standard to allow for computable exchange of family health
     history and representation of larger, more complex families
   id: pedigree
   name: Pedigree
   registry: {}
+  type: standard
   url: https://www.ga4gh.org/product/pedigree/
 - description: GA4GH standard for sharing disease and phenotype information that characterizes
     an individual person, linking that individual to detailed phenotypic descriptions,
@@ -258,6 +291,7 @@
   name: Phenopackets
   registry:
     europmc: 36910590
+  type: standard
   url: https://phenopacket-schema.readthedocs.io/en/latest/index.html
 - description: A centralized, standards compliant, public data repository for mass
     spectrometry proteomics data
@@ -265,6 +299,7 @@
   name: Proteomics Identifications Archive (PRIDE)
   registry:
     europmc: 34723319
+  type: repository
   url: https://www.ebi.ac.uk/pride/
 - description: "REMS (Resource Entitlement Management System), developed by CSC, is\
     \ a tool that can be used to manage researchers\u201A access rights to datasets."
@@ -273,6 +308,7 @@
   registry:
     biotools: rems
     tess: REMS
+  type: tool
   url: https://github.com/CSCfi/rems
 - description: EGA is a service for permanent archiving and sharing of all types of
     personally identifiable genetic and phenotypic data resulting from biomedical
@@ -284,17 +320,20 @@
     europmc: 34791407
     fairsharing: mya1ff
     tess: The European Genome-phenome Archive (EGA)
+  type: repository
   url: https://ega-archive.org/
 - description: GA4GH standard for representing genomic variants
   id: vrs
   name: Variant Representation (VRS)
   registry:
     europmc: 36540993
+  type: standard
   url: https://www.ga4gh.org/product/variation-representation/
 - description: GA4GH standard protocol for sending workflows to compute
   id: wes
   name: Workflow Execution Service (WES)
   registry: {}
+  type: standard
   url: https://www.ga4gh.org/product/workflow-execution-service-wes/
 - description: Generalist research data repository built and developed by OpenAIRE
     and CERN
@@ -303,10 +342,12 @@
   registry:
     fairsharing: wy4egf
     tess: Zenodo
+  type: repository
   url: https://zenodo.org/
 - description: An open source data platform with customisable data dictionary to enable
     data harmonisation, discovery, sharing and analysis.
   id: gen3
   name: Gen3
   registry: {}
+  type: tool
   url: https://gen3.org/

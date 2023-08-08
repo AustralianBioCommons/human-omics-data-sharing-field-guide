@@ -6,7 +6,7 @@ toc: true
 contributors: [Marion Shadbolt]
 ---
 
-The references for the field guide are managed using a Zotero group library - [HumanGenomicsFieldGuide](https://www.zotero.org/groups/4744118/humangenomicsfieldguide/library). This library is openly accessible for read-only access but only members of the group can edit references. 
+The references for the field guide are managed using a Zotero group library - [HumanGenomicsFieldGuide](https://www.zotero.org/groups/4744118/humangenomicsfieldguide/library). This library is openly accessible for read-only access but only members of the group can edit references. To add members to the group, go to the [member admin page](https://www.zotero.org/groups/4744118/settings/members). Here you can send invitations to new members and adjust the roles for each member. 
 
 Each time the website is built, [a script](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/main/var/extract_zotero.py) to extract all references from Zotero and save as a bibtex file (`_bibliography/references.bib`) in the repo is run via [GitHub actions](https://github.com/AustralianBioCommons/human-omics-data-sharing-field-guide/blob/main/.github/workflows/github-pages.yml). 
 

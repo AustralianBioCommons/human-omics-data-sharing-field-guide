@@ -8,7 +8,7 @@ contributors: [Marion Shadbolt]
 affiliations: [US]
 ---
 
-CILogon *TODO: add citation* is an integrated identity and access management tool that allows researchers to use a federated identity, such as their institutional login information, to access services. COmanage is an additional platform for user administration that enables management of access rights and enrollment flows to the services that are managed.
+[CILogon](https://www.cilogon.org/home) {% cite basney_cilogon_2019 %} is an integrated identity and access management tool that allows researchers to use a federated identity, such as their institutional login information, to access services. COmanage is an additional platform for user administration that enables management of access rights and enrollment flows to the services that are managed.
 
 In Australia, the Australian Access Federation ([AAF](https://aaf.edu.au/)) partners with CILogon to bring this service to Australia and enable all members of the AAF to use it. The AAF have deployed a CILogon service in Australia so that all identity information processing remains within Australia.
 

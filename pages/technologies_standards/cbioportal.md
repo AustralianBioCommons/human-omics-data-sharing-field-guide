@@ -8,7 +8,7 @@ contributors: [Marion Shadbolt]
 affiliations: [US, CA, NL, TR]
 ---
 
-{% tool "cbioportal" %} *TODO: add citation* is an interactive tool for exploring large cancer genomics datasets. A public instance of the tool exists at [cbioportalorg](https://www.cbioportal.org/) with many public datasets available for exploration. 
+{% tool "cbioportal" %} {% cite gao_integrative_2013 cerami_cbio_2012 %} is an interactive tool for exploring large cancer genomics datasets. A public instance of the tool exists at [cbioportalorg](https://www.cbioportal.org/) with many public datasets available for exploration. 
 
 Users can upload their own data to the portal if they are happy for it to also be made public. It is also possible to download and install a local version of the software. 
 

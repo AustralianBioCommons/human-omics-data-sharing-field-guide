@@ -1,5 +1,5 @@
 ---
-title: Legal and Ethical Considerations
+title: Ethical, Legal and Social Issues
 page_id: legal_ethical
 toc: true
 ---

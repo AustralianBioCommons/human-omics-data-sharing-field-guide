@@ -5,5 +5,5 @@ type: technologies_standards
 toc: true
 description: Dynamic consent software
 contributors: [Marion Shadbolt]
-affiliations: [CSIRO, GA4GH, AU]
+affiliations: [CSIRO, Australian Genomics, AU]
 ---

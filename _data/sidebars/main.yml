@@ -5,18 +5,46 @@ subitems:
     url: /technologies_standards
     image_url: /assets/img/section-icons/noun-standard-4965630.svg
     subitems:
-      - title: GA4GH
-        url: ga4gh
-      - title: FHIR
-        url: /fhir
       - title: Beacon
         url: /beacon
+      - title: cBioPortal
+        url: cbioportal
+      - title: CILogon
+        url: /cilogon
+      - title: Data Repository Service
+        url: /drs
+      - title: Data Use Ontology
+        url: /duo
+      - title: FHIR
+        url: /fhir
+      - title: Galaxy
+        url: /galaxy
+      - title: Genomical
+        url: genomical
+      - title: Globus
+        url: /globus
       - title: Gen3
         url: /gen3
+      - title: htsget
+        url: /htsget
+      - title: Nextflow
+        url: /nextflow
+      - title: OMOP Common Data Model
+        url: /omop_cdm
+      - title: Passports & Visas
+        url: passports_visas
+      - title: Pathling
+        url: /pathling
       - title: phenopackets
         url: /phenopackets
       - title: REMS
         url: /rems
+      - title: Terra
+        url: /terra
+      - title: Variant Representation
+        url: /vrs
+      - title: Workflow Execution Service
+        url: /wes
   - title: Ethical, Legal and Social Issues
     url: /legal_ethical
     image_url: /assets/img/section-icons/noun-ethical-4351477.svg
@@ -29,14 +57,30 @@ subitems:
     url: /activities_agencies
     image_url: /assets/img/section-icons/noun-dna-5171631.svg
     subitems:
-      - title: Human Genome Platforms Project
-        url: /hgpp
-      - title: ZERO Childhood Cancer
-        url: /zero
       - title: Australian BioCommons
         url: /australian_biocommons
       - title: BioGrid
         url: /biogrid
+      - title: Cancer projects
+        url: /cancer_projects
+      - title: Centre for Population Genomics
+        url: /centre_pop_genomics
+      - title: Funding agencies
+        url: funding_agencies
+      - title: GA4GH
+        url: /ga4gh
+      - title: European Genomic Data Infrastructure (GDI)
+        url: /egdi
+      - title: Genomics Health Future Mission
+        url: /ghfm
+      - title: Human Genome Platforms Project
+        url: /hgpp
+      - title: NAGIM
+        url: /nagim
+      - title: Population Genomics Projects
+        url: population_genomics_projects
+      - title: ZERO Childhood Cancer
+        url: /zero
   - title: Repositories
     url: /repositories
     image_url: /assets/img/section-icons/noun-database-5180256.svg

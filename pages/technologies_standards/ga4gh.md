@@ -8,8 +8,6 @@ affiliations: [GA4GH]
 datatable: true
 ---
 
-## GA4GH 
-
 The Global Alliance for Genomics and Health (GA4GH) {% cite rehm_ga4gh_2021 %} aims to bring together professionals from around the world to establish, maintain and develop standards, policies and frameworks to ensure that the most value can be derived from human genomics data to accelerate advances in human health.
 
 The community is open to anyone to [become involved](https://www.ga4gh.org/get-involved/) in or provide feedback on standards.

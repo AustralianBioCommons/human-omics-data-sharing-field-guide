@@ -16,7 +16,7 @@
   expose: true
   type: infrastructure
   url: https://www.ga4gh.org/
-- name: BioplatformsAustralia
+- name: Bioplatforms Australia
   image_url: /images/infrastructures/BioplatformsAustralia.png
   pid:
   expose: true
@@ -83,7 +83,7 @@
   type: institute
   url: https://www.ucsc.edu/
 - name: FHIR
-  image_url: /images/institutes/fhir-logo.jpeg
+  image_url: /images/infrastructures/fhir-logo.jpeg
   pid:
   expose: true
   type: standard

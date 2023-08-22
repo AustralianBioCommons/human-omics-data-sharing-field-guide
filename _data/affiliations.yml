@@ -5,7 +5,7 @@
   type: infrastructure
   url: https://elixir-europe.org/
 - name: Australian BioCommons
-  image_url: /assets/img/main_logo.svg
+  image_url: /assets/img/Australian-Biocommons-Logo-Horizontal-RGB.svg
   pid:
   expose: true
   type: infrastructure

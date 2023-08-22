@@ -1,7 +1,7 @@
 ---
 title: BioGrid
 page_id: biogrid
-type: repositories
+type: activities_agencies
 contributors: [Jess Holliday, Marion Shadbolt, Bernie Pope]
 toc: true
 description: Secure research platform for access to clinical, imaging and biospecimen data.

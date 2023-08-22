@@ -49,6 +49,16 @@
     tess: BioStudies
   type: repository
   url: https://www.ebi.ac.uk/biostudies/
+- description: Interactive exploratory analysis tool for exploring large cancer genomics
+    datasets
+  id: cbioportal
+  name: cBioPortal
+  registry:
+    biotools: cBioportal
+    europmc: 23550210
+    fairsharing: 6L6MjA
+  type: tool
+  url: https://www.cbioportal.org/
 - description: China's national initative to build platforms and infrastructure to
     support life science researchers in academia and industry
   id: cncb-ngdc

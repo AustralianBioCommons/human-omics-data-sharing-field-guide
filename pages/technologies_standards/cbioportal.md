@@ -13,3 +13,5 @@ affiliations: [US, CA, NL, TR]
 Users can upload their own data to the portal if they are happy for it to also be made public. It is also possible to download and install a local version of the software. 
 
 The software is open source and available from [GitHub](https://github.com/cBioPortal). It is developed and maintained by a multi-institutional team based across the US, Canada, Netherlands and Turkey.
+
+{% bibliography --cited %}

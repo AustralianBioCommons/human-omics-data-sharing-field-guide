@@ -37,7 +37,7 @@ Nounproject icons
 
 ### Conference talks and posters
 
-- Poster presented at ELIXIR All Hands 2022 {% shadbolt_national_2022 %} 
+- Poster presented at ELIXIR All Hands 2022 {% cite shadbolt_national_2022 %} 
 
 - Poster presented at eResearch Australasia 2022 {% cite shadbolt_enhancing_2022 %}
 

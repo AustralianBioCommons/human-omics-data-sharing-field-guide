@@ -8,37 +8,51 @@ contributors: [Marion Shadbolt]
 affiliations: [ARDC, NCRIS, Australian BioCommons, Bioplatforms Australia, AU]
 ---
 
-description
+# Project Description
 
+
+flow diagram
+
+pilots diagram
+
+Nounproject icons 
+
+## Project Partners
+
+-
 
 ## Project outputs
 
-### Discovery reports
+### Pilot Discovery reports
 
-{% reference cowley_virtual_2022 %}
+- Virtual Cohorts Discovery Report {% cite cowley_virtual_2022 %}
 
-{% reference carnuccio_human_2022 %}
+- Federated Identity and Access Management Discovery report {% cite carnuccio_human_2022 %}
 
-{% reference carnuccio_human_2022-1 %}
+- DAC Automation Discovery Report {% cite carnuccio_human_2022-1 %}
 
-### Implementation reports
+### Pilot Implementation reports
 
 (Coming Soon...)
 
 ### Conference talks and posters
 
-{% reference shadbolt_enhancing_2022 %}
+- Poster presented at ELIXIR All Hands 2022 {% shadbolt_national_2022 %} 
 
-{% reference taouk_establishing_2022 %}
+- Poster presented at eResearch Australasia 2022 {% cite shadbolt_enhancing_2022 %}
 
-{% reference so_deploying_2022 %}
+- Poster presented at ABACBS 2022 {% cite taouk_establishing_2022 %}
 
-{% reference so_developing_2022 %}
+- Poster presented at ABACBS 2022 {% cite so_deploying_2022 %}
 
-{% reference shadbolt_advancing_2023 %}
+- Slides from oral presentation given at COMBINE 2022 {% cite so_developing_2022 %}
+
+- Poster presented at the International Congress of Genetics and Genomics{% cite shadbolt_advancing_2023 %}
 
 ### Webinars
 
-{% reference australian_biocommons_protection_2022 %}
+- Protection of genomic data and the Australian Privacy Act: is genomic data ‘personal information’? {% cite australian_biocommons_protection_2022 %}
 
-{% reference australian_biocommons_genomic_2023 %}
+- Genomic data - improving discovery and access management {% cite australian_biocommons_genomic_2023 %}
+
+{% bibliography --cited %}

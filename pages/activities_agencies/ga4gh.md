@@ -24,5 +24,5 @@ An overview of selected GA4GH data standards can be reviewed below, see [GA4GH w
 - {% tool "vrs" %} - [field guide entry](vrs)
 - {% tool "phenopackets" %} - [field guide entry](phenopackets)
 - {% tool "duo" %} - [field guide entry](duo)
-- [field guide entry](htsget)
-- [field guide entry](drs)
+- {% tool "htsget" %} - [field guide entry](htsget)
+- {% tool "drs" %} - [field guide entry](drs)

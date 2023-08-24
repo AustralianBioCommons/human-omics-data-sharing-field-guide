@@ -41,4 +41,4 @@ https://www.omico.com.au/prospect/
 
 ## ZERO Childhood Cancer
 
-See more detailed information on [this page](/zero).
+See more detailed information on [this page](zero).

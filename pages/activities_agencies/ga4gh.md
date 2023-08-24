@@ -18,10 +18,11 @@ Working groups have varied meeting schedules. Hybrid working meetings, known as 
 
 An overview of selected GA4GH data standards can be reviewed below, see [GA4GH website](https://www.ga4gh.org/our-products/) for all standards.
 
-- {% tool "passports" %}
-- {% tool "beacon" %}
-- {% tool "wes" %}
-- {% tool "vrs" %}
-- {% tool "phenopackets" %}
-- {% tool "passports" %}
-- {% tool "duo" %}
+- {% tool "passports" %} - [field guide entry](passports_visas)
+- {% tool "beacon" %} - [field guide entry](beacon)
+- {% tool "wes" %} - [field guide entry](wes)
+- {% tool "vrs" %} - [field guide entry](vrs)
+- {% tool "phenopackets" %} - [field guide entry](phenopackets)
+- {% tool "duo" %} - [field guide entry](duo)
+- [field guide entry](htsget)
+- [field guide entry](drs)

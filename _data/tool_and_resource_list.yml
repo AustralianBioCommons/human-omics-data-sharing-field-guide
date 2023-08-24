@@ -361,3 +361,10 @@
   registry: {}
   type: tool
   url: https://gen3.org/
+- description: GA4GH standard protocol for securely streaming genomic data
+  id: htsget
+  name: htsget
+  registry:
+    europmc: 29931085
+  type: standard
+  url: http://samtools.github.io/hts-specs/htsget.html

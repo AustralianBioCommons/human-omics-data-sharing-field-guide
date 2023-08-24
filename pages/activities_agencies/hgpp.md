@@ -11,7 +11,7 @@ affiliations: [ARDC, NCRIS, Australian BioCommons, Bioplatforms Australia, AU]
 description
 
 
-## Project outputs:
+## Project outputs
 
 ### Discovery reports
 
@@ -20,6 +20,10 @@ description
 {% reference carnuccio_human_2022 %}
 
 {% reference carnuccio_human_2022-1 %}
+
+### Implementation reports
+
+(Coming Soon...)
 
 ### Conference talks and posters
 
@@ -35,6 +39,6 @@ description
 
 ### Webinars
 
-{% cite australian_biocommons_protection_2022 %}
+{% reference australian_biocommons_protection_2022 %}
 
-{% cite australian_biocommons_genomic_2023 %}
+{% reference australian_biocommons_genomic_2023 %}

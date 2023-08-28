@@ -12,12 +12,22 @@ affiliations: [ARDC, NCRIS, Australian BioCommons, Bioplatforms Australia, AU]
 
 {% include image.html file="/diagrams/hgpp-project-overview-diagram.png" caption="Figure 1. A Researcher's journey when discovering, accessing and analysing human genomics data." alt="HGPP Researcher User Journey" max-width="10" %}
 
+{% include image.html file="/diagrams/hgpp-project-overview-diagram.svg" caption="Figure 1. A Researcher's journey when discovering, accessing and analysing human genomics data." alt="HGPP Researcher User Journey" max-width="10" %}
+
+Human genomics researchers have a complex journey 
+
+## Knowledge discoveru
+
+Requirements gathering
+User Needs
+Identifying Gaps and pilot solutions
+Deciding on pilot to implement and assess
+
+## Pilot implementations
 
 {% include image.html file="/diagrams/hgpp-pilots-diagram.png" caption="Figure 2. Pilot solutions tested in the HGPP." alt="Pilot solutions" max-width="10" %}
 
-Icons from the Noun Project: Computing, search, cloud by Flatart, database by Start Up Graphic Design, Analyse by Taylan Sentürk, computing by Phonlaphat Thongsriphong, identified by Tippawan Sookruay, group by Gregor Cresnar, group by Oksana Latysheva, Data File by Blangcon, Unlock by Arthur Shlain, archive by Adrien Coquet, support by Komkrit Noenpoempisut, documentation by lastspark, Scientist by Maxim Kulikov, Immigration Approval by Ary Prasetyo, identified by Tippawan Sookruay, Data access by monkik, Help by Gregor Cresnar, DNA by LAFS, Scientist by Amethyst Studio, Data Sharing by Vectors Point.
 
-Nounproject icons 
 
 ## Project Partners
 
@@ -57,6 +67,9 @@ The HGPP received investment from the NCRIS-enabled ARDC infrastructure under in
 
 - Genomic data - improving discovery and access management {% cite australian_biocommons_genomic_2023 %}
 
+## Acknowledgements
+
+> Icons in Figures 1 and 2 from the Noun Project: Computing, search, cloud by Flatart, database by Start Up Graphic Design, Analyse by Taylan Sentürk, computing by Phonlaphat Thongsriphong, identified by Tippawan Sookruay, group by Gregor Cresnar, group by Oksana Latysheva, Data File by Blangcon, Unlock by Arthur Shlain, archive by Adrien Coquet, support by Komkrit Noenpoempisut, documentation by lastspark, Scientist by Maxim Kulikov, Immigration Approval by Ary Prasetyo, identified by Tippawan Sookruay, Data access by monkik, Help by Gregor Cresnar, DNA by LAFS, Scientist by Amethyst Studio, Data Sharing by Vectors Point.
 
 ## References 
 

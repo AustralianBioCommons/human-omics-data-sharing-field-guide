@@ -5,5 +5,5 @@ type: activities_agencies
 contributors: [Marion Shadbolt]
 toc: true
 description: 
-affiliations: [NCRIS]
+affiliations: [NCRIS, AU]
 ---

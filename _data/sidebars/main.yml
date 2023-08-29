@@ -9,12 +9,16 @@ subitems:
         url: /beacon
       - title: cBioPortal
         url: cbioportal
-      - title: CILogon
-        url: /cilogon
+      - title: CTRL
+        url: /ctrl
+      - title: DAC Management
+        url: dac_management
       - title: Data Repository Service
         url: /drs
       - title: Data Use Ontology
         url: /duo
+      - title: Federated Identity & Access Management
+        url: /fediam
       - title: FHIR
         url: /fhir
       - title: Galaxy
@@ -59,6 +63,10 @@ subitems:
     subitems:
       - title: Australian BioCommons
         url: /australian_biocommons
+      - title: Australian Genomics
+        url: /australian_genomics
+      - title: ARDC
+        url: /ardc
       - title: BioGrid
         url: /biogrid
       - title: Cancer projects
@@ -75,6 +83,10 @@ subitems:
         url: /ghfm
       - title: Human Genome Platforms Project
         url: /hgpp
+      - title: InGeNA
+        url: /ingena
+      - title: Melbourne Genomics Health Alliance
+        url: /mgha
       - title: NAGIM
         url: /nagim
       - title: Population Genomics Projects

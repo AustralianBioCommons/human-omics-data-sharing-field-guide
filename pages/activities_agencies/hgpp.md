@@ -12,11 +12,22 @@ affiliations: [ARDC, NCRIS, Australian BioCommons, Bioplatforms Australia, AU]
 
 {% include image.html file="/diagrams/hgpp-project-overview-diagram.png" caption="Figure 1. A Researcher's journey when discovering, accessing and analysing human genomics data." alt="HGPP Researcher User Journey" max-width="10" %}
 
-{% include image.html file="/diagrams/hgpp-project-overview-diagram.svg" caption="Figure 1. A Researcher's journey when discovering, accessing and analysing human genomics data." alt="HGPP Researcher User Journey" max-width="10" %}
+A researcher looking for Human Genomics research data to analyse needs to go through a complex multi-step process in order to gain access to the data they need. First they need to find data that is of interest to their research, meeting certain criteria for phenotype, demographics or clinical information. Currently, there is no unified way to do this so researchers need to search through multiple data and publication repositories and try to bring together data from many different sources. 
 
-Human genomics researchers have a complex journey 
+Due to the sensitive nature of human genomics data, researchers need to prove their identity as a bona fide researcher in order access detailed information in repositories. Currently, this is largely isolated to each different repository, meaning users need to register independently and keep track of their various identities. It also makes it difficult for the owners of the service to verify the identity of each user as bona fide researchers.
 
-## Knowledge discoveru
+Once they find data of interest, they often need to request access through a data access committee (DAC). This is often an ad-hoc manual process that involves back and forth emails between the data requester, data custodians, data administrators and data access committee members. The ad-hoc manual nature makes it difficult to track, audit and report on at a later date.
+
+
+## Sub-projects
+
+- Virtual Cohorts
+- Data Access Committee Support
+- Federated Identity & Access Management
+- Data & Metadata Archiving 
+- Communications, Documentation & Training
+
+## Knowledge discovery
 
 Requirements gathering
 User Needs
@@ -66,6 +77,10 @@ The HGPP received investment from the NCRIS-enabled ARDC infrastructure under in
 - Protection of genomic data and the Australian Privacy Act: is genomic data ‘personal information’? {% cite australian_biocommons_protection_2022 %}
 
 - Genomic data - improving discovery and access management {% cite australian_biocommons_genomic_2023 %}
+
+### Flyer
+
+- Human Genomes Platform Project
 
 ## Acknowledgements
 

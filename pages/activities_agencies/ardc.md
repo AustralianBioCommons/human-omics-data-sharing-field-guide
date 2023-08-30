@@ -7,3 +7,13 @@ toc: true
 description: 
 affiliations: [NCRIS, AU]
 ---
+
+## About
+
+s
+
+## Interest groups 
+
+ARDC has many interest groups, some that may be of interest to Human Genomics researchers include:
+
+- 

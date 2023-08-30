@@ -79,8 +79,6 @@ subitems:
         url: /ga4gh
       - title: European Genomic Data Infrastructure (GDI)
         url: /egdi
-      - title: Genomics Health Future Mission
-        url: /ghfm
       - title: Human Genome Platforms Project
         url: /hgpp
       - title: InGeNA

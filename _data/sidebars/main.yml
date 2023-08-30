@@ -73,8 +73,8 @@ subitems:
         url: /cancer_projects
       - title: Centre for Population Genomics
         url: /centre_pop_genomics
-      - title: Funding agencies
-        url: funding_agencies
+      - title: Funding
+        url: funding
       - title: GA4GH
         url: /ga4gh
       - title: European Genomic Data Infrastructure (GDI)

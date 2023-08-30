@@ -1,6 +1,6 @@
 ---
-title: Funding agencies
-page_id: funding_agencies
+title: Funding
+page_id: funding
 type: activities_agencies
 contributors: [Marion Shadbolt]
 toc: true

@@ -35,6 +35,8 @@ subitems:
         url: /nextflow
       - title: OMOP Common Data Model
         url: /omop_cdm
+      - title: Ontologies
+        url: ontologies
       - title: Passports & Visas
         url: passports_visas
       - title: Pathling
@@ -78,7 +80,7 @@ subitems:
       - title: GA4GH
         url: /ga4gh
       - title: European Genomic Data Infrastructure (GDI)
-        url: /egdi
+        url: /genomic_data_infrastructure
       - title: Human Genome Platforms Project
         url: /hgpp
       - title: InGeNA
@@ -89,6 +91,10 @@ subitems:
         url: /nagim
       - title: Population Genomics Projects
         url: population_genomics_projects
+      - title: Research Data Alliance
+        url: rda
+      - title: Single Cell Projects
+        url: single_cell_projects
       - title: ZERO Childhood Cancer
         url: /zero
   - title: Repositories

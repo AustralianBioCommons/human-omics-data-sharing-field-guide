@@ -27,7 +27,7 @@ Funded through the MRFF, the [GHFM](https://www.health.gov.au/our-work/genomics-
 
 ## Australian Research Council (ARC)
 
-[ARC}](https://www.arc.gov.au/)
+[ARC](https://www.arc.gov.au/)
 
 ## National Collaborative Research Infrastructure Strategy (NCRIS)
 

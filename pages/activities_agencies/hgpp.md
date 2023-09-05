@@ -79,7 +79,7 @@ The findings from this pilot phase are summarised in the [pilot implementation r
 
 ### Flyer
 
-- [Human Genomes Platform Project Flyer](TO BE ADDED)
+- [Human Genomes Platform Project Flyer](https://zenodo.org/record/8313414)
 
 ## Acknowledgements
 

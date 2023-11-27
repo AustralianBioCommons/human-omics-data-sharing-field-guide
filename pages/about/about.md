@@ -44,7 +44,7 @@ We have approached the topic from the perspective of digital infrastructure, how
 The intended audience for the Field Guide includes:
 
 * Newcomers to the field of human omics data sharing and analysis.
-* Researchers and clinicians who want a better understanding of the technology landscape, particularly relating to digitial infrastructure supporting storage, sharing and analytics.
+* Researchers and clinicians who want a better understanding of the technology landscape, particularly relating to digital infrastructure supporting storage, sharing and analytics.
 * Policy makers, funding agencies, and individuals working in healthcare-adjacent fields.
 * Students in disciplines that overlap with human omics or with a general interest in the area.
 

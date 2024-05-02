@@ -4,7 +4,7 @@ page_id: drs
 type: technologies_standards
 toc: true
 description: GA4GH standard for retrieval of data from repositories
-contributors: [Marion Shadbolt]
+contributors: [Marion Shadbolt, Joshua Harris]
 affiliations: [GA4GH]
 ---
 

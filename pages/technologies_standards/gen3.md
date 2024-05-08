@@ -5,7 +5,7 @@ type: technologies_standards
 toc: true
 description: Gen3 is an open source data commons platform for storing and sharing omics data.
 contributors: [Irene Hung, Joshua Harris, Marion Shadbolt]
-affiliations: [US]
+affiliations: [US, University of Chicago CTDS]
 ---
 # Gen3: Open Source Data Platform for Omics Data
 

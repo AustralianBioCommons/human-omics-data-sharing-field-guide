@@ -12,10 +12,11 @@ affiliations: [GA4GH]
 
 As a researcher, imagine the frustration of trying to access data from multiple repositories for your project. You might need to install various data transfer tools, which can be especially challenging if you're analysing data on an institutional HPC or cloud environment. This is where a Data Repository Service (DRS) comes in handy!
 
-
-Source: [GA4GH DRS API](https://www.ga4gh.org/product/data-repository-service-drs/)
-
 Data repositories worldwide have diverse data architectures and access services, often creating their own tools for data access and transfer. This lack of standardisation makes it difficult for researchers to access data from multiple sources, as they may require multiple tools to pull the data.
+
+![ga4gh_drs](../../images/screenshots/ga4gh_drs.png)
+
+*Source: [GA4GH DRS API](https://www.ga4gh.org/product/data-repository-service-drs/)*
 
 ## What is a DRS?
 
@@ -33,6 +34,6 @@ Like many RESTful APIs, DRS manages authentication and authorization via an API 
 
 ## GA4GH - DRS API
 
-The gold standard DRS in the human omics data sharing field is the [GA4GH DRS API](https://www.ga4gh.org/product/data-repository-service-drs/). This API is widely adopted by many research data repositories and portals (https://www.ga4gh.org/our-products/implementations/#), notably the Broad Institute Terra Data Repository, Seven Bridges Cancer Genomics Cloud, Seven Bridges Cavatica, the iRODS Consortium, and Gen3.
+The gold standard DRS in the human omics data sharing field is the [GA4GH DRS API](https://www.ga4gh.org/product/data-repository-service-drs/). This API is widely adopted by many [research data repositories and portals](https://www.ga4gh.org/our-products/implementations/#), notably the Broad Institute Terra Data Repository, Seven Bridges Cancer Genomics Cloud, Seven Bridges Cavatica, the iRODS Consortium, and Gen3.
 
 In summary, DRS is a key component of an interoperable, FAIR data infrastructure that enables researchers to more efficiently access and analyse data across repositories at scale.

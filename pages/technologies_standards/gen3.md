@@ -8,8 +8,6 @@ contributors: [Irene Hung, Joshua Harris, Marion Shadbolt]
 affiliations: [US, University of Chicago CTDS]
 ---
 
-# Gen3: Open Source Data Platform for Omics Data
-
 [Gen3](https://gen3.org/) is an open source data platform that enables the creation of cloud-based data commons and ecosystems for omics data. It can be deployed on Amazon Web Services, Google Cloud Platform, Microsoft Azure, and OpenStack environments. Gen3 aims to accelerate scientific research discovery by making it easy to explore, analyse and share data with researchers, developers and health institutions. 
 
 As a highly interoperable and portable data platform, Gen3 simplifies the process of setting up a data infrastructure, requiring much less effort compared to building monolithic applications from scratch. This ease of use is further supported by a strong community that assists individuals in establishing their own data commons. Gen3's open source nature and interoperability allow for the creation of a data mesh, where multiple Gen3 data commons can seamlessly interact and collaborate. This interconnected ecosystem maximises the value of data for researchers, breaking down silos and enabling more efficient and effective research processes.
@@ -29,6 +27,3 @@ Gen3 is currently maintained by the [Center for Translational Data Science](http
 - [BioCommons article - What is Gen3?](https://support.biocommons.org.au/support/solutions/articles/6000251032-what-is-gen3-)
 - [BioCommons article - How do I establish/deploy a Gen3 instance?](https://support.biocommons.org.au/support/solutions/articles/6000251034-how-do-i-establish-deploy-a-gen3-instance-)
 - [BioCommons article - How do I develop a Gen3 data dictionary?](https://support.biocommons.org.au/support/solutions/articles/6000253021-how-do-i-develop-a-gen3-data-dictionary-)
-
-#### tags
-*#somethingveryunique123*

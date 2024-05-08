@@ -30,5 +30,5 @@ Gen3 is currently maintained by the [Center for Translational Data Science](http
 - [BioCommons article - How do I establish/deploy a Gen3 instance?](https://support.biocommons.org.au/support/solutions/articles/6000251034-how-do-i-establish-deploy-a-gen3-instance-)
 - [BioCommons article - How do I develop a Gen3 data dictionary?](https://support.biocommons.org.au/support/solutions/articles/6000253021-how-do-i-develop-a-gen3-data-dictionary-)
 
-## Hashtags
+#### tags
 *#somethingveryunique123*

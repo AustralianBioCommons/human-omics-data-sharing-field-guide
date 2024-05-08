@@ -7,6 +7,7 @@ description: Gen3 is an open source data commons platform for storing and sharin
 contributors: [Irene Hung, Joshua Harris, Marion Shadbolt]
 affiliations: [US, University of Chicago CTDS]
 ---
+
 # Gen3: Open Source Data Platform for Omics Data
 
 [Gen3](https://gen3.org/) is an open source data platform that enables the creation of cloud-based data commons and ecosystems for omics data. It can be deployed on Amazon Web Services, Google Cloud Platform, Microsoft Azure, and OpenStack environments. Gen3 aims to accelerate scientific research discovery by making it easy to explore, analyse and share data with researchers, developers and health institutions. 

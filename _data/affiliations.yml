@@ -102,5 +102,12 @@
   url: https://www.crg.eu/
 - name: CCIA
   image_url: /images/institutes/ccia-logo.png
+  pid:
   type: institute
   url: https://www.ccia.org.au/
+- name: University of Chicago CTDS
+  image_url: images/institutes/UChicago_CTDS-logo.png
+  pid:
+  expose: true
+  type: institute
+  url: https://ctds.uchicago.edu/

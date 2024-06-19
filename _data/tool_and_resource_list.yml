@@ -368,3 +368,12 @@
     europmc: 29931085
   type: standard
   url: http://samtools.github.io/hts-specs/htsget.html
+- description: DUOS is a multi-sided data sharing platform bringing together researchers
+    submitting and requesting data, and data access committees and institutional officials
+    overseeing the use of the data.
+  id: duos
+  name: DUOS
+  registry:
+    fairsharing: 5dnjs2
+  type: tool
+  url: https://github.com/EBISPOT/DUO

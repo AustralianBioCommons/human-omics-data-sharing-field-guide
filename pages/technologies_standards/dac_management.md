@@ -27,6 +27,10 @@ A Data Access Committee (DAC) consists of a group of individuals who are respons
 
 Below are some examples of use cases for the roles participating in the data access application process. These interactions and capabilities may be manual or automated, and may differ depending on the organisation.
 
+![dac_img_1](images/screenshots/dac_img_1.png)
+
+![dac_img_2](images/screenshots/dac_img_2.png)
+
 ## How are Data Access Committees managed?
 
 A major challenge to human genome data sharing is navigating restrictions on data use. Decisions on how and to whom to grant access to data typically require significant human effort by DACs to ensure data doesn’t end up in the wrong hands and/or for the wrong purpose. Historically, DAC activities have consisted of numerous manual steps to assess the merits of applications and make a decision about whether to grant data access, making the process slow, burdensome, and largely hidden from the applicant.

@@ -64,7 +64,7 @@ There are some current limitations identified with the tool relating to its limi
 
 DUOS ({% tool "duos" %}) is a semi-automated data access management service, created by the Broad Institute.
 
-DUOS leverages Data Use Ontology, which is a standardised vocabulary for data use limitations and proposed research that is also computer-readable. Using the same ontology, data custodians are able to describe their data use limitations and data requestors are able to describe their research purpose. This means that using the DUOS service, DACs are able to compare data use limitations and research purposes using the same vocabulary of terms, making it easier for them to make data access decisions. There is also the ability to enable an algorithm to automate this comparison and replicate the decision that a DAC could make, which has seen >90% agreement through testing.
+The DUOS service leverages Data Use Ontology, which is a standardised vocabulary for data use limitations and proposed research that is also computer-readable. Using the same ontology, data custodians are able to describe their data use limitations and data requestors are able to describe their research purpose. This means that using the DUOS service, DACs are able to compare data use limitations and research purposes using the same vocabulary of terms, making it easier for them to make data access decisions. There is also the ability to enable an algorithm to automate this comparison and replicate the decision that a DAC could make, which has seen >90% agreement through testing.
 
 Some key features and advantages of DUOS include:
 

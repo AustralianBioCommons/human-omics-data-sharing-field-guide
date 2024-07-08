@@ -1,7 +1,9 @@
 on:
   push:
     branches:
-      - main  # Here source code branch is `master`, it could be other branch
+      - main
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   fetch_references_update_tools:

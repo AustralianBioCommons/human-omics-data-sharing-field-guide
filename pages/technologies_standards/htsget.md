@@ -1,4 +1,4 @@
-﻿---
+---
 title: htsget
 page_id: htsget
 type: technologies_standards

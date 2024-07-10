@@ -45,5 +45,4 @@ Suppose a researcher is interested in a specific gene on chromosome 12. Instead 
 
 ### References
 * [Original paper](https://doi.org/10.1093/bioinformatics/bty492)
-* [hts-specs source repository](https://github.com/samtools/hts-specs)
-* [Printed version of the spec](https://samtools.github.io/hts-specs/htsget.html)
+* [Current version of the spec](https://samtools.github.io/hts-specs/htsget.html)

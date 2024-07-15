@@ -111,3 +111,9 @@
   expose: true
   type: institute
   url: https://ctds.uchicago.edu/
+- name: Australian Access Federation
+  image_url: images/institutes/AAF-logo.png
+  pid:
+  expose: true
+  type: institute
+  url: https://aaf.edu.au/

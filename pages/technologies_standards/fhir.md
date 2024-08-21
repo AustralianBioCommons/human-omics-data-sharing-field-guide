@@ -38,23 +38,23 @@ FHIR implementation requires careful consideration of security and privacy measu
 
 ## Basic Concepts of FHIR
 
-### Resources
+#### Resources
 
 - The building blocks of FHIR are called **Resources**. These are discrete units of data that represent specific healthcare concepts, such as patients, medications, or observations. Each resource is self-contained and can be combined with others to represent complex healthcare data. For example, in human genomic research, resources like **GenomicStudy** and **MolecularSequence** can capture detailed genomic information.
 
-### Datatypes, Profiles, and Extensions
+#### Datatypes, Profiles, and Extensions
 
-- **Datatypes**: FHIR uses DataTypes to define the kind of data that can be included in a resource. These range from simple types like strings and integers to complex types that hold structured data. 
+**Datatypes**: FHIR uses DataTypes to define the kind of data that can be included in a resource. These range from simple types like strings and integers to complex types that hold structured data. 
 
-- **Profiles**: are sets of rules that constrain or extend resources to meet specific use cases, allowing for customisation while maintaining core standards. They place constraints on the core FHIR resources to more precisely define what should be captured within an Implementation Guide to better suit its use case.
+**Profiles**: are sets of rules that constrain or extend resources to meet specific use cases, allowing for customisation while maintaining core standards. They place constraints on the core FHIR resources to more precisely define what should be captured within an Implementation Guide to better suit its use case.
 
-- **Extensions**: allow for the addition of new elements to resources or data types that are not part of the standard specification. This enables the customisation of FHIR resources to meet specific needs without deviating from the core standard.
+**Extensions**: allow for the addition of new elements to resources or data types that are not part of the standard specification. This enables the customisation of FHIR resources to meet specific needs without deviating from the core standard.
 
-### RESTful API
+#### RESTful API
 
 FHIR utilises a RESTful API architecture, which is a set of rules for creating web services that allow different applications to communicate. This architecture is widely used in today's web services, making FHIR easy to implement and integrate with existing systems. Data is accessed and modified using standard web protocols like HTTP, and formats like JSON or XML. The HTTP-based RESTful protocol enables operations such as creating, reading, updating, and deleting data. This RESTful architecture allows FHIR resources to be accessed and manipulated through various applications, facilitating interoperability and integration across different healthcare systems.
 
-### Summary of Concepts
+#### Summary of Concepts
 
 | Concept      | Description                                                                                       |
 |--------------|---------------------------------------------------------------------------------------------------|
@@ -120,23 +120,23 @@ There are several ways to input data into FHIR:
 
 As a human genomics researcher, I was tasked with setting up a FHIR server to manage and analyse genomic data for our latest research project. Here's how I approached the task:
 
-### Step 1: Setting Up the FHIR Server
+#### Step 1: Setting Up the FHIR Server
 
 I started by setting up a FHIR server using HAPI FHIR, an open-source implementation. I opted to use Docker to simplify the deployment process. Docker allowed me to package the server application and its dependencies into a container, which I could easily deploy on our lab's virtual server.
 
-### Step 2: Applying an Implementation Guide
+#### Step 2: Applying an Implementation Guide
 
 Next, I applied the **HL7 FHIR Implementation Guide: Genomics Reporting** to ensure that our genomic data was represented consistently. This guide provided detailed instructions on structuring genomic data, including variant reporting and pharmacogenomic data. By following the guide, I was able to create custom profiles and extensions to capture the specific genomic attributes needed for our research.
 
-### Step 3: Setting Up a Data Capture Interface
+#### Step 3: Setting Up a Data Capture Interface
 
 To facilitate data entry, I set up a user-friendly data capture interface using SMART on FHIR. This interface allowed our research team to input genomic data directly into the FHIR server. The interface was designed with structured forms that mapped directly to FHIR resources, ensuring data consistency and accuracy.
 
-### Step 4: Inputting Data into FHIR
+#### Step 4: Inputting Data into FHIR
 
 We began inputting data into the FHIR server using a combination of manual entry and automated data conversion. For existing datasets, I used an ETL pipeline to transform the data into FHIR format and load it into the server. For new data, the research team used the data capture interface to enter information directly.
 
-### Step 5: Accessing and Analysing Data
+#### Step 5: Accessing and Analysing Data
 
 With the data in place, I accessed it using FHIR's RESTful APIs. This allowed me to retrieve specific genomic study results and sequencing data as needed. I then transferred the data to our analytics platform, where I could perform detailed research analyses. The standardised FHIR format made it easy to integrate the data with our analytics tools, enabling us to conduct comprehensive genomic studies and derive meaningful insights.
 

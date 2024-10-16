@@ -8,9 +8,6 @@ contributors: [Conrad Leonard]
 affiliations: 
 ---
 
-
-# Resource Entitlement Management System (REMS): An Introduction
-
 ## Overview
 
 Managing access to sensitive research data is a critical aspect of genomic research. The Resource Entitlement Management System (REMS) is a software solution designed to streamline the process of managing and granting access to controlled datasets. By using REMS, institutions and researchers can ensure that data access is handled securely, efficiently, and in compliance with governance policies.

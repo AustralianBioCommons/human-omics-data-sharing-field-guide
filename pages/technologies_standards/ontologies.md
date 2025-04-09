@@ -44,7 +44,7 @@ Despite their strengths, ontologies face several challenges:
 
 ## Infrastructure Tools for Ontology Management
 
-### EMBL-EBI Ontology Lookup Service (OLS)
+### [EMBL-EBI Ontology Lookup Service (OLS)](https://www.ebi.ac.uk/ols4)
 
 The Ontology Lookup Service (OLS), developed by EMBL-EBI's Samples, Phenotypes and Ontologies Team (SPOT), is a centralised repository for biomedical ontologies. It provides access to hundreds of ontologies through a user-friendly interface and programmatic API. OLS supports searching, browsing, visualising ontology structures, and querying metadata.
 
@@ -54,7 +54,7 @@ OLS has become a cornerstone for biomedical researchers needing quick access to 
 
 ---
 
-### CSIRO's Ontoserver
+### [CSIRO's Ontoserver](https://ontoserver.csiro.au/site/)
 
 Ontoserver is a world-leading clinical terminology server developed by the Australian eHealth Research Centre at CSIRO. It implements Fast Health Interoperability Resources (FHIR) standards to simplify the use of clinical terminologies like SNOMED CT and Human Phenotype Ontology (HPO).
 
@@ -74,7 +74,6 @@ A key application of Ontoserver is its integration into genotype-phenotype datab
 | **Data Use Ontology (DUO)** | Encodes consent-based restrictions for data sharing | Automates access control for genomic datasets |
 | **LOINC** | Standardises laboratory observations | Interoperability between diagnostic systems |
 | **Gene Ontology (GO)** | Represents gene functions | Functional genomics; protein interaction studies |
-| **UMLS Metathesaurus** | Integrates 100+ terminological systems | Cross-system terminology mapping; natural language processing |
 
 ---
 
@@ -106,4 +105,12 @@ By adopting these tools alongside widely used ontological frameworks such as SNO
 
 
 ## References
+- [SNOMED International](https://www.snomed.org/)
+- [Human Phenotype Ontology (HPO) Browser](https://hpo.jax.org/)
+- [ICD-10/ICD-O](https://icd.who.int/browse10/2019/en)
+- [Learn more about LOINC](https://loinc.org/get-started/what-loinc-is/)
+- [Gene Ontology (GO)](https://geneontology.org/)
+- [EMBL-EBI Ontology Lookup Service (OLS)](https://www.ebi.ac.uk/ols4)
+- [CSIRO's Ontoserver](https://ontoserver.csiro.au/site/)
+
 

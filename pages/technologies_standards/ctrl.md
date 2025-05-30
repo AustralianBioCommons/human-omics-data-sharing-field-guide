@@ -20,6 +20,6 @@ The software can be customised to a project's needs and integrated with external
 - Participants receive ongoing information about how their data is being used and the progress of research studies they are involved in.
 
 ## References:
-- {% bibliography --cited %}
+{% bibliography --cited %}
 - [CTRL 2.0](https://www.australiangenomics.org.au/wp-content/uploads/2021/06/CTRL-2.0.pdf) 
 - [Dynamic consent and CTRL](https://www.australiangenomics.org.au/tools-and-resources/dynamic-consent-and-ctrl/) 
